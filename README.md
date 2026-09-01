@@ -7,6 +7,9 @@
 
 <div id="Context">
 
+<P>Last confirmation of the configuration commands for validity and active function: $\color{green}\textsf{2026-09-01}$ </P>
+<p>All settings in the configuration file, launch option and autoexec have been validated.</p>
+
 ## Context
 
 <p>This repo contains multiple files that can be used for Apex Legends (PC). The files are intended to optimize performance and stability.</p>
