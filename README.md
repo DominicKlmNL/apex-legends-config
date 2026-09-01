@@ -28,13 +28,11 @@
 
 | Validation of configuration settings | Date |
 | :--- | :---: |
-| Date latest confirmation of the configuration commands for validity and active functions:  |  <sup> $\color{green}\textsf{2026-09-01}$ </sup> 📅 |
-| Changes in functions by Respawn could remove/disable certain commands. | <sup> Periodically </sup> |
+| Date latest validation of the configuration commands are working and active functions:  | 📅 <sup> $\color{green}\textsf{2026-09-01}$ </sup>  |
+| $\color{blue}\textsf{NOTE}$ Changes in commands, functions or functions by Respawn could remove/disable certain configurations. I will periodically verify whether the settings are still workinng | <sup> Periodically </sup> |
 
 </div>
 <br>
-<p> </p>
-<p> </p>
 
 <div id="Context">
 
@@ -66,11 +64,11 @@
 
 | File | Purpose |
 | --- | :--- |
+| [Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) | A number of commands that can be used as launch options in Steam, to start Apex Legends with additional configuration |
+| [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) | All the Display and Advanced Video in-game settings for Apex Legends optimized with these supporting config files |
 | [autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) | Configuration file that can be loaded into Apex Legends when starting the game |
 | [videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) | Apex Legends native file, can be used to optimize game settings |
-| [launchoptions](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) | A number of commands that can be used as launch options in Steam, to start Apex Legends with additional configuration |
-| [nvidia-settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) | Settings for Nvidia Control Panel, that will help to optimize your game beyond just the game |
-| [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) | All the Display and Advanced Video in-game settings for Apex Legends optimized with these supporting config files |
+| [Nvidia settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) | Settings for Nvidia Control Panel, that will help to optimize your game beyond just the game |
 
 
 <br>
@@ -106,7 +104,7 @@ Follow the extended instructions on the [Apex Legends in-game settings](https://
 3. Right+click Apex Legends and go to <b>Manage</b> in the dropdown and click <b>"Browse Local Files"</b>
 4. This will open your Apex installed folder, open the <b>*cfg*</b> folder
 5. Paste the <b>autoexec.cfg</b> file here
-<p> ❗ Make sure there is no existing autoexec.cfg or make sure to backup the old file and rename it </p>
+<p> ❗ Make sure there is no existing autoexec.cfg or make sure to backup the old file and rename it ❗</p>
 
 <br>
 
@@ -129,11 +127,12 @@ Follow the extended instructions on the [Apex Legends in-game settings](https://
 
 Follow the extended instructions on the [Nvidia Settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) page
 
+<p> $\color{blue}\textsf{NOTE}$ Currently not working on AMD settings, but if I get the chance this might be added. </p>
+
 <br>
 
 </div>
 
-<br>
 
 <div id="License" align="left">
 
