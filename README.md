@@ -31,10 +31,10 @@
 
 | File | Purpose |
 | --- | --- |
-| [Autoexec.cfg]() | Configuration file that can be loaded into Apex Legends when starting the game |
-| [videoconfig.txt]() | Apex Legends native file, can be used to optimize game settings |
-| [launchoptions]() | A number of commands that can be used as launch options in Steam, to start Apex Legends with additional configuration |
-| [nvidia-settings]() | Settings for Nvidia Control Panel, that will help to optimize your game beyond just the game |
+| [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) | Configuration file that can be loaded into Apex Legends when starting the game |
+| [videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) | Apex Legends native file, can be used to optimize game settings |
+| [launchoptions](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions) | A number of commands that can be used as launch options in Steam, to start Apex Legends with additional configuration |
+| [nvidia-settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings) | Settings for Nvidia Control Panel, that will help to optimize your game beyond just the game |
 
 </div>
 
