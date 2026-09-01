@@ -94,6 +94,16 @@ Download the files from [here](https://github.com/DominicKlmNL/apex-legends-conf
 </div>
 <br>
 
+<div id="License" align="center">
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+</div>
+
+<br>
+
 <div align="center">
 
 [Back to Top](#Top)
