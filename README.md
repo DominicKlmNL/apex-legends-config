@@ -3,12 +3,20 @@
 # Apex Legends Configuration Files
 
 </div>
+
 <br>
 
-![Apex Legends](\assets\apexrevenant.png)
+<div id="logo" align="center">
 
+  ![Apex Legends](./assets/apexrevenant.png)
 
-<div id="infotext">
+</div>
+
+<br>
+
+<div id="introduction">
+
+## Introduction
 
 <p>All settings in the configuration file, launch options and autoexec have been validated.</p>
 <p>In the instructions for launch options there is a table with the function and benefit of the command.</p>
