@@ -109,8 +109,9 @@ Download the files from [here](https://github.com/DominicKlmNL/apex-legends-conf
 
 <br>
 
-## Launchoptions
-1. Follow the extended instructions on the [Steam Apex Legends Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) page
+## Launch options
+
+Follow the extended instructions on the [Steam Apex Legends Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) page
 
 <br>
 
@@ -118,14 +119,13 @@ Download the files from [here](https://github.com/DominicKlmNL/apex-legends-conf
 
  **$\color{red}\textsf{ Requirement }$** : These settings only work for computers with NVIDIA videocards
 
-1. Follow the extended instructions on the [Nvidia Settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) page
+Follow the extended instructions on the [Nvidia Settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) page
 
 <br>
 
 ## Apex Legends In-game settings
-1. Follow the extended instructions on the [Apex Legends in-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) page
 
-
+Follow the extended instructions on the [Apex Legends in-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) page
 
 </div>
 
