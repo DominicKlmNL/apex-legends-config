@@ -41,6 +41,6 @@
 
 <p> 8. Once you pasted the commands in the field, you can close the window and start up Apex Legends. The commands will now take effect. </p>
 <br>
-<p> <b>NOTE</b> : If you want to start using the autoexec.cfg combined with these commands, make sure to follow the instructions from [README.md](https://github.com/DominicKlmNL/apex-legends-config/edit/main/README.md) on how to install the configuration.  </p>
+<b>NOTE</b> : If you want to start using the autoexec.cfg combined with these commands, make sure to follow the instructions from [README](https://github.com/DominicKlmNL/apex-legends-config/edit/main/README.md) on how to install the configuration. 
 
 </div>
