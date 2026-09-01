@@ -23,7 +23,7 @@
 | Headset | HyperX Cloud Alpha Wireless | |
 
 </div>
-
+<br>
 
 <div id="Files">
 
@@ -31,12 +31,13 @@
 
 | File | Purpose |
 | --- | --- |
-| [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) | Configuration file that can be loaded into Apex Legends when starting the game |
+| [autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) | Configuration file that can be loaded into Apex Legends when starting the game |
 | [videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) | Apex Legends native file, can be used to optimize game settings |
 | [launchoptions](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions) | A number of commands that can be used as launch options in Steam, to start Apex Legends with additional configuration |
 | [nvidia-settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings) | Settings for Nvidia Control Panel, that will help to optimize your game beyond just the game |
 
 </div>
+<br>
 
 <div id="Installation">
 
@@ -61,12 +62,13 @@ Download the files from [here](https://github.com/DominicKlmNL/apex-legends-conf
 
  **$\color{red}\textsf{ Requirement }$** : These settings only work for Nvidia videocards
 
-1. Click windows logo on your computer
+1. Go to Windows menu 
 2. Find "NVIDIA Control Panel" and open it
+3. 
 
 
 </div>
-
+<br>
 
 <div align="center">
 
