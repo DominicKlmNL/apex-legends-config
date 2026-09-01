@@ -1,13 +1,13 @@
 <div id="header" align="center">
   
-# Apex Legends Launch Options
+## Apex Legends Launch Options
 
 </div>
 <br>
 
 <div id="Commands">
 
-## Commands
+### Commands
 
 <p>Before you install the launch options below, it is important that you understand what the commands to and what they mean. All launch options are in the table down below including their function</p>
 <p></p>
@@ -22,11 +22,15 @@
   
 </div>
 
+<br>
+
 <div id="Launchoptions" align="left">
 
-## Installation
+### Installation 🕐
 
-### Expected duration: ~5 min
+| Expected duration: |
+| :--- | 
+| $\color{green}\textsf{approx. 5 min}$  |
 
 <p> 1. Open Steam and go to your <b>Library</b> tab </p>
 <p> 2. Right+click <b>Apex Legends</b> </p>
