@@ -40,8 +40,8 @@
 
 <p>This repo contains multiple files that can be used to improve the stability and performance for Apex Legends (PC).</p>
 <p>This configuration has been created using my own rig, please keep in mind that you should make sure it is compatible with your pc.</p>
-<p> ❓ If you are unsure whether settings are fit for your machine and/or you are experiencing unexpected stability issues, feel free to discuss on this repository. I will try to help where I can.</p>
-<p> </p>
+<p> ❓ If you are unsure whether settings are fit for your machine and/or you are experiencing unexpected stability issues, feel free to discuss on this repository. There is a discussions section, if you post it there I will try to help where I can. ❓</p>
+
 
 | Component | Type | Note |
 | --- | :--- | :--- |
@@ -109,7 +109,7 @@ Follow the extended instructions on the [Apex Legends in-game settings](https://
 <br>
 
 ## Videoconfig.txt
-1. Make sure Apex Legends is not running while configuring this file </p>
+1. Make sure Apex Legends is not running while configuring this file
 2. Copy the [videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) from the folder where you extracted the files
 3. Open Windows Explorer and go to <b> C:\Users\ YOUR USERNAME \Saved Games\Respawn\Apex\local</b>
 4. Rename the existing <b>videoconfig.txt</b> to something like <b>videoconfig.old.txt</b> & keep that as your backup file .
@@ -123,7 +123,7 @@ Follow the extended instructions on the [Apex Legends in-game settings](https://
 
 ## NVIDIA settings
 
- **$\color{red}\textsf{ Requirement }$** : These settings only work for computers with NVIDIA videocards
+❗ **$\color{red}\textsf{ Requirement }$** : These settings only work for computers with NVIDIA videocards ❗ 
 
 Follow the extended instructions on the [Nvidia Settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) page
 
