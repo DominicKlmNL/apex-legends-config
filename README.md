@@ -85,6 +85,20 @@ Download the files from [here](https://github.com/DominicKlmNL/apex-legends-conf
 
 <br>
 
+## Launch options
+
+Follow the extended instructions on the [Steam Apex Legends Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) page
+
+<br>
+
+## Apex Legends In-game settings
+
+Follow the extended instructions on the [Apex Legends in-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) page
+
+</div>
+
+<br>
+
 ## Autoexec.cfg
 
 1. Copy the [autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) from the folder where you extracted the files
@@ -109,12 +123,6 @@ Download the files from [here](https://github.com/DominicKlmNL/apex-legends-conf
 
 <br>
 
-## Launch options
-
-Follow the extended instructions on the [Steam Apex Legends Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) page
-
-<br>
-
 ## NVIDIA settings
 
  **$\color{red}\textsf{ Requirement }$** : These settings only work for computers with NVIDIA videocards
@@ -123,15 +131,9 @@ Follow the extended instructions on the [Nvidia Settings](https://github.com/Dom
 
 <br>
 
-## Apex Legends In-game settings
-
-Follow the extended instructions on the [Apex Legends in-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) page
-
 </div>
 
 <br>
-
-
 
 <div id="License" align="left">
 
