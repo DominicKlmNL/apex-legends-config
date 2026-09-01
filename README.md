@@ -70,16 +70,23 @@
 | [videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) | Apex Legends native file, can be used to optimize game settings |
 | [launchoptions](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) | A number of commands that can be used as launch options in Steam, to start Apex Legends with additional configuration |
 | [nvidia-settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) | Settings for Nvidia Control Panel, that will help to optimize your game beyond just the game |
+| [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) | All the Video and Advanced Video in-game settings for Apex Legends combined with these config files |
+
+
+<br>
 
 </div>
-<br>
+
 
 <div id="Installation">
 
 ## Installation
 Download the files from [here](https://github.com/DominicKlmNL/apex-legends-config/archive/refs/heads/main.zip), extract the files from the ZIP onto your machine. Each file requires a different location, so per file an instruction is available.
 
-### Autoexec.cfg
+<br>
+
+## Autoexec.cfg
+
 1. Copy the [autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) from the folder where you extracted the files
 2. Open Steam and go to your Library tab
 3. Right+click Apex Legends and go to <b>Manage</b> in the dropdown and click <b>"Browse Local Files"</b>
@@ -87,27 +94,46 @@ Download the files from [here](https://github.com/DominicKlmNL/apex-legends-conf
 5. Paste the <b>autoexec.cfg</b> file here
 <p> ❗ Make sure there is no existing autoexec.cfg or make sure to backup the old file and rename it </p>
 
-### Videoconfig.txt
-1. a
+<br>
 
-### Launchoptions
-1. a
+## Videoconfig.txt
+1. Make sure Apex Legends is not running while configuring this file </p>
+2. Copy the [videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) from the folder where you extracted the files
+3. Open Windows Explorer and go to <b> C:\Users\%% YOUR USERNAME %%\Saved Games\Respawn\Apex\local</b>
+4. Rename the existing <b>videoconfig.txt</b> to something like <b>videoconfig.old.txt</b> & keep that as your backup file .
+5. Paste the <b>videoconfig.txt</b> from the downloaded and extracted files here.
+6. Right+click the videoconfig.txt file and click on <b>Properties</b>.
+7. At the bottom there are 2 checkboxes next to the word $\color{green}\textsf{Attributes}$ , check the box with the name $\color{green}\textsf{Read-Only}$.
+8. Click on the <b>Apply</b> button and after that click on <b>OK</b>. 
+9. You can now start Apex Legends again and start playing
 
-### NVIDIA settings
+<br>
+
+## Launchoptions
+1. Follow the extended instructions on the [Steam Apex Legends Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) page
+
+<br>
+
+## NVIDIA settings
 
  **$\color{red}\textsf{ Requirement }$** : These settings only work for computers with NVIDIA videocards
 
-1. <p> Go to Windows menu </p>
-2. <p> Find "NVIDIA Control Panel" and open the program. (The icon looks like the picture below) </p>
- ![NVIDIA Control Panel](https://cdn.lo4d.com/t/icon/128/nvidia-display-control-panel.png) 
+1. Follow the extended instructions on the [Nvidia Settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) page
 
-3. <p> Once NVIDIA Control has started up, go to <b>Manage 3D settings</b> </p>
+<br>
+
+## Apex Legends In-game settings
+1. Follow the extended instructions on the [Apex Legends in-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) page
+
 
 
 </div>
+
 <br>
 
-<div id="License" align="center">
+
+
+<div id="License" align="left">
 
 ## License
 
@@ -118,6 +144,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <br>
 
 <div align="center">
+
+<br>
 
 [Back to Top](#Top)
 
