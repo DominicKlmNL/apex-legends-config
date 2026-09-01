@@ -5,6 +5,9 @@
 </div>
 <br>
 
+![Apex Legends](\assets\apexrevenant.png)
+
+
 <div id="infotext">
 
 <p>All settings in the configuration file, launch options and autoexec have been validated.</p>
