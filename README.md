@@ -13,10 +13,12 @@
 <p>Since the videoconfig.txt is a native built-in file, there is no further background information within the instruction or file.</p>  
 <p></p>
 
-| <sup> Validation of configuration settings </sup> | <sup> Date </sup> |
-| :--- | --- |
-| <sup> Date latest confirmation of the configuration commands for validity and active functions: </sup> | 📅 <sup> $\color{green}\textsf{2026-09-01}$ </sup> |
-| <sup> Changes in functions by Respawn could remove/disable certain commands. Periodically </sup> | <sup> Periodically </sup> |
+<br>
+
+| Validation of configuration settings | Date |
+| :--- | :---: |
+| Date latest confirmation of the configuration commands for validity and active functions:  |  <sup> $\color{green}\textsf{2026-09-01}$ </sup> 📅 |
+| Changes in functions by Respawn could remove/disable certain commands. | <sup> Periodically </sup> |
 
 </div>
 <br>
