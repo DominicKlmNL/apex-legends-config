@@ -14,6 +14,14 @@
 
 <br>
 
+<div id="navigation" align="center">
+
+[Introduction](#introduction)  |  [Context](#Context)  |  [Files](#Files)  |  [Installation](#Installation)  |  [Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md)  |  [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md)  |  [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg)  |  [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt)  |  [Nvidia settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md)  |  [Changelog](#CHANGELOG)    [License](#License)
+
+</div>
+
+<br>
+
 <div id="introduction">
 
 ## Introduction
@@ -39,10 +47,11 @@
 ## Context
 
 <p> This repo contains multiple files that can be used to improve the stability and performance for Apex Legends (PC).</p>
-<p> This configuration has been created using my own rig, please keep in mind that you should make sure it is compatible with your pc.</p>
-<p> ❓ If you are unsure whether settings are fit for your machine and/or you are experiencing unexpected stability issues, feel free to discuss on this repository. ❓ </p>
-<p> 🔗 There is a [discussions](https://github.com/DominicKlmNL/apex-legends-config/discussions) section, if you post it there I will try to help where I can. 🔗  </p>
 
+This configuration has been created using my own rig, please keep in mind that you should make sure it is compatible with your pc. </p>
+❓ If you are unsure whether settings are fit for your machine and/or you are experiencing unexpected stability issues, feel free to discuss on this repository. ❓ </p>
+🔗 There is a [discussions](https://github.com/DominicKlmNL/apex-legends-config/discussions) section, if you post it there I will try to help where I can. 🔗 </p>
+</p>
 
 | Component | Type | Note |
 | --- | :--- | :--- |
@@ -133,6 +142,16 @@ Follow the extended instructions on the [Nvidia Settings](https://github.com/Dom
 
 </div>
 
+<div id="CHANGELOG" align="left">
+
+## CHANGELOG
+
+For the version history and changelog, see [changelog](./docs/CHANGELOG.md) file for details. </p>
+Changes to README or LICENSE are not added each time, as they server as a guideline and instruction. </P>
+
+</div>
+
+<br>
 
 <div id="License" align="left">
 
