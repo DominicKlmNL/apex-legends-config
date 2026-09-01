@@ -70,7 +70,7 @@
 | [videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) | Apex Legends native file, can be used to optimize game settings |
 | [launchoptions](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) | A number of commands that can be used as launch options in Steam, to start Apex Legends with additional configuration |
 | [nvidia-settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) | Settings for Nvidia Control Panel, that will help to optimize your game beyond just the game |
-| [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) | All the Video and Advanced Video in-game settings for Apex Legends combined with these config files |
+| [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) | All the Display and Advanced Video in-game settings for Apex Legends optimized with these supporting config files |
 
 
 <br>
