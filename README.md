@@ -41,11 +41,15 @@
 <div id="Installation">
 
 ## Installation
+Download the files from [here](https://github.com/DominicKlmNL/apex-legends-config/archive/refs/heads/main.zip), extract the files from the ZIP onto your machine. Each file requires a different location, so per file an instruction is available.
 
 ### Autoexec.cfg
-1. []
-2. s
-3. 3421
+1. Copy the [autoexec.cfg]() from the folder where you extracted the files
+2. Open Steam and go to your Library tab
+3. Right+click Apex Legends and go to Manage in the dropdown and click "Browse Local Files"
+4. This will open your Apex installed folder, open the *cfg* folder
+5. Paste the autoexec.cfg file here
+6. Make sure there is no existing autoexec.cfg or make sure to backup the old file and rename it
 
 ### Videoconfig.txt
 1. a
