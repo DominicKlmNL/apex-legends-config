@@ -113,7 +113,7 @@ Follow the extended instructions on the [Apex Legends in-game settings](https://
 ## Videoconfig.txt
 1. Make sure Apex Legends is not running while configuring this file </p>
 2. Copy the [videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) from the folder where you extracted the files
-3. Open Windows Explorer and go to <b> C:\Users\%% YOUR USERNAME %%\Saved Games\Respawn\Apex\local</b>
+3. Open Windows Explorer and go to <b> C:\Users\ YOUR USERNAME \Saved Games\Respawn\Apex\local</b>
 4. Rename the existing <b>videoconfig.txt</b> to something like <b>videoconfig.old.txt</b> & keep that as your backup file .
 5. Paste the <b>videoconfig.txt</b> from the downloaded and extracted files here.
 6. Right+click the videoconfig.txt file and click on <b>Properties</b>.
