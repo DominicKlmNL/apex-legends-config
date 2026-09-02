@@ -14,14 +14,14 @@
 
 <div id="navigation" align="center">
 
-[Introduction](#introduction)  |  [Context](#Context)  |  [Files](#Files)  |  [Installation](#Installation)  |  [Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md)  |  [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md)  |  [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg)  |  [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt)  |  [Nvidia settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md)  |  [Changelog](#CHANGELOG)    [License](#License)
+[Introduction](#introduction)  |  [Context](#Context)  |  [Files](#Files)  |  [Download](#Installation)  |  [Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md)  |  [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md)  |  [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg)  |  [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt)  |  [Nvidia settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md)  |  [Changelog](#CHANGELOG)    [License](#License)
 
 </div>
 <br>
 
 <div id="introduction">
 
-## Introduction
+# Introduction
 
 <p>All settings in the configuration file, launch options and autoexec have been validated.</p>
 <p>In the instructions for launch options there is a table with the function and benefit of the commands.</p>
@@ -39,7 +39,7 @@
 
 <div id="Context">
 
-## Context
+# Context
 
 This repo contains multiple files that can be used to improve the stability and performance for Apex Legends, it has been created over a number of years by collecting and trying possibilities. For some, there might be no new settings and for others it might be exactly what they were missing.</p>
 
@@ -63,7 +63,7 @@ If you are unsure whether settings are fit for your machine and/or you are exper
 
 <div id="Files">
 
-## Files
+# Files
 
 | File | Purpose |
 | --- | :--- |
@@ -79,18 +79,18 @@ If you are unsure whether settings are fit for your machine and/or you are exper
 
 <div id="Installation">
 
-## Installation
+# Download
 Download the files from [here](https://github.com/DominicKlmNL/apex-legends-config/archive/refs/heads/main.zip), extract the files from the ZIP onto your machine. Each file requires a different location, so per file an instruction is available.
 
 <br>
 
-## Launch options
+# Launch options
 
 Follow the extended instructions on the [Steam Apex Legends Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) page.
 
 <br>
 
-## Apex Legends In-game settings
+# Apex Legends In-game settings
 
 Follow the extended instructions on the [Apex Legends in-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) page.
 
@@ -131,7 +131,7 @@ Copy the [autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob
 7. Paste the <b>autoexec.cfg</b> in the folder
 <br>
 
-## Videoconfig.txt
+# Videoconfig.txt
 
 > [!IMPORTANT]
 >  Make sure to verify whether the videoconfig.txt has the correct resolution for your monitor
@@ -157,7 +157,7 @@ Copy the [autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob
 12. You can now start Apex Legends again and start playing
 <br>
 
-## NVIDIA settings
+# NVIDIA settings
 
 > [!CAUTION]
 > These settings only work on computers with NVIDIA videocards and use the NVIDIA Control Panel to configure the videocard.
@@ -169,7 +169,7 @@ Follow the extended instructions on the [Nvidia Settings](https://github.com/Dom
 
 <div id="CHANGELOG" align="left">
 
-## CHANGELOG
+# CHANGELOG
 
 For the version history and changelog, see [changelog](./docs/CHANGELOG.md) file for details. </p>
 Changes to README or LICENSE are not added each time, as they server as a guideline and instruction. </P>
@@ -179,7 +179,7 @@ Changes to README or LICENSE are not added each time, as they server as a guidel
 
 <div id="License" align="left">
 
-## License
+# License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
