@@ -110,15 +110,29 @@ Follow the extended instructions on the [Apex Legends in-game settings](https://
 <br>
 
 ## Videoconfig.txt
+
+> [!IMPORTANT]
+>  Make sure to verify whether the videoconfig.txt has the correct resolution for your monitor
+
 1. Make sure Apex Legends is not running while configuring this file
-2. Copy the [videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) from the folder where you extracted the files
-3. Open Windows Explorer and go to <b> C:\Users\ YOUR USERNAME \Saved Games\Respawn\Apex\local</b>
-4. Rename the existing <b>videoconfig.txt</b> to something like <b>videoconfig.old.txt</b> & keep that as your backup file .
-5. Paste the <b>videoconfig.txt</b> from the downloaded and extracted files here.
-6. Right+click the videoconfig.txt file and click on <b>Properties</b>.
-7. At the bottom there are 2 checkboxes next to the word $\color{green}\textsf{Attributes}$ , check the box with the name $\color{green}\textsf{Read-Only}$.
-8. Click on the <b>Apply</b> button and after that click on <b>OK</b>. 
-9. You can now start Apex Legends again and start playing
+2. Open the "videoconfig.txt" file with any text editor application
+3. Check if the resolution is correct in the "videoconfig.txt" file, which can be found in the following settings within the file.
+  ```
+"setting.last_display_width"		"2560"
+"setting.last_display_height"		"1440"
+
+"setting.defaultres"		"2560"
+"setting.defaultresheight"		"1440"
+  ```
+4. Change the settings if necessary, save the file and close the file.
+5. Copy the [videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) that you opened and saved in the prior steps.
+6. Open Windows Explorer and go to <b>"%USERPROFILE%\Saved Games\Respawn\Apex\local"</b>
+7. Rename the existing <b>videoconfig.txt</b> to something like <b>videoconfig.old.txt</b> & keep that as your backup file .
+8. Paste the <b>videoconfig.txt</b> from the downloaded and extracted files here.
+9. Right+click the videoconfig.txt file and click on <b>Properties</b>.
+10. At the bottom there are 2 checkboxes next to the word $\color{green}\textsf{Attributes}$ , check the box with the name $\color{green}\textsf{Read-Only}$.
+11. Click on the <b>Apply</b> button and after that click on <b>OK</b>. 
+12. You can now start Apex Legends again and start playing
 <br>
 
 ## NVIDIA settings
