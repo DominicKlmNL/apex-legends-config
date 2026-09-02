@@ -97,7 +97,7 @@ Follow the extended instructions on the [Apex Legends in-game settings](https://
 </div>
 <br>
 
-## Autoexec.cfg
+# Autoexec.cfg
 
 > [!IMPORTANT]
 >  Make sure there is no existing autoexec.cfg or make sure to backup the old file and rename it.
