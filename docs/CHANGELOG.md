@@ -19,9 +19,9 @@
 
 <br>
 
-| Version | Release Date | Changes |
-| :---: | :---: | --- |
-| 1.0 | 2026-09-01 | First release |
+| Version | Release Date | Changes | Notes |
+| :---: | :---: | --- | :--- |
+| 1.0 | 2026-09-01 | First release | |
 
 <br>
 
@@ -29,9 +29,9 @@
 
 <br>
 
-| Version | Release Date | Changes |
-| :---: | :---: | --- |
-|  |  |  |
+| Version | Release Date | Changes | Notes |
+| :---: | :---: | --- | :--- |
+| 1.1 | 2026-09-02 | [Reported Issue #3](https://github.com/DominicKlmNL/apex-legends-config/issues/3) | Old releases removed |
 
 <br>
 
@@ -39,9 +39,9 @@
 
 <br>
 
-| Version | Release Date | Changes |
-| :---: | :---: | --- |
-| 1.01 | 2026-09-02 | Navigation added and textual changes to the following pages: README, ingame, launchoptions & nvidia-settings. Added visibility to alert blocks  |
+| Version | Release Date | Changes | Notes |
+| :---: | :---: | --- | :--- |
+| 1.01 | 2026-09-02 | Navigation added and textual changes to the following pages: README, ingame, launchoptions & nvidia-settings. Added visibility to alert blocks  | Removed |
 
 <br>
 
