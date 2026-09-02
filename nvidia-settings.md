@@ -1,45 +1,47 @@
+> [!CAUTION]
+> These settings only work on computers with NVIDIA videocards and use the NVIDIA Control Panel to configure the videocard.
+
 <div id="header" align="center">
   
 # NVIDIA Settings for Apex Legends
 
 <br>
 
-❗ **$\color{red}\textsf{ Requirement }$** : These settings only work for computers with NVIDIA videocards ❗
-
-  ### NVIDIA CONTROL PANEL
+### NVIDIA CONTROL PANEL
 
  ![NVIDIA Control Panel](https://cdn.lo4d.com/t/icon/128/nvidia-display-control-panel.png) 
 
 </div>
-
 <br>
 
 <div id="Navigation" align="center">
 
-[Installation](#Nvidia-settings) | [Settings](#Settings) | [README](https://github.com/DominicKlmNL/apex-legends-config/blob/main/README.md) | [Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md)  |  [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md)  |  [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg)  |  [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt)  |  [Changelog](https://github.com/DominicKlmNL/apex-legends-config/blob/main/docs/CHANGELOG.md) | [License](https://github.com/DominicKlmNL/apex-legends-config/blob/main/LICENSE)
+[Setting things up](#Installation) | [Settings](#Settings) | [README](https://github.com/DominicKlmNL/apex-legends-config/blob/main/README.md) | [Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md)  |  [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md)  |  [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg)  |  [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt)  |  [Changelog](https://github.com/DominicKlmNL/apex-legends-config/blob/main/docs/CHANGELOG.md) | [License](https://github.com/DominicKlmNL/apex-legends-config/blob/main/LICENSE)
 
 </div>
-
 <br>
  
-<div id="Nvidia-settings">
+<div id="Installation">
 
-## Installation ⏲️
+## Setting things up ⏲️
 
-##### Expected duration: $\color{green}\textsf{approx. 30 min}$ 
+<div id="Install">
 
+#### Expected duration: $\color{green}\textsf{approx. 30 min}$ 
+
+</div>
 <br>
 
-1. <p> Go to Windows menu </p>
-2. <p> Find "NVIDIA Control Panel" and open the program. (The icon looks like the picture at the top of the page) </p>
-3. <p> Once NVIDIA Control has started up, go to <b>Manage 3D settings</b> </p>
-4. <p> Select the tab <b>Program Settings</b> and find Apex Legends (<i> r5apex_dx12.exe </i>) from the dropdown and select it. </p>
-5. <p> If you can not find Apex Legends in the dropdown, click <b>add</b> to select Apex from recent programs. </p>
-6. <p> Find the settings in the scroll list that are written in $\color{green}\textsf{table A}$  below and make sure they are on the correct setting.</p>
-7. <p> Once you have changed the settings in the <b>Program Settings</b> click on "Apply"</p>
-8. <p> Now select the tab <b>Global Settings</b> and change the setting as written in the $\color{red}\textsf{table B}$ .</p>
-9. <p> Once you have changed the settings in the  <b>Global Settings</b> click on "Apply"</p>
-10. <p> You have now succesfully changed the required NVIDIA settings in the control panel. You can close the control panel and hop on Apex, have fun Legend.</p>
+1. Go to Windows menu
+2. Find "NVIDIA Control Panel" and open the program. (The icon looks like the picture at the top of the page)
+3. Once NVIDIA Control has started up, go to <b>Manage 3D settings</b>
+4. Select the tab <b>Program Settings</b> and find Apex Legends (<i> r5apex_dx12.exe </i>) from the dropdown and select it.
+5. If you can not find Apex Legends in the dropdown, click <b>add</b> to select Apex from recent programs.
+6. Find the settings in the scroll list that are written in $\color{green}\textsf{table A}$  below and make sure they are on the correct setting.
+7. Once you have changed the settings in the <b>Program Settings</b> click on "Apply"
+8. Now select the tab <b>Global Settings</b> and change the setting as written in the $\color{red}\textsf{table B}$ .
+9. Once you have changed the settings in the  <b>Global Settings</b> click on "Apply"
+10. You have now succesfully changed the required NVIDIA settings in the control panel. You can close the control panel and hop on Apex, have fun Legend.
 
 </div>
 
@@ -49,7 +51,7 @@
 
 ## Settings
 
-<p> Before we make changes in your NVIDIA settings, it is important that you understand what those changes are, what their function is and what the benifit is. All the settings that we will be changing are listed below, with corresponding information regarding the function and benefit of changing the setting.</p>
+<p> Before we make changes in your NVIDIA settings, it is important that you understand what those changes are, what their function is and what the benefit is. All the settings that we will be changing are listed below, with corresponding information regarding the function and benefit of changing the setting.</p>
 
 <br>
 
@@ -77,8 +79,17 @@
 
 <br>
 
-<p> </p>
-<p> ⚠️ The installation guide is step by step with full information about the settings, regardless i would like to emphasize that you have to be certain that you understand what you are changing within NVIDIA. Make sure to backup the old settings before changing the settings according to the installation guide ⚠️ </p>
-  
 </div>
 
+
+> [!WARNING] 
+> The installation guide is step by step with full information about the settings, regardless i would like to emphasize that you have to be certain that you understand what you are changing within NVIDIA. Make sure to backup the old settings before changing the settings according to the installation guide.
+
+<br>
+
+<div align="center">
+<br>
+
+[Back to top](#Top)
+
+</div>
