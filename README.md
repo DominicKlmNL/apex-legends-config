@@ -3,7 +3,6 @@
 # Apex Legends Configuration Files
 
 </div>
-
 <br>
 
 <div id="logo" align="center">
@@ -11,7 +10,6 @@
   ![Apex Legends](./assets/apexrevenant.png)
 
 </div>
-
 <br>
 
 <div id="navigation" align="center">
@@ -19,7 +17,6 @@
 [Introduction](#introduction)  |  [Context](#Context)  |  [Files](#Files)  |  [Installation](#Installation)  |  [Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md)  |  [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md)  |  [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg)  |  [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt)  |  [Nvidia settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md)  |  [Changelog](#CHANGELOG)    [License](#License)
 
 </div>
-
 <br>
 
 <div id="introduction">
@@ -27,11 +24,9 @@
 ## Introduction
 
 <p>All settings in the configuration file, launch options and autoexec have been validated.</p>
-<p>In the instructions for launch options there is a table with the function and benefit of the command.</p>
+<p>In the instructions for launch options there is a table with the function and benefit of the commands.</p>
 <p>For the autoexec.cfg the function can be found as comments behind the setting within the file. </p>
 <p>Since the videoconfig.txt is a native built-in file, there is no further background information within the instruction or file.</p>  
-<p></p>
-
 <br>
 
 | Validation of configuration settings | Date |
@@ -46,12 +41,12 @@
 
 ## Context
 
-<p> This repo contains multiple files that can be used to improve the stability and performance for Apex Legends (PC).</p>
+This repo contains multiple files that can be used to improve the stability and performance for Apex Legends, it has been created over a number of years by collecting and trying possibilities. For some, there might be no new settings and for others it might be exactly what they were missing.</p>
 
-This configuration has been created using my own rig, please keep in mind that you should make sure it is compatible with your pc. </p>
-❓ If you are unsure whether settings are fit for your machine and/or you are experiencing unexpected stability issues, feel free to discuss on this repository. ❓ </p>
-🔗 There is a [discussions](https://github.com/DominicKlmNL/apex-legends-config/discussions) section, if you post it there I will try to help where I can. 🔗 </p>
-</p>
+This configuration has been created using my own rig, please keep in mind that you should make sure it is compatible with your pc. 
+
+If you are unsure whether settings are fit for your machine and/or you are experiencing unexpected stability issues, feel free to discuss on this repository in the [discussions](https://github.com/DominicKlmNL/apex-legends-config/discussions) section. I will try to help as much as I can. </p>
+<br>
 
 | Component | Type | Note |
 | --- | :--- | :--- |
@@ -64,7 +59,6 @@ This configuration has been created using my own rig, please keep in mind that y
 | Headset | HyperX Cloud Alpha Wireless | |
 
 </div>
-
 <br>
 
 <div id="Files">
@@ -79,9 +73,7 @@ This configuration has been created using my own rig, please keep in mind that y
 | [videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) | Apex Legends native file, can be used to optimize game settings |
 | [Nvidia settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) | Settings for Nvidia Control Panel, that will help to optimize your game beyond just the game |
 
-
 <br>
-
 </div>
 
 
@@ -94,27 +86,27 @@ Download the files from [here](https://github.com/DominicKlmNL/apex-legends-conf
 
 ## Launch options
 
-Follow the extended instructions on the [Steam Apex Legends Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) page
+Follow the extended instructions on the [Steam Apex Legends Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) page.
 
 <br>
 
 ## Apex Legends In-game settings
 
-Follow the extended instructions on the [Apex Legends in-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) page
+Follow the extended instructions on the [Apex Legends in-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) page.
 
 </div>
-
 <br>
 
 ## Autoexec.cfg
+
+> [!IMPORTANT]
+>  Make sure there is no existing autoexec.cfg or make sure to backup the old file and rename it.
 
 1. Copy the [autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) from the folder where you extracted the files
 2. Open Steam and go to your Library tab
 3. Right+click Apex Legends and go to <b>Manage</b> in the dropdown and click <b>"Browse Local Files"</b>
 4. This will open your Apex installed folder, open the <b>*cfg*</b> folder
 5. Paste the <b>autoexec.cfg</b> file here
-<p> ❗ Make sure there is no existing autoexec.cfg or make sure to backup the old file and rename it ❗</p>
-
 <br>
 
 ## Videoconfig.txt
@@ -127,20 +119,17 @@ Follow the extended instructions on the [Apex Legends in-game settings](https://
 7. At the bottom there are 2 checkboxes next to the word $\color{green}\textsf{Attributes}$ , check the box with the name $\color{green}\textsf{Read-Only}$.
 8. Click on the <b>Apply</b> button and after that click on <b>OK</b>. 
 9. You can now start Apex Legends again and start playing
-
 <br>
 
 ## NVIDIA settings
 
-❗ **$\color{red}\textsf{ Requirement }$** : These settings only work for computers with NVIDIA videocards ❗ 
+> [!CAUTION]
+> These settings only work on computers with NVIDIA videocards and use the NVIDIA Control Panel to configure the videocard.
 
 Follow the extended instructions on the [Nvidia Settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) page
 
 <p> $\color{blue}\textsf{NOTE}$ Currently not working on AMD settings, but if I get the chance this might be added. </p>
-
 <br>
-
-</div>
 
 <div id="CHANGELOG" align="left">
 
@@ -150,7 +139,6 @@ For the version history and changelog, see [changelog](./docs/CHANGELOG.md) file
 Changes to README or LICENSE are not added each time, as they server as a guideline and instruction. </P>
 
 </div>
-
 <br>
 
 <div id="License" align="left">
@@ -160,11 +148,9 @@ Changes to README or LICENSE are not added each time, as they server as a guidel
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 </div>
-
 <br>
 
 <div align="center">
-
 <br>
 
 [Back to Top](#Top)
