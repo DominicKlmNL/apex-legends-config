@@ -101,12 +101,34 @@ Follow the extended instructions on the [Apex Legends in-game settings](https://
 
 > [!IMPORTANT]
 >  Make sure there is no existing autoexec.cfg or make sure to backup the old file and rename it.
+<br>
 
-1. Copy the [autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) from the folder where you extracted the files
-2. Open Steam and go to your Library tab
-3. Right+click Apex Legends and go to <b>Manage</b> in the dropdown and click <b>"Browse Local Files"</b>
-4. This will open your Apex installed folder, open the <b>*cfg*</b> folder
-5. Paste the <b>autoexec.cfg</b> file here
+Copy the [autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) from the folder where you extracted the files
+
+<br>
+
+## If you are using $\color{blue}\textsf{Steam}$ follow these steps to configure autoexec.cfg
+
+<br>
+
+1. Open Steam and go to your Library tab
+2. Right+click Apex Legends and go to <b>Manage</b> in the dropdown and click <b>"Browse Local Files"</b>
+3. This will open your Apex installed folder, open the <b>*cfg*</b> folder
+4. Paste the <b>autoexec.cfg</b> in the folder
+
+<br>
+
+## If you are using $\color{orange}\textsf{EA App}$ follow these steps to configure autoexec.cfg
+
+<br>
+
+1. Open the <b>EA App</b>
+2. Go to <b>My Collection</b> and locate <b>Apex Legends</b>
+3. Click the <b>three dots</b> in the top-right corner of the Apex Legends game tile
+4. Select <b>View properties</b>
+5. Click the <b>Browse</b> button next to the install location path
+6. This will open your Apex installed folder, open the <b>*cfg*</b> folder
+7. Paste the <b>autoexec.cfg</b> in the folder
 <br>
 
 ## Videoconfig.txt
