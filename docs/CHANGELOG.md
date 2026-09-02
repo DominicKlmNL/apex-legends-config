@@ -11,7 +11,6 @@
 <p> Changes to the README.md and LICENSE will not be added to the changelog continously, as they server only as a guideline and instruction. </p>
   
 </div>
-
 <br>
 
 <div id="table">
@@ -26,16 +25,6 @@
 
 <br>
 
-## Minor update
-
-<br>
-
-| Version | Release Date | Changes |
-| :---: | :---: | --- |
-|  |  |  |
-
-<br>
-
 ## Major update
 
 <br>
@@ -43,5 +32,17 @@
 | Version | Release Date | Changes |
 | :---: | :---: | --- |
 |  |  |  |
+
+<br>
+
+## Minor update
+
+<br>
+
+| Version | Release Date | Changes |
+| :---: | :---: | --- |
+| 1.01 | 2026-09-02 | Navigation added and textual changes to the following pages: README, ingame, launchoptions & nvidia-settings. Added visibility to alert blocks  |
+
+<br>
 
 </div>
