@@ -67,6 +67,7 @@
 | Sprint View Shake | Strength of view movement when sprinting | Minimal |
 | UI Layout Mode | Changes the layout of the game UI | Full |
 
+<br>
 
 #### Table B. Video Settings
 
