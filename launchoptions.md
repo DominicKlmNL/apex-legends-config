@@ -37,7 +37,7 @@ You can click the application you are using here:
 <div id="LOSteam" align="left">
 <br>
 
-## Steam Launch Options Commands
+## $\color{blue}\textsf{Steam}$ Launch Options Commands
 
 | Command | Function | Benefit |
 | --- | --- | --- |
@@ -72,11 +72,11 @@ You can click the application you are using here:
 
 8. Once you pasted the commands in the field, you can close the window and start up Apex Legends. The commands will now take effect.
 </div>
-<br>
+
 
 ### Steam Launch Options Completed
 
-<br>
+<br><br><br>
 
 > [!WARNING]
 > This is the guide to set launch options for the EA App
@@ -84,7 +84,7 @@ You can click the application you are using here:
 <div id="LOEAApp" align="left">
 <br>
 
-## EA App Launch Options Commands
+## $\color{orange}\textsf{EA App}$ Launch Options Commands
 
 | Command | Function | Benefit |
 | --- | --- | --- |
