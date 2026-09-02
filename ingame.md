@@ -3,7 +3,13 @@
 # Apex Legends In-game settings
 
 </div>
+<br>
 
+<div id="navigation" align="center">
+
+[Installation](#Installation)  |  [Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md)  |  [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md)  |  [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg)  |  [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt)  |  [Nvidia settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md)  |  [Changelog](./docs/CHANGELOG.md)  |  [License](./LICENSE)
+
+</div>
 <br>
 
 <div id="Video Settings">
@@ -18,30 +24,28 @@
 
 <div id="Installation" align="left">
 
-## Installation 🕐
+## Setting things up 🕐
 
-| Expected duration: |
-| :--- | 
-| $\color{green}\textsf{approx. 10 min}$  |
+##### Expected duration: $\color{green}\textsf{approx. 10 min}$ 
 
-<p> 1. Open Steam and go to your <b>Library</b> tab </p>
-<p> 2. Right+click <b>Apex Legends</b> </p>
-<p> 3. Launch <b>Apex Legends</b> </p>
-<p> 4. Go to <b>Settings</b> </p>
-<p> 5. Switch to the tab <b>Video</b> </p>
-<p> 6. Configure the <b>Settings</b> as listed in Table A </p>
-<p> 7. Click Apply once you completed all the settings in <b>Video</b> as listed in $\color{green}\textsf{Table A}$ </p>
-<p> 8. Switch to the tab <b>Advanced Video</b> </p>
-<p> 9. Configure the <b>Settings</b> as listed in Table B </p>
-<p> 10. Click Apply once you completed all the settings in <b>Advanced Video</b> as listed in $\color{blue}\textsf{Table B}$ </p>
-<p> 11. Restart Apex Legends, to ensure that all the settings are loaded entirely and verify if everything is working</p>
-<p> 12. Start off in the firing range and see if the settings are feeling better. If you run into any issues, you can always send a note here.</p>
-
+1. Open Steam and go to your <b>Library</b> tab 
+2. Right+click <b>Apex Legends</b> 
+3. Launch <b>Apex Legends</b> 
+4. Go to <b>Settings</b> 
+5. Switch to the tab <b>Video</b> 
+6. Configure the <b>Settings</b> as listed in Table A 
+7. Click Apply once you completed all the settings in <b>Video</b> as listed in $\color{green}\textsf{Table A}$ 
+8. Switch to the tab <b>Advanced Video</b> 
+9. Configure the <b>Settings</b> as listed in Table B 
+10. Click Apply once you completed all the settings in <b>Advanced Video</b> as listed in $\color{blue}\textsf{Table B}$ 
+11. Restart Apex Legends, to ensure that all the settings are loaded entirely and verify if everything is working
+12. Start off in the firing range and see if the settings are feeling better. If you run into any issues, you can always send a note here.
 <br>
 
-$\color{red}\textsf{NOTE}$ : If you want to start using the autoexec.cfg combined with these settings, make sure to follow the instructions from [README](https://github.com/DominicKlmNL/apex-legends-config/edit/main/README.md) on how to install the configuration. If you also want to set the [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/edit/main/videoconfig.txt), follow the instructions on the page.
-
 </div>
+
+> [!IMPORTANT]
+> If you want to start using the autoexec.cfg combined with these settings, make sure to follow the instructions from [README](https://github.com/DominicKlmNL/apex-legends-config/edit/main/README.md) on how to install the configuration. If you also want to set the [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/edit/main/videoconfig.txt), follow the instructions on the page.
 
 <br>
 
@@ -49,7 +53,6 @@ $\color{red}\textsf{NOTE}$ : If you want to start using the autoexec.cfg combine
 
 ## Overview of the settings categorized
 
-<br>
 
 #### Table A. Display Settings
 
@@ -64,7 +67,6 @@ $\color{red}\textsf{NOTE}$ : If you want to start using the autoexec.cfg combine
 | Sprint View Shake | Strength of view movement when sprinting | Minimal |
 | UI Layout Mode | Changes the layout of the game UI | Full |
 
-<br>
 
 #### Table B. Video Settings
 
@@ -97,8 +99,8 @@ $\color{red}\textsf{NOTE}$ : If you want to start using the autoexec.cfg combine
 
 <div align="center">
 
-<br>
-
 [Back to Top](#Top)
+
+<br>
 
 </div>
