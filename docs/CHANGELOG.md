@@ -21,6 +21,7 @@
 
 | Version | Release Date | Changes | Notes |
 | :---: | :---: | --- | :--- |
+| 1.1 | 2026-09-02 | [Reported Issue #3](https://github.com/DominicKlmNL/apex-legends-config/issues/3) | Old releases removed |
 | 1.0 | 2026-09-01 | First release | Removed |
 
 <br>
