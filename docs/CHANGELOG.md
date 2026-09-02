@@ -21,7 +21,7 @@
 
 | Version | Release Date | Changes | Notes |
 | :---: | :---: | --- | :--- |
-| 1.0 | 2026-09-01 | First release | |
+| 1.0 | 2026-09-01 | First release | Removed |
 
 <br>
 
