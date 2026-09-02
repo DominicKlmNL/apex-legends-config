@@ -13,6 +13,14 @@
 </div>
 
 <br>
+
+<div id="Navigation" align="center">
+
+[Installation](#Nvidia-settings) | [Settings](#Settings) | [README](https://github.com/DominicKlmNL/apex-legends-config/blob/main/README.md) | [Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md)  |  [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md)  |  [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg)  |  [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt)  |  [Changelog](https://github.com/DominicKlmNL/apex-legends-config/blob/main/docs/CHANGELOG.md) | [License](https://github.com/DominicKlmNL/apex-legends-config/blob/main/LICENSE)
+
+</div>
+
+<br>
  
 <div id="Nvidia-settings">
 
@@ -41,7 +49,7 @@
 
 ## Settings
 
-<p>Before we make changes in your NVIDIA settings, it is important that you understand what those changes are, what their function is and what the benifit is. All the settings that we will be changing are listed below, with corresponding information regarding the function and benifit of changing the setting.</p>
+<p> Before we make changes in your NVIDIA settings, it is important that you understand what those changes are, what their function is and what the benifit is. All the settings that we will be changing are listed below, with corresponding information regarding the function and benefit of changing the setting.</p>
 
 <br>
 
