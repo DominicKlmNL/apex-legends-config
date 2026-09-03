@@ -59,14 +59,16 @@ table {
 }
 th {
     text-align: left;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-size: 28px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-size: 16px;
     font-weight: bold;
 }
 td {
     text-align: left;
-    font-size: 22px;
+    font-size: 12px;
     padding: 8px;
 }
 tr:nth-child(even) {
