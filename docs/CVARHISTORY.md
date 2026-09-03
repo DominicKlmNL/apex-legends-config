@@ -8,11 +8,11 @@
 
 <br>
 
-<div id="date" align="justify" >
+<div id="date" align="center" >
 
-| <sup> Last updated </sup> |
-| :---: |
-| <sup> $\color{green}\textsf{2026-09-03}$ </sup> |
+### Quality Control
+
+Last updated: $\color{green}\textsf{2026-09-03}$ 
 
 </div>
 
