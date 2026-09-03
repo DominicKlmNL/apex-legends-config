@@ -14,7 +14,7 @@
 
 <div id="navigation" align="center">
 
-| - [Introduction](#introduction) - | - [Context](#Context) - | - [Files](#Files) - | - [Download](#Installation) - | - [Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) - | - [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) - |  
+| - [Introduction](#introduction) - | - [Context](#Context) - | - [Files](#Files) - | - [Download](#Installation) - | - [Launch options: Steam](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-steam.md) - | - [Launch options: EA App](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-ea-app.md) - | - [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) - |  
 | - [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) - | - [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) - | - [Nvidia settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) - | - [Changelog](#CHANGELOG) - | - [License](#License) - |
 
 </div>
@@ -68,7 +68,8 @@ If you are unsure whether settings are fit for your machine and/or you are exper
 
 | File | Purpose |
 | --- | :--- |
-| [Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) | A number of commands that can be used as launch options in Steam, to start Apex Legends with additional configuration |
+| [Launch options: Steam](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-steam.md) | A number of commands that can be used as launch options in Steam, to start Apex Legends with additional configuration |
+| [Launch options: EA App](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-ea-app.md) | A number of commands that can be used as launch options in EA App, to start Apex Legends with additional configuration |
 | [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) | All the Display and Advanced Video in-game settings for Apex Legends optimized with these supporting config files |
 | [autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) | Configuration file that can be loaded into Apex Legends when starting the game |
 | [videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) | Apex Legends native file, can be used to optimize game settings |
@@ -83,19 +84,29 @@ If you are unsure whether settings are fit for your machine and/or you are exper
 # Download
 Download the files from [here](https://github.com/DominicKlmNL/apex-legends-config/archive/refs/heads/main.zip), extract the files from the ZIP onto your machine. Each file requires a different location, so per file an instruction is available.
 
+</div>
 <br>
 
 # Launch options
 
-Follow the extended instructions on the [Steam Apex Legends Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions.md) page.
+> [!IMPORTANT]
+> Make sure to follow the guideline for the application that you are using, they have critically different instructions
+
+#### If you are using <b>Steam</b> for Apex Legends
+Follow the extended instructions on the [Steam Apex Legends Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-steam.md) page.
+
+<br>
+
+#### If you are using <b>EA App</b> for Apex Legends
+Follow the extended instructions on the [EA App Apex Legends Launch options](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-ea-app.md) page.
 
 <br>
 
 # Apex Legends In-game settings
+<br>
 
 Follow the extended instructions on the [Apex Legends in-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) page.
 
-</div>
 <br>
 
 # Autoexec.cfg
