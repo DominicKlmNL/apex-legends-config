@@ -6,8 +6,6 @@
 
 </div>
 
-<br>
-
 <div id="date" align="center" >
 
 ### Quality Control
