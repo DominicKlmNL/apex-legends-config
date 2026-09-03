@@ -24,13 +24,24 @@ Last updated: $\color{green}\textsf{2026-09-03}$
 </div>
 <br>
 
-<div id="purpose" align="middle">
+<div id="purpose" align="left">
 
 ## Information for updated, changed, deprecated, blocked, invalidated or removed commands for Apex Legends
 
 <div id="CVAR-intro" align="left">
 This document serves as log registration for changed commands for Apex Legends, that either need to be added or removed from/to the Autoexec.cfg configuration.
 </div>
+
+</div>
+<br>
+
+## Settings added to autoexec.cfg
+
+<div id="table-new" align="left">
+
+| # | Command | Reason | Removed | Date |
+| :---: | :--- | :---: | :---: | :---: |
+| 1 | - | - | - | - |
 
 </div>
 <br>
@@ -65,24 +76,13 @@ This document serves as log registration for changed commands for Apex Legends, 
 </div>
 <br>
 
-## Settings added to autoexec.cfg
-
-<div id="table-new" align="left">
-
-| CVAR | Status | Removed | Date |
-| :--- | :---: | :---: | :---: |
-| - | - | - | - |
-
-</div>
-<br>
-
 ## Settings under review
 
 <div id="table-new" align="left">
 
-| CVAR | Reason | Removed | Date |
-| :--- | :---: | :---: | :---: |
-| cv_fovScale | Contradictory | Under Review | 2026-09-01 |
+| # | Command | Reason | Removed | Date |
+| :---: | :--- | :---: | :---: | :---: |
+| 1 | cv_fovScale | Contradictory | Under Review | 2026-09-01 |
 
 </div>
 <br>
