@@ -62,7 +62,7 @@ th, td {
   padding: 8px;
 }
 tr:nth-child(even) {
-  background-color: #A9A9A9;
+  background-color: #222021;
 }
 /*  Topbar containing buttons  */
 .navbar {
