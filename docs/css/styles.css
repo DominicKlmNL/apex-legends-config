@@ -57,7 +57,11 @@ table {
   border-collapse: collapse;
   width: 100%;
 }
-th, td {
+th {
+  text-align: left;
+  padding: 12px;
+}
+td {
   text-align: left;
   padding: 8px;
 }
