@@ -58,12 +58,16 @@ table {
   width: 100%;
 }
 th {
-  text-align: left;
-  padding: 12px;
+    text-align: left;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 28px;
+    font-weight: bold;
 }
 td {
-  text-align: left;
-  padding: 8px;
+    text-align: left;
+    font-size: 22px;
+    padding: 8px;
 }
 tr:nth-child(even) {
   background-color: #3E424B;
