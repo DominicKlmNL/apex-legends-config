@@ -32,8 +32,8 @@
 
 | Validation of configuration settings | Date |
 | :--- | :---: |
-| Date latest validation of the configuration commands are working and active functions:  | 📅 <sup> $\color{green}\textsf{2026-09-01}$ </sup>  |
-| $\color{blue}\textsf{NOTE}$ Changes in commands, functions or functions by Respawn could remove/disable certain configurations. I will periodically verify whether the settings are still workinng | <sup> Periodically </sup> |
+| Date latest validation of the configuration commands are working and active functions:  | 📅 <sup> $\color{green}\textsf{2026-09-03}$ </sup>  |
+| $\color{blue}\textsf{NOTE}$ Changes in commands, functions or functions by Respawn could remove/disable certain configurations. I will periodically verify whether the settings are still working | <sup> Periodically </sup> |
 
 </div>
 <br>
