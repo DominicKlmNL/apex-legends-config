@@ -164,6 +164,14 @@ i:hover {
     height: 100%;
     align-self: top;
 }
+.registry {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-self: top;  
+    background-color: #0000009f;
+}
 /*  Topbar containing buttons  */
 .navbar {
     display: flex;
