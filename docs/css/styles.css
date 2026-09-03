@@ -27,22 +27,6 @@ a:hover, a:active {
 ul {
     list-style-type: none;
 }
-/*  Icon baseline  */
-.icons {
-    align-items: center;
-    margin: 5px;
-    width: 3%;
-}
-i {
-    width: 200px;
-    justify-content: center;
-    font-size: 32px;
-}
-i:hover {
-    width: 200px;
-    justify-content: center;
-    color: #FFF;
-}
 /*  Main Container  */
 .container {
     display: flex;
@@ -67,6 +51,18 @@ i:hover {
     height: 100%;
     align-self: top;  
     background-color: #ffffff;
+}
+/* Registry Table */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
 }
 /*  Topbar containing buttons  */
 .navbar {
