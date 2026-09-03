@@ -1,6 +1,6 @@
 > [!CAUTION]
 > THIS THE GUIDE FOR THE LAUNCH OPTIONS USED IN STEAM,
-> PLEASE FOLLOW THE INSTRUCTIONS [Launch Options: EA Apps](launchoptions-ea-apps.md) IF YOU ARE USING EA APPS
+> PLEASE FOLLOW THE INSTRUCTIONS [Launch Options: EA Apps](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-ea-app.md) IF YOU ARE USING EA APPS
 
 <div id="header" align="center">
 <br>
@@ -12,7 +12,7 @@
 
 <div id="navigation" align="center">
 
-| - [Launch options: Steam](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-steam.md) - | - [Launch Options: EA Apps](launchoptions-ea-apps.md) - | - [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) - | - [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) - |  
+| - [Launch options: Steam](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-steam.md) - | - [Launch Options: EA Apps](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-ea-app.md) - | - [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) - | - [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) - |  
 | - [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) - | - [Nvidia settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) - | - [Changelog](./docs/CHANGELOG.md) - | - [License](./LICENSE) - |
 
 </div>
