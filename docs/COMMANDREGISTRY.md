@@ -2,7 +2,7 @@
 
 <div id="header" align="middle">
 
-# Overview for CVAR history
+# Overview for Command Registry
 
 </div>
 
@@ -26,20 +26,20 @@ Last updated: $\color{green}\textsf{2026-09-03}$
 
 <div id="purpose" align="middle">
 
-## CVAR information for updated & deprecated commands for Apex Legends
+## Information for updated, changed, deprecated, blocked, invalidated or removed commands for Apex Legends
 
 <div id="CVAR-intro" align="left">
-This document serves as log registration for changed CVAR's for Apex Legends, that either need to be added or removed from/to the Autoexec.cfg configuration.
+This document serves as log registration for changed commands for Apex Legends, that either need to be added or removed from/to the Autoexec.cfg configuration.
 </div>
 
 </div>
 <br>
 
-## Deprecated settings or commands from autoexec.cfg
+## Settings removed from autoexec.cfg
 
 <div id="table-new" align="left">
 
-| # | CVAR | Status | Removed | Date |
+| # | Command | Reason | Removed | Date |
 | :---: | :--- | :--- | :---: | :---: |
 | 1 | ECHO | Deprecated | ✔️ | 2026-09-01 |
 | 2 | mat_light_edit | Blocked | ✔️ | 2026-09-03 |
@@ -65,7 +65,7 @@ This document serves as log registration for changed CVAR's for Apex Legends, th
 </div>
 <br>
 
-## New settings or commands from autoexec.cfg
+## Settings added to autoexec.cfg
 
 <div id="table-new" align="left">
 
@@ -76,14 +76,21 @@ This document serves as log registration for changed CVAR's for Apex Legends, th
 </div>
 <br>
 
-## Questionable/Unconfirmed settings
+## Settings under review
 
 <div id="table-new" align="left">
 
-| CVAR | Status | Removed | Date |
+| CVAR | Reason | Removed | Date |
 | :--- | :---: | :---: | :---: |
 | cv_fovScale | Contradictory | Under Review | 2026-09-01 |
 
 </div>
 <br>
 
+<div id="footer" align="center">
+
+<br>
+
+[Back To Top](#Top)
+
+</div>
