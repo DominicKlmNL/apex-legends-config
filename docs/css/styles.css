@@ -51,6 +51,7 @@ i:hover {
     height: 100%;
     align-self: top;
 }
+/* Command Registry */
 .registry {
     display: flex;
     flex-direction: row;
@@ -58,6 +59,14 @@ i:hover {
     height: 100%;
     align-self: top;  
     background-color: #0000009f;
+}
+.command {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    align-self: top;  
+    background-color: #ffffff;
 }
 /*  Topbar containing buttons  */
 .navbar {
