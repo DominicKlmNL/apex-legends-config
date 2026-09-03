@@ -28,12 +28,18 @@
 <p>In the instructions for launch options there is a table with the function and benefit of the commands.</p>
 <p>For the autoexec.cfg the function can be found as comments behind the setting within the file. </p>
 <p>Since the videoconfig.txt is a native built-in file, there is no further background information within the instruction or file.</p>  
+
+</div>
 <br>
 
-| Validation of configuration settings | Date |
-| :--- | :---: |
-| Date latest validation of the configuration commands are working and active functions:  | 2026-09-03 |
-| $\color{blue}\textsf{NOTE}$ Changes in commands, functions or functions by Respawn could remove/disable certain configurations. I will periodically verify whether the settings are still working | Periodically |
+<div id="qualitycontrol" align="justified">
+
+# Quality Control on configurations
+
+<b> Latest validation:</b> 2026-09-03 ✅  
+<b> Frequency of validation:</b> Periodically  
+<b> Results latest validation:</b> Removed 20 commands from the autoexec for several types; deprecated, server-side blocked and invalidated.  
+<b> Registered:</b> 20 commands have been added ✅
 
 </div>
 <br>
