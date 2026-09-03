@@ -1,18 +1,18 @@
 > [!CAUTION]
 > THIS THE GUIDE FOR THE LAUNCH OPTIONS USED IN EA Apps,
-> PLEASE FOLLOW THE INSTRUCTIONS [Launch Options: Steam](launchoptions-steam.md) IF YOU ARE USING EA APPS
+> PLEASE FOLLOW THE INSTRUCTIONS [Launch Options: Steam]([launchoptions-steam.md](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-steam.md)) IF YOU ARE USING EA APP
 
 <div id="header" align="center">
 <br>
   
-# Apex Legends EA Apps Launch Options 
+# Apex Legends EA App Launch Options 
 
 </div>
 <br>
 
 <div id="navigation" align="center">
 
-| - [Launch options: Steam](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-steam.md) - | - [Launch Options: EA Apps](launchoptions-ea-apps.md) - | - [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) - | - [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) - |  
+| - [Launch options: Steam](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-steam.md) - | - [Launch Options: EA App](https://github.com/DominicKlmNL/apex-legends-config/blob/main/launchoptions-ea-app.md) - | - [In-game settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/ingame.md) - | - [Autoexec.cfg](https://github.com/DominicKlmNL/apex-legends-config/blob/main/autoexec.cfg) - |  
 | - [Videoconfig.txt](https://github.com/DominicKlmNL/apex-legends-config/blob/main/videoconfig.txt) - | - [Nvidia settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/nvidia-settings.md) - | - [Changelog](./docs/CHANGELOG.md) - | - [License](./LICENSE) - |
 
 </div>
@@ -22,7 +22,7 @@
 
 # How to use this guide
 
-Before this guide will show you how to configure the launch options, it is important to make sure that you use the options corresponding to the application you are using. There is a critical difference in the launch options for Steam & EA App. This guideline is specifically for EA Apps. 
+Before this guide will show you how to configure the launch options, it is important to make sure that you use the options corresponding to the application you are using. There is a critical difference in the launch options for Steam & EA App. This guideline is specifically for EA App. 
 
 <br> 
 
