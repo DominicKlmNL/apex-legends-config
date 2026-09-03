@@ -1,0 +1,236 @@
+/* Baselines */
+body {
+    background-color: #161616;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    margin: 0px;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FFF;   
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+div {
+    align-self:center;
+    background-color: transparent;
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover, a:active {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+/*  Icon baseline  */
+.icons {
+    align-items: center;
+    margin: 5px;
+    width: 3%;
+}
+i {
+    width: 200px;
+    justify-content: center;
+    font-size: 32px;
+}
+i:hover {
+    width: 200px;
+    justify-content: center;
+    color: #FFF;
+}
+/* Top-nav configuration */
+.top-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-weight: 600;
+    font-size: 20px;
+}
+.top-nav a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+}
+.top-nav a:hover, a:active {
+    background-color: #f38a28;
+    height: 100%;
+    border: 1px solid #f8b83d;
+}
+.top-nav ul {
+    display: flex;
+    background-color: transparent;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.top-nav li {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ffffff94;   
+    min-width: 12%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+}
+.top-nav li a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.top-nav li a:hover {
+    box-shadow: inset 0px 0px 19px 1px #000000;
+}
+.top-nav li:first-child {
+    border-left: 1px solid #ffffff94;
+}
+/* Top navigation extender */
+.nav-ext {
+    display: flex;
+    width: 10%;
+    justify-content: center;
+    color: #f38a28;
+}
+.nav-ext i {
+    justify-content: center;
+    font-size: 36px;
+}
+/* Dropdown settings */
+.dropbtn {
+    background-color: transparent;
+    color: #f3ac28;
+    cursor: pointer;
+    padding: 22px;
+    font-size: 32px;
+    border: 1px solid transparent;
+    width: 242px;
+}
+.dropdown {
+    position:relative;
+    display: inline-block;
+    justify-content: center;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 230px;
+    background-color: #272727;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+    border: 1px solid #f3ac28;
+    border-top: 0px;
+    text-align: center;
+    padding: 5px 5px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 15px;
+}
+.dropdown-content a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-bottom: 1px solid #a6a6a660;
+    box-shadow: inset 0px 0px 20px -2px #000000;
+    font-size: 22px;
+    font-weight: 600px;
+}
+.dropdown-content a:hover { 
+    background-color: #f38a28;
+}
+.dropdown-content a:last-child {
+    border-bottom: 0px;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn { 
+    display: block;
+    background-color: #f38a28; 
+    box-shadow: inset 0px 0px 15px -1px #000000;
+}
+/*  Main Container  */
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    align-self: top;
+}
+/*  Topbar containing buttons  */
+.navbar {
+    display: flex;
+    flex-direction: row;  
+    width: 100%;
+    height: 5em; 
+    border-bottom: 1px solid #f3ac28;
+    box-shadow:  0px 10px 25px 15px rgba(0, 0, 0, 0.9);
+    background-color: #0000009f;
+}
+.header {
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    height: 99%;
+    box-shadow: inset 0px -100px 21px -99px #f38a28;
+}
+/* Section 1 (Image) */
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+    width: 100%;
+    min-height: 2em;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: transparent;
+    background-image: linear-gradient(to top,rgba(22,22,22,1) 0%,rgba(22,22,22,1) 10%,transparent 100%), url(./Assets/SlotMachines.png);
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: cover;
+}
+.s1column {
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    vertical-align: top;
+    color: #fff;
+    width: 100%;
+    padding: 3em;
+    height: 20em;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.s1column img {
+    max-width: 15%;
+    width: 750px;
+    height: auto;
+    align-self: center;
+    background-size: contain;
+    background-blend-mode: darken;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.s1-col1 {
+    display: inline-flex;    
+    width: 100%;
+    border-top: 1px solid #f3ac28;
+    background-color: transparent;
+    height: 12em;
+}
+.s1-col1-overlay {
+    display: inline-flex;
+    width: 100%;
+    height: 1px;
+    background-color: transparent;
+    box-shadow: inset 0px 100px 21px -99px #f38a28;
+}
+
+/* Footer */
