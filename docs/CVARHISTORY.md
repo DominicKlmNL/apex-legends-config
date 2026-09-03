@@ -37,7 +37,37 @@ This document serves as log registration for changed CVAR's for Apex Legends, th
 </div>
 <br>
 
-## New CVAR registry
+## Deprecated settings or commands from autoexec.cfg
+
+<div id="table-new" align="left">
+
+| CVAR | Status | Removed | Date |
+| :--- | :---: | :---: | :---: |
+| ECHO | Deprecated | ✔️ | 2026-09-01 |
+| mat_light_edit | Blocked | In progress | 2026-09-03 |
+| map_settings_override | Blocked | In progress | 2026-09-03 |
+| mat_autoexposure_* | Blocked | In progress | 2026-09-03 |
+| mat_postprocess_enable | Blocked | In progress | 2026-09-03 |
+| mat_disable_bloom | Blocked | In progress | 2026-09-03 |
+| mat_bloom_scalefactor_scalar | Blocked | In progress | 2026-09-03 |
+| mat_bloomscale | Blocked | In progress | 2026-09-03 |
+| mat_bumpmap | Blocked | In progress | 2026-09-03 |
+| mat_specular | Blocked | In progress | 2026-09-03 |
+| snd_setmixer PlayerFootsteps | Invalidated | In progress | 2026-09-03 |
+| snd_setmixer GlobalFootsteps | Invalidated | In progress | 2026-09-03 |
+| ordnanceSwapSelectCooldown | Invalidated | In progress | 2026-09-03 |
+| sidearmSwapSelectDoubleTapTime | Invalidated | In progress | 2026-09-03 |
+| sidearmSwapSelectCooldown | Invalidated | In progress | 2026-09-03 |
+| cl_forcepreload | Deprecated | In progress | 2026-09-03 |
+| r_shadows  | Deprecated | In progress | 2026-09-03 |
+| mat_shadowstate | Deprecated | In progress | 2026-09-03 |
+| r_shadowmaxrendered | Deprecated | In progress | 2026-09-03 |
+| r_shadowrendertotexture | Deprecated | In progress  | 2026-09-03 |
+
+</div>
+<br>
+
+## New settings or commands from autoexec.cfg
 
 <div id="table-new" align="left">
 
@@ -48,14 +78,18 @@ This document serves as log registration for changed CVAR's for Apex Legends, th
 </div>
 <br>
 
-## Deprecated CVAR registry
+## Questionable/Unconfirmed settings
 
 <div id="table-new" align="left">
 
 | CVAR | Status | Removed | Date |
 | :--- | :---: | :---: | :---: |
-| ECHO | Deprecated | Yes | 2026-09-01 |
+| cv_fovScale | Contradictory | Under Review | 2026-09-01 |
+
+
+✔️
 
 
 </div>
 <br>
+
