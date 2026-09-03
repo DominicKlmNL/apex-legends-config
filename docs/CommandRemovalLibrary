@@ -1,0 +1,2 @@
+
+mat_queue_mode     // Sets how the game engine handles multithreaded rendering across your CPU cores  // (-1) default/automatic           // (2) Forced Multi-threaded   // No       // autoexec   // Stability          // (-1) default/automatic (Risk of accidental mishandling chosen thread) 
