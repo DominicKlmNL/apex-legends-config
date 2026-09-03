@@ -21,8 +21,9 @@
 
 | Version | Release Date | Changes | Notes |
 | :---: | :---: | --- | :--- |
-| 1.1 | 2026-09-02 | [Reported Issue #3](https://github.com/DominicKlmNL/apex-legends-config/issues/3) | Old releases removed |
-| 1.0 | 2026-09-01 | First release | Removed |
+| 1.2 | 2026-09-03 | [Removal of 20 settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/docs/CVARHISTORY.md) | Due to invalidation. Added to cvar removal registry |
+| 1.1 | 2026-09-02 | [Reported Issue #3](https://github.com/DominicKlmNL/apex-legends-config/issues/3) | Solved |
+| 1.0 | 2026-09-01 | First release |  |
 
 <br>
 
@@ -32,7 +33,9 @@
 
 | Version | Release Date | Changes | Notes |
 | :---: | :---: | --- | :--- |
-| 1.1 | 2026-09-02 | [Reported Issue #3](https://github.com/DominicKlmNL/apex-legends-config/issues/3) | Old releases removed |
+| 1.2 | 2026-09-03 | [Removal of 20 settings](https://github.com/DominicKlmNL/apex-legends-config/blob/main/docs/CVARHISTORY.md) | Due to invalidation. Added to cvar removal registry |
+| 1.1 | 2026-09-02 | [Reported Issue #3](https://github.com/DominicKlmNL/apex-legends-config/issues/3) | Solved |
+
 
 <br>
 
@@ -42,7 +45,7 @@
 
 | Version | Release Date | Changes | Notes |
 | :---: | :---: | --- | :--- |
-| 1.01 | 2026-09-02 | Navigation added and textual changes to the following pages: README, ingame, launchoptions & nvidia-settings. Added visibility to alert blocks  | Removed |
+| 1.01 | 2026-09-02 | Navigation added and textual changes to the following pages: README, ingame, launchoptions & nvidia-settings. Added visibility to alert blocks  |  |
 
 <br>
 
