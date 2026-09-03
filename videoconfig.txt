@@ -17,7 +17,7 @@
 	"setting.shadow_enable"		"0"
 	"setting.shadow_depth_dimen_min"		"0"
 	"setting.shadow_depth_upres_factor_max"		"0"
-	"setting.shadow_maxdynamic"		"2"
+	"setting.shadow_maxdynamic"		"0"
 	"setting.dvs_enable"		"0"
 	"setting.dvs_gpuframetime_min"		"0"
 	"setting.dvs_gpuframetime_max"		"0"
