@@ -113,11 +113,11 @@ td {
 	background-repeat: no-repeat;
 	align-self: center;
 	width: 65%;
-	font-size: 14px;
+	font-size: 12px;
 	padding: 7px;
-	height: 32px;
+	height: 30px;
 	color: #fff;
-	background-color: #0000009f;
+	
 	border: none;
 	border-radius: 10px;
 }
@@ -125,6 +125,7 @@ td {
 	outline: none;
 	border: none;
 	background-color: #0000009f;
+	color: #ab480a;
 }
 /* Table children styling */
 thead th:nth-child(5) {
