@@ -97,7 +97,6 @@ ul {
 table {
     border-collapse: collapse;
     width: 100%;
-	border: 1px solid #fff;
 }
 thead th {
 	text-align: left;
@@ -125,14 +124,16 @@ td {
 }
 /* Command Input */
 #commandInput {
-  background-image: url('/css/search.png');
-  background-position: 10px 10px;
-  background-repeat: no-repeat;
-  width: 100%;
-  font-size: 14px;
-  padding: 12px 20px 12px 40px;
-  border: 1px solid #fff;
-  margin-bottom: 12px;
+	background-image: url('/css/search.png');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	align-self: center;
+	width: 95%;
+	font-size: 14px;
+	padding: 12px 20px 12px 40px;
+	color: #fff;
+	margin-bottom: 12px;
+	background-color: #0000009f;
 }
 /* Table children styling */
 thead th:nth-child(5) {
