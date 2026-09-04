@@ -58,18 +58,15 @@ ul {
     flex-direction: column;
     width: 100%;
     align-self: center;
-    height: 60px;
+    height: 20px;
 }
 .library-header p {
-    height: 20px;
     text-align: left;
     font-size: 14px;
-    padding: 5px;
 }
 .library-header p:first-child {
     text-align: left;
     font-size: 16px;
-    padding: 7px;
     font-weight: bold;
 }
 /* Registry Table */
