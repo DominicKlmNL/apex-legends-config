@@ -34,55 +34,42 @@
                 <th width="14%">comments</th>
             </thead>
             <tbody>
+<!-- Category FPS & Engine -->
                 <!-- one list per command -->
-                <tr>
-                    <td>fps_max</td><td>Determines the maximum of frame rates rendered</td><td>0-999</td><td>Custom</td><td>No</td><td>autoexec</td><td>FPS & Engine</td><td></td>
-                </tr>
+                <tr><td>fps_max</td><td>Determines the maximum of frame rates rendered</td><td>0-999</td><td>Custom</td><td>No</td><td>autoexec</td><td>FPS & Engine</td><td>-</td></tr>
                 <!-- one list per command -->
-                <tr>
-                  <td>lobby_max_fps</td><td>Determines the maximum of frame rates when in lobby</td><td>0-999</td><td>Custom</td><td>No</td><td>autoexec</td><td>FPS & Engine</td><td></td>
-                </tr>
+                <tr><td>lobby_max_fps</td><td>Determines the maximum of frame rates when in lobby</td><td>0-999</td><td>Custom</td><td>No</td><td>autoexec</td><td>FPS & Engine</td><td>-</td></tr>
+<!-- Category Stability -->
                 <!-- one list per command -->
-                <tr>
-                    <td>mat_queue_mode</td><td>Sets how the game engine handles multithreaded rendering across your CPU cores</td><td>(-1) default/automatic, (0) Synchronous Single-Threaded, (1) Asychronous Single-Threaded, Forced Multi-threaded</td><td>(2) Forced Multi-threaded</td><td>No</td><td>autoexec</td><td>Stability</td><td></td>
-                </tr>
+                <tr><td>mat_queue_mode</td><td>Sets how the game engine handles multithreaded rendering across your CPU cores</td><td>(-1) default/automatic, (0) Synchronous Single-Threaded, (1) Asychronous Single-Threaded, Forced Multi-threaded</td><td>(2) Forced Multi-threaded</td><td>No</td><td>autoexec</td><td>Stability</td><td>-</td></tr>
                 <!-- one list per command -->
-                <tr>
-                    <td>r_maxdlights</td><td>Determines the maximum number of dynamic lights visible during firefights</td><td>(0) Competitive, (32) Default, (1-32) Reduced</td><td>(0) Competitive</td><td>No</td><td>autoexec</td><td>FX  Optimizations</td><td></td>
-                </tr>
-                <!-- one list per command --> 
-                <tr>
-                    <td>cl_phys_maxticks</td><td>Prevents physics simulation limits from bottlenecking frametime stability. Correlation to ragdoll simulation to avoid complex calculations.</td><td>(0) Competitive, (3) Default</td><td>(0) Competitive</td><td>No</td><td>autoexec</td><td>Stability</td><td></td>
-                </tr>
+                <tr><td>cl_phys_maxticks</td><td>Prevents physics simulation limits from bottlenecking frametime stability. Correlation to ragdoll simulation to avoid complex calculations.</td><td>(0) Competitive, (3) Default</td><td>(0) Competitive</td><td>No</td><td>autoexec</td><td>Stability</td><td>-</td></tr>
                 <!-- one list per command -->                 
-                <tr>
-                    <td>host_sleep</td><td>Prevents host to be forced to sleep a certain number of ms in between frames</td><td>(0) Competitive, (1) (2) (5) Delayed</td><td>(0) Competitive</td><td>No</td><td>autoexec</td><td>Stability</td><td>Values (1) (2) (5) drastically lowers CPU & GPU, at the cost of FPS</td>
-                </tr>
-                <!-- one list per command -->  
-                <tr>
-                    <td>m_filter</td>
-                    <td>Mouse filtering</td>
-                    <td>(0) off, (1) on</td>
-                    <td>(0) off</td>
-                    <td>No</td>
-                    <td>autoexec</td>
-                    <td>Mouse & Input</td>
-                    <td>-</td>          
-                </tr>                
+                <tr><td>host_sleep</td><td>Prevents host to be forced to sleep a certain number of ms in between frames</td><td>(0) Competitive, (1) (2) (5) Delayed</td><td>(0) Competitive</td><td>No</td><td>autoexec</td><td>Stability</td><td>Values (1) (2) (5) drastically lowers CPU & GPU, at the cost of FPS</td></tr>
+<!-- Category FX  Optimizations -->
+                <!-- one list per command -->
+                <tr><td>r_maxdlights</td><td>Determines the maximum number of dynamic lights visible during firefights</td><td>(0) Competitive, (32) Default, (1-32) Reduced</td><td>(0) Competitive</td><td>No</td><td>autoexec</td><td>FX  Optimizations</td><td>-</td></tr>
+<!-- Category Mouse & Input -->
+                <!-- one list per command -->                 
+                <tr><td>m_filter</td><td>Mouse filtering</td><td>(0) off, (1) on</td><td>(0) off</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>-</td></tr>                
                 <!-- one list per command --> 
-                <tr>
-                    <td>m_rawinput</td>
-                    <td>Forces Apex to bypass Windows pointer settings for raw mouse data</td>
-                    <td>(0) off, (1) on</td><td>(1) on</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>-</td>           
-                </tr>                 
+                <tr><td>m_rawinput</td><td>Forces Apex to bypass Windows pointer settings for raw mouse data</td><td>(0) off, (1) on</td><td>(1) on</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>-</td></tr>                 
                 <!-- one list per command -->  
-                <tr>
-                    <td>m_acceleration</td><td>Completely disables mouse acceleration</td><td>(0) off, (1) on</td><td>(0) off</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>-</td>         
-                </tr>               
+                <tr><td>m_acceleration</td><td>Completely disables mouse acceleration</td><td>(0) off, (1) on</td><td>(0) off</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>-</td></tr>               
                 <!-- one list per command --> 
+                <tr><td>m_customaccel</td><td>Disables Source-engine specific mouse acceleration</td><td>(0) off, (1) on</td><td>(0) off</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>-</td></tr> 
+ <!-- Category Competitive Audio -->
+                <!-- one list per command 
                 <tr>
-                    <td>m_customaccel</td><td>Disables Source-engine specific mouse acceleration</td><td>(0) off, (1) on</td><td>(0) off</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>-</td>           
-                </tr>                 
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>            
+                </tr> --> 
                 <!-- one list per command 
                 <tr>
                     <td></td>
