@@ -70,6 +70,7 @@ td {
     text-align: left;
     font-size: 14px;
     padding: 8px;
+    word-wrap: normal;
 }
 tr:nth-child(even) {
   background-color: #3E424B;
