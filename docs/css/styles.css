@@ -64,7 +64,7 @@ ul {
     display: flex;
     text-align: left;
     font-size: 14px;
-    height: 33%;
+    padding: 5px;
     margin: 0px;
 }
 .library-header p:first-child {
