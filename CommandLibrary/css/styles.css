@@ -40,7 +40,7 @@ ul {
 .top-header {
 	display: flex;
 	width: 100%;
-	height: 5px;
+	height: 8px;
 	background-color: #ab480a;	
 }
 .library-header {
@@ -73,20 +73,26 @@ ul {
 	align-self: center;
     width: 100%;
 }
-/* Library Header */
-.library-header p {
+/* Library Text */
+.library-text {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	height: 100%;
+	align-self: center;
+}
+.library-text p {
     display: flex;
     text-align: left;
     font-size: 14px;
     margin: 0px;
     height: 33%;
     width: 100%;
-    justify-content: left;
 	padding-left: 15px;    
-	padding-top: 5px; 
+	padding-top: 10px; 
 }
-.library-header p:first-child {
-    font-size: 16px;
+.library-text p:first-child {
+    font-size: 18px;
     font-weight: bold;
 }
 /* Registry Table */
@@ -149,10 +155,10 @@ td {
 	color: transparent;
 }
 /* Table children styling */
-thead th:nth-child(5), thead th:nth-child(6) {
+thead th:nth-child(5), thead th:nth-child(6), th:nth-child(7) {
     text-align: center;
 } 
-th:nth-child(5), th:nth-child(6) {
+th:nth-child(5), th:nth-child(6), th:nth-child(7) {
     text-align: center;
 }    
 td:nth-child(5), td:nth-child(6) {
