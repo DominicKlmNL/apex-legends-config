@@ -112,7 +112,7 @@ td {
   	background-attachment: fixed;
   	background-position: 2px 2px;
 	background-repeat: no-repeat;
-	width: 40%;
+	width: 25%;
 	font-size: 14px;
 	padding: 7px;
 	height: 32px;
@@ -120,7 +120,7 @@ td {
 	background-color: #242424;
 	border: none;
 	border-radius: 7px;
-	margin: 7px;
+	margin: 2px;
 }
 #commandInput:focus {
 	outline: none;
