@@ -52,11 +52,28 @@ ul {
     align-self: top;  
     background-color: #ffffff;
 }
+/* Library Header */
+.library-header {
+    display: flex;
+    width: 100%;
+    align-self: top;
+}
+.library-header p {
+    text-align: left;
+    font-size: 14px;
+    padding: 10px;
+}
+.library-header p:first-child {
+    text-align: left;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: bold;
+}
 /* Registry Table */
 table {
-  border-collapse: collapse;
-  width: 100%;
-}
+    border-collapse: collapse;
+    width: 100%;
+    }
 th {
     text-align: left;
     padding-top: 12px;
