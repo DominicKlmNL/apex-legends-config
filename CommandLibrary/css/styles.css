@@ -51,8 +51,9 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 45px;
-    align-self: center;		
+    height: 46px;
+    align-self: center;	
+	padding: 5px;
 }
 .library-table {
     display: flex;
@@ -107,27 +108,25 @@ td {
 }
 /* Command Input */
 #commandInput {
-	display: flex;
 	background-image: url('../images/search.png');
-	background-size: 28px 28px;
-	background-position: 4px 4px;
+  	background-attachment: fixed;
+  	background-position: 2px 2px;
 	background-repeat: no-repeat;
-	align-self: center;
 	width: 40%;
 	font-size: 14px;
 	padding: 7px;
 	height: 32px;
 	color: #fff;
-	background-color: #3d3d3d;
+	background-color: #242424;
 	border: none;
-	border-radius: 5px;
-	margin-left: 30px;
+	border-radius: 7px;
+	margin: 7px;
 }
 #commandInput:focus {
 	outline: none;
 	border: none;
-	background-color: #0000009f;
-	color: #ab480a;
+	background-color: #212121;
+	color: #fff;
 }
 /* Table children styling */
 thead th:nth-child(5) {
