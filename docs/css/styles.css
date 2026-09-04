@@ -32,8 +32,16 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100%;
+    height: 3px;
     align-self: top;
+	background-color: #ab480a;
+}
+.container-line {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100px;
+    align-self: center;
 }
 /* Command Registry */
 .registry {
@@ -60,7 +68,7 @@ ul {
     height: 100px;
     align-self: center;
     padding: 5px;
-    background-color: #3E424B;
+    background-color: #3d4047;
     color: #FFFFFF;
 }
 .library-header p {
@@ -72,7 +80,7 @@ ul {
     width: 100%;
     justify-content: left;
 	padding-left: 15px;    
-	padding-top: 15px; 
+	padding-top: 5px; 
 }
 .library-header p:first-child {
     font-size: 16px;
@@ -114,21 +122,4 @@ td:nth-child(5) {
 }
 tr:nth-child(even) {
   background-color: #3E424B;
-}
-/*  Topbar containing buttons  */
-.navbar {
-    display: flex;
-    flex-direction: row;  
-    width: 100%;
-    height: 5em; 
-    border-bottom: 1px solid #f3ac28;
-    box-shadow:  0px 10px 25px 15px rgba(0, 0, 0, 0.9);
-    background-color: #0000009f;
-}
-.header {
-    display: inline-flex;
-    flex-direction: row;
-    width: 100%;
-    height: 99%;
-    box-shadow: inset 0px -100px 21px -99px #f38a28;
 }
