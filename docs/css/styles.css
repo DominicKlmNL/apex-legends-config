@@ -58,7 +58,9 @@ ul {
     flex-direction: column;
     width: 100%;
     align-self: top;
-    height: 60px;
+    height: 100px;
+    background-color: #3E424B;
+    padding: 10px;
 }
 .library-header p {
     display: flex;
