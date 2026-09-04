@@ -11,6 +11,28 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="/Assets/WindowIcon.ico">
+    <!-- Command Search Bar -->
+    <script>
+        function commandLibrary() {
+          var input, filter, table, tr, td, i, txtValue;
+          input = document.getElementById("commandInput");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("commandTable");
+          tr = table.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }       
+          }
+        }
+    </script>
+    <!-- Command Search Bar -->
 </head>
 <body>
 
@@ -20,9 +42,12 @@
         <p>All the commands that are applied in the configuration files will be stored in a single library, so upon updates to existing files, we can consult the library.</p>
         <p>If the command is not in this library, it should also be verified in the "Removal" library. Both will be kept to keep the configuration files clean and future proof</p>
     </div>
+    <!-- Command Search Bar -->
+    <input type="text" id="commandInput" onkeyup="commandLibrary()" placeholder="Search for commands.." title="Type in a command">
+    <!-- Command Search Bar End  -->
     <div class="container-line"><br></div>
     <div class= "library-table">  
-        <table>
+        <table id="commandTable">
             <thead>
                 <th width="11%">command</th>
                 <th width="25%">description</th>
@@ -34,22 +59,22 @@
                 <th width="14%">comments</th>
             </thead>
             <tbody>
-<!-- Category FPS & Engine -->
+            <!-- Category FPS & Engine -->
                 <!-- one list per command -->
                 <tr><td>fps_max</td><td>Determines the maximum of frame rates rendered</td><td>0-999</td><td>Custom</td><td>No</td><td>autoexec</td><td>FPS & Engine</td><td>-</td></tr>
                 <!-- one list per command -->
                 <tr><td>lobby_max_fps</td><td>Determines the maximum of frame rates when in lobby</td><td>0-999</td><td>Custom</td><td>No</td><td>autoexec</td><td>FPS & Engine</td><td>-</td></tr>
-<!-- Category Stability -->
+            <!-- Category Stability -->
                 <!-- one list per command -->
                 <tr><td>mat_queue_mode</td><td>Sets how the game engine handles multithreaded rendering across your CPU cores</td><td>(-1) default/automatic, (0) Synchronous Single-Threaded, (1) Asychronous Single-Threaded, Forced Multi-threaded</td><td>(2) Forced Multi-threaded</td><td>No</td><td>autoexec</td><td>Stability</td><td>-</td></tr>
                 <!-- one list per command -->
                 <tr><td>cl_phys_maxticks</td><td>Prevents physics simulation limits from bottlenecking frametime stability. Correlation to ragdoll simulation to avoid complex calculations.</td><td>(0) Competitive, (3) Default</td><td>(0) Competitive</td><td>No</td><td>autoexec</td><td>Stability</td><td>-</td></tr>
                 <!-- one list per command -->                 
                 <tr><td>host_sleep</td><td>Prevents host to be forced to sleep a certain number of ms in between frames</td><td>(0) Competitive, (1) (2) (5) Delayed</td><td>(0) Competitive</td><td>No</td><td>autoexec</td><td>Stability</td><td>Values (1) (2) (5) drastically lowers CPU & GPU, at the cost of FPS</td></tr>
-<!-- Category FX  Optimizations -->
+            <!-- Category FX  Optimizations -->
                 <!-- one list per command -->
                 <tr><td>r_maxdlights</td><td>Determines the maximum number of dynamic lights visible during firefights</td><td>(0) Competitive, (32) Default, (1-32) Reduced</td><td>(0) Competitive</td><td>No</td><td>autoexec</td><td>FX  Optimizations</td><td>-</td></tr>
-<!-- Category Mouse & Input -->
+            <!-- Category Mouse & Input -->
                 <!-- one list per command -->                 
                 <tr><td>m_filter</td><td>Mouse filtering</td><td>(0) off, (1) on</td><td>(0) off</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>(0) Off (Highly Recommended for Competitive), (1) on (AVOID)  </td></tr>                
                 <!-- one list per command --> 
