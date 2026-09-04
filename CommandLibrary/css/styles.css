@@ -39,7 +39,7 @@ ul {
     display: flex;
     flex-direction: column;
     width: 95%;
-    height: 37px;
+    height: 32px;
     align-self: center;	
 	background-color: transparent;
 }
@@ -100,7 +100,7 @@ ul {
     flex-direction: column;
 	align-self: center;
     width: 100%;
-    height: 85%;
+    height: 80%;
 }
 /* Registry Table */
 table {
@@ -133,6 +133,8 @@ td {
 }
 /* Command Input */
 #commandInput {
+	display: flex;
+	flex-direction: column;
 	background-image: url('/css/search.png');
 	background-position: 10px 10px;
 	background-repeat: no-repeat;
