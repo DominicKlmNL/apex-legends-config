@@ -97,7 +97,14 @@ ul {
 table {
     border-collapse: collapse;
     width: 100%;
-    }
+	border: 1px solid #fff;
+}
+thead th {
+	text-align: left;
+  	padding: 12px;
+   	background-color: #ab480a;
+  	color: #ffffff;	
+}
 th {
     text-align: left;
     padding-top: 12px;
@@ -107,13 +114,30 @@ th {
     font-size: 16px;
     font-weight: bold;
 }
+tbody td {
+	padding: 12px;
+}
 td {
     text-align: left;
     font-size: 14px;
     padding: 8px;
     word-wrap: normal;
 }
+/* Command Input */
+#commandInput {
+  background-image: url('/css/search.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 14px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #fff;
+  margin-bottom: 12px;
+}
 /* Table children styling */
+thead th:nth-child(5) {
+    text-align: center;
+} 
 th:nth-child(5) {
     text-align: center;
 }    
@@ -121,7 +145,12 @@ td:nth-child(5) {
     text-align: center;
 }
 tr:nth-child(even) {
-  background-color: #3E424B;
+	background-color: #0000009f;
+	color: #ffffff;
+}
+tr:nth-child(odd) {
+	background-color: #161616;
+	color: #ffffff;
 }
 tr:hover {
 	background-color: #ab480a;
