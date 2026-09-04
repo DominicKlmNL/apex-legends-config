@@ -128,11 +128,11 @@ td {
 #commandInput {
 	background-image: url('../images/search.png');
 	background-size: 20px 20px;
-	background-position: 7px 7px;
+	background-position: 6px 6px;
 	background-repeat: no-repeat;
 	width: 25%;
 	font-size: 14px;
-	padding: 7px 15px 7px 30px;
+	padding: 7px 15px 7px 35px;
 	height: 32px;
 	color: #fff;
 	background-color: #242424;
