@@ -32,16 +32,16 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 3px;
+    height: 100%;
     align-self: top;
-	background-color: #ab480a;
 }
 .container-line {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 100px;
+    height: 3px;
     align-self: center;
+	background-color: #ab480a;
 }
 /* Command Registry */
 .registry {
