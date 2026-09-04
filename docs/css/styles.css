@@ -58,13 +58,13 @@ ul {
     flex-direction: column;
     width: 100%;
     align-self: top;
-    height: 6%;
 }
 .library-header p {
+    display: flex;
     text-align: left;
     font-size: 14px;
-    padding: 5px;
-    height: 33%;
+    height: 50%;
+    margin: 0px;
 }
 .library-header p:first-child {
     font-size: 16px;
