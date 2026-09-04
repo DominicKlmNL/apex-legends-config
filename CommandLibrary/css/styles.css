@@ -143,7 +143,7 @@ td {
 }
 #commandInput::placeholder {
 	color: #FFF;
-	opacity: 1;
+	opacity: 0.75;
 }
 #commandInput:focus::placeholder{
 	color: transparent;
