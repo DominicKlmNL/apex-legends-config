@@ -123,3 +123,6 @@ td:nth-child(5) {
 tr:nth-child(even) {
   background-color: #3E424B;
 }
+tr:hover {
+	background-color: #ab480a;
+}
