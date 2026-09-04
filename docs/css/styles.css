@@ -58,7 +58,7 @@ ul {
     flex-direction: column;
     width: 100%;
     align-self: top;
-    height: 7%;
+    height: 10%;
 }
 .library-header p {
     display: flex;
