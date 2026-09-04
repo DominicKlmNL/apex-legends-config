@@ -94,7 +94,7 @@ th {
     padding-bottom: 12px;
     padding-left: 8px;
     padding-right: 8px;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: bold;
 }
 tbody td {
@@ -102,7 +102,7 @@ tbody td {
 }
 td {
     text-align: left;
-    font-size: 14px;
+    font-size: 12px;
     padding: 8px;
     word-wrap: normal;
 }
@@ -112,14 +112,14 @@ td {
 	background-position: 10px 10px;
 	background-repeat: no-repeat;
 	align-self: center;
-	width: 85%;
+	width: 65%;
 	font-size: 14px;
 	padding: 7px;
-	height: 20px;
+	height: 32px;
 	color: #fff;
 	background-color: #0000009f;
 	border: none;
-	border-radius: 25px;
+	border-radius: 10px;
 }
 #commandInput:focus {
 	outline: none;
