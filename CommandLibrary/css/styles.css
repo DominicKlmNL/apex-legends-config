@@ -108,9 +108,9 @@ td {
 /* Command Input */
 #commandInput {
 	display: flex;
-	background-image: url('/images/search.png');
+	background-image: url('../images/search.png');
 	background-size: 28px 28px;
-	background-position: 6px 6px;
+	background-position: 9px 9px;
 	background-repeat: no-repeat;
 	align-self: center;
 	width: 40%;
