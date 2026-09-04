@@ -108,12 +108,12 @@ td {
 }
 /* Command Input */
 #commandInput {
-	background-image: url('./css/search.png');
+	background-image: url('/css/search.png');
 	background-position: 10px 10px;
 	background-repeat: no-repeat;
 	align-self: center;
 	width: 65%;
-	font-size: 12px;
+	font-size: 14px;
 	padding: 7px;
 	height: 30px;
 	color: #fff;
