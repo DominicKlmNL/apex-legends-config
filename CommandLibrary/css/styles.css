@@ -35,6 +35,14 @@ ul {
     height: 100%;
     align-self: top;
 }
+.commandinputbar {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    height: 35px;
+    align-self: center;	
+	background-color: transparent;
+}
 .container-line {
     display: flex;
     flex-direction: column;
@@ -132,7 +140,9 @@ td {
 	font-size: 14px;
 	padding: 12px 20px 12px 40px;
 	color: #fff;
-	margin-bottom: 12px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	height: 95%;
 	background-color: #0000009f;
 }
 /* Table children styling */
