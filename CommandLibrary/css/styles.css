@@ -111,13 +111,15 @@ td {
 	background-image: url('./css/search.png');
 	background-position: 10px 10px;
 	background-repeat: no-repeat;
-	align-self: left;
-	width: 90%;
+	align-self: center;
+	width: 85%;
 	font-size: 14px;
-	padding: 9px;
+	padding: 7px;
+	height: 20px;
 	color: #fff;
 	background-color: #0000009f;
 	border: none;
+	border-radius: 25px;
 }
 #commandInput:focus {
 	outline: none;
