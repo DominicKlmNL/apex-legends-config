@@ -37,6 +37,12 @@ ul {
     align-self: top;
 	margin: auto;
 }
+.top-header {
+	display: flex;
+	width: 100%;
+	height: 5px;
+	background-color: #ab480a;	
+}
 .library-header {
     display: flex;
     flex-direction: column;
@@ -50,7 +56,7 @@ ul {
 .container-seperator {
 	display: flex;
 	width: 100%;
-	height: 2px;
+	height: 1px;
 	background-color: #ab480a;
 }
 .commandinputbar {
@@ -115,8 +121,7 @@ td {
 /* Command Input */
 #commandInput {
 	background-image: url('../images/search.png');
-  	background-attachment: fixed;
-  	background-position: 2px 2px;
+  	background-position: 3px 3px;
 	background-repeat: no-repeat;
 	width: 25%;
 	font-size: 14px;
@@ -129,6 +134,7 @@ td {
 	margin: 2px;
 }
 #commandInput:focus {
+	background-attachment: fixed;
 	outline: none;
 	border: none;
 	background-color: #212121;
@@ -137,6 +143,9 @@ td {
 #commandInput::placeholder {
 	color: #FFF;
 	opacity: 1;
+}
+#commandInput:focus::placeholder{
+	color: transparent;
 }
 /* Table children styling */
 thead th:nth-child(5), thead th:nth-child(6) {
