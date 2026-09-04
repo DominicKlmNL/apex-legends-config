@@ -49,22 +49,10 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 32px;
+    height: 25px;
     align-self: center;	
 	padding: 5px;
-	margin-bottom: 5px;
-	margin-top: 5px;
 	background-color: transparent;	
-}
-.container-line {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 3px;
-    align-self: center;
-	background-color: #ab480a;
-	margin-bottom: 1px;
-	margin-top: 1px;
 }
 .library-table {
     display: flex;
