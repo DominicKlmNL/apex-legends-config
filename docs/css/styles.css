@@ -57,10 +57,10 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-self: top;
     height: 100px;
+    align-self: center;
+    padding: 5px;
     background-color: #3E424B;
-    padding: 10px;
     color: #FFFFFF;
 }
 .library-header p {
@@ -70,6 +70,8 @@ ul {
     margin: 0px;
     height: 30%;
     width: 100%;
+    justify-content: left;
+	padding-left: 15px;    
 }
 .library-header p:first-child {
     font-size: 16px;
