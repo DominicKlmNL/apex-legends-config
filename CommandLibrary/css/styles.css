@@ -53,7 +53,7 @@ ul {
     width: 100%;
     height: 40px;
     align-self: center;	
-	padding: 10px;	
+	padding: 5px;	
 }
 .library-table {
     display: flex;
@@ -129,6 +129,14 @@ td {
 	border: none;
 	background-color: #0000009f;
 	color: #ab480a;
+}
+/* Image in commandinputbar next to search */
+.commandinputbar img {
+	display: flex;
+	padding: 6px;
+	margin-left: 10px;
+	max-width: 28px;
+	max-height: 28px;
 }
 /* Table children styling */
 thead th:nth-child(5) {
