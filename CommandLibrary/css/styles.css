@@ -114,14 +114,15 @@ td {
 	align-self: center;
 	width: 100%;
 	font-size: 14px;
-	padding: 5px;
+	padding: 12px;
 	color: #fff;
-	background-color: #0000009f;
+	background-color:transperent;
 	border: none;
 }
 #commandInput:focus {
 	outline: none;
 	border: none;
+	background-color: #0000009f;
 }
 /* Table children styling */
 thead th:nth-child(5) {
