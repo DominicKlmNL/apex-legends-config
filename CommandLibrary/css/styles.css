@@ -132,8 +132,8 @@ td {
 /* Image in commandinputbar next to search */
 .commandinputbar img {
 	display: flex;
-	padding: 6px;
-	margin-left: 10px;
+	padding: 10px;
+	margin-left: 15px;
 	max-width: 28px;
 	max-height: 28px;
 }
