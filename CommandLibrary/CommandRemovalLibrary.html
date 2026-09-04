@@ -11,19 +11,49 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="/Assets/WindowIcon.ico">
+     <!-- Command Search Bar -->
+    <script>
+        function commandLibrary() {
+          var input, filter, table, tr, td, i, txtValue;
+          input = document.getElementById("commandInput");
+          filter = input.value.toUpperCase();
+          table = document.getElementById("commandTable");
+          tr = table.getElementsByTagName("tr");
+          for (i = 0; i < tr.length; i++) {
+            td = tr[i].getElementsByTagName("td")[0];
+            if (td) {
+              txtValue = td.textContent || td.innerText;
+              if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                tr[i].style.display = "";
+              } else {
+                tr[i].style.display = "none";
+              }
+            }       
+          }
+        }
+    </script>
+    <!-- Command Search Bar -->
 </head>
 <body>
 
 <div class="container">
+    <div class="top-header"></div>
     <div class= "library-header">
-        <p>Apex Legends Library: Command removal</p>
-        <p>These commands have been removed from the configurations for various reason.</p>
-        <p>We will keeping this registry of the removed commands up-to-date periodically, so it can be consulted before commands are added to the configuration files.</p>
+        <div class="library-text">
+            <p>Apex Legends Command Library</p>
+            <p>All the commands that are applied in the configuration files will be stored in a single library, so upon updates to existing files, we can consult the library.</p>
+            <p>If the command is not in this library, it should also be verified in the "Removal" library. Both will be kept to keep the configuration files clean and future proof</p>
+        </div>    
     </div>
-     <div class="container-line"><br></div>
+    <div class="container-seperator"></div>
+    <div class="commandinputbar">
+    <!-- Command Search Bar -->
+        <input type="text" id="commandInput" onkeyup="commandLibrary()" placeholder="Search for Apex Legends configuration commands.." title="Type in a command">
+    <!-- Command Search Bar End  -->
+    </div>
     <div class= "library-table">
-    <table>
-        <thead>
+    <table id="commandTable">
+        <thead class="thead-removal">
             <th width="10%">command</th>
             <th width="29%">description</th>
             <th width="20%">values</th>
@@ -33,7 +63,7 @@
             <th width="6%">patched</th>
             <th width="14%">comments</th>
         </thead>
-        <tbody>
+        <tbody class="tbody-removal">
             <!-- one list per command -->
             <tr>
                 <td>func_break_max_pieces</td>
@@ -47,14 +77,7 @@
             </tr>
             <!-- one list per command -->
             <tr>
-                <td>func_break_max_pieces</td>
-                <td>Removed debris immediately visually (e.g. breaking doors)</td>
-                <td>(15) default, (0) Exploit</td>
-                <td>yes</td>
-                <td>yes</td>
-                <td>exploit</td>
-                <td>yes</td>
-                <td>Respawn forces a immutable server-side cvar for this command to client with default value. Stored in settings.cfg</td>
+               <td>sound_num_speakers</td><td>This command explicitly defines the number of audio channels processed by the game's audio engine</td><td>(2) stereo (default), (6) 5.1 Surround Sound, (8) 5.1 Surround Sound</td><td> - </td><td>Deprecated</td><td>Moved to other file</td><td>No</td><td> This setting is no longer useable in autoexec. It has been moved to ingame, settings.cfg & even possible through launch options</td>
             </tr>
             <!-- one list per command -->
             <tr>
