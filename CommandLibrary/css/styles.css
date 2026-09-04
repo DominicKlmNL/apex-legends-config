@@ -50,8 +50,8 @@ ul {
 .commandinputbar {
     display: flex;
     flex-direction: column;
-    width: 95%;
-    height: 25px;
+    width: 97%;
+    height: 30px;
     align-self: center;	
 	padding: 5px;	
 }
@@ -60,7 +60,6 @@ ul {
     flex-direction: column;
 	align-self: center;
     width: 100%;
-	padding: 5px;
 }
 /* Library Header */
 .library-header p {
