@@ -57,17 +57,17 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    align-self: top;
+    align-self: center;
 }
 .library-header p {
     text-align: left;
     font-size: 14px;
-    padding: 10px;
+    padding: 5px;
 }
 .library-header p:first-child {
     text-align: left;
     font-size: 16px;
-    padding: 10px;
+    padding: 7px;
     font-weight: bold;
 }
 /* Registry Table */
