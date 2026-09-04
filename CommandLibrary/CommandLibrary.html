@@ -42,9 +42,11 @@
         <p>All the commands that are applied in the configuration files will be stored in a single library, so upon updates to existing files, we can consult the library.</p>
         <p>If the command is not in this library, it should also be verified in the "Removal" library. Both will be kept to keep the configuration files clean and future proof</p>
     </div>
+    <div class="commandinputbar">
     <!-- Command Search Bar -->
-    <input type="text" id="commandInput" onkeyup="commandLibrary()" placeholder="Search for commands.." title="Type in a command">
+        <input type="text" id="commandInput" onkeyup="commandLibrary()" placeholder="Search for commands.." title="Type in a command">
     <!-- Command Search Bar End  -->
+    </div>
     <div class="container-line"><br></div>
     <div class= "library-table">  
         <table id="commandTable">
