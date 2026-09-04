@@ -108,7 +108,8 @@ td {
 }
 /* Command Input */
 #commandInput {
-	background-image: url('/css/search.png');
+	display: flex;
+	background-image: url('/images/search.png');
 	background-size: 28px 28px;
 	background-position: 6px 6px;
 	background-repeat: no-repeat;
@@ -121,6 +122,7 @@ td {
 	background-color: #0000009f;
 	border: none;
 	border-radius: 10px;
+	margin-left: 25px;
 }
 #commandInput:focus {
 	outline: none;
