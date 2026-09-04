@@ -51,9 +51,8 @@ ul {
     display: flex;
     flex-direction: row;
     width: 100%;
-    height: 40px;
-    align-self: center;	
-	padding: 5px;	
+    height: 45px;
+    align-self: center;		
 }
 .library-table {
     display: flex;
@@ -114,14 +113,14 @@ td {
 	background-position: 6px 6px;
 	background-repeat: no-repeat;
 	align-self: center;
-	width: 65%;
-	font-size: 14px;
+	width: 40%;
+	font-size: 13px;
 	padding: 7px;
-	height: 30px;
+	height: 32px;
 	color: #fff;
 	background-color: #0000009f;
 	border: none;
-	border-radius: 10px;
+	border-radius: 5px;
 	margin-left: 4px;
 }
 #commandInput:focus {
