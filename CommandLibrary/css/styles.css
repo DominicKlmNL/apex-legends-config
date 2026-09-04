@@ -13,6 +13,7 @@ body {
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
+	box-sizing: border-box;
 }
 div {
     align-self:center;
@@ -49,11 +50,10 @@ ul {
 .commandinputbar {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 95%;
     height: 25px;
     align-self: center;	
-	padding: 5px;
-	background-color: transparent;	
+	padding: 5px;	
 }
 .library-table {
     display: flex;
@@ -109,8 +109,6 @@ td {
 }
 /* Command Input */
 #commandInput {
-	display: flex;
-	flex-direction: column;
 	background-image: url('/css/search.png');
 	background-position: 10px 10px;
 	background-repeat: no-repeat;
@@ -120,6 +118,11 @@ td {
 	padding: 5px;
 	color: #fff;
 	background-color: #0000009f;
+	border: none;
+}
+#commandInput:focus {
+	outline: none;
+	border: none;
 }
 /* Table children styling */
 thead th:nth-child(5) {
