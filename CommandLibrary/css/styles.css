@@ -285,7 +285,22 @@ tr:hover {
 .header-nav-bar li a:hover {
 	box-shadow: inset 0px 0px 19px 1px #000000;
 }
-
+span#clear-icon {
+    display: none;
+    position: absolute;
+    right: 1px;
+    top: 1px;
+    bottom: 1px;
+    padding: 0px 5px;
+    font-style: normal;
+    font-size: 12px;
+    user-select: none;
+    cursor: pointer;
+    color: #212121;
+    z-index: 12;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
