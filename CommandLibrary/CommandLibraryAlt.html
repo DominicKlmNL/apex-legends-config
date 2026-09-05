@@ -130,68 +130,68 @@ document.addEventListener('DOMContentLoaded', () => {
             <th width="29%">description</th>
             <th width="20%">values</th>
             <th width="6%">removed</th>
-            <th width="6%">flagged</th>
+            <th width="6%">FCVAR flagged</th>
             <th width="8%">reason</th>  
             <th width="6%">patched</th>
             <th width="14%">comments</th>
         </thead>
         <tbody class="tbody-removal">
             <!-- one list per command -->
-            <tr><td>func_break_max_pieces</td><td>Removed debris immediately visually (e.g. breaking doors)</td><td>(15) default, (0) Exploit</td><td>yes</td><td>FCVAR_REPLICATED FCVAR_GAMEDLL FCVAR_ARCHIVE</td><td>exploit</td><td>yes</td><td>Respawn forces a immutable server-side cvar for this command to client with default value. Stored in settings.cfg</td></tr>
+            <tr><td>func_break_max_pieces</td><td>Removed debris immediately visually (e.g. breaking doors)</td><td>(15) default, (0) Exploit</td><td>yes</td><td>REPLICATED GAMEDLL ARCHIVE</td><td>exploit</td><td>yes</td><td>Respawn forces a immutable server-side cvar for this command to client with default value. Stored in settings.cfg</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_sun_highlight_size</td><td>This material engine variable adjusts the physical size and scale of the sun's reflection glow (specular highlight) bouncing off of environmental structures, terrain, and weapons</td><td>(0) Shrinks, (1) Default </td><td>yes</td><td>FCVAR_CHEAT</td><td>exploit</td><td>yes</td><td>It will not ban you, but it will not actively change your game visuals anymore.</td></tr>
+            <tr><td>mat_sun_highlight_size</td><td>This material engine variable adjusts the physical size and scale of the sun's reflection glow (specular highlight) bouncing off of environmental structures, terrain, and weapons</td><td>(0) Shrinks, (1) Default </td><td>yes</td><td>CHEAT</td><td>exploit</td><td>yes</td><td>It will not ban you, but it will not actively change your game visuals anymore.</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_hide_sun_in_last_cascade</td><td>Enforcing this command tells the engine to completely stop rendering shadow details in the furthest distance cascade, removing distant shadow structures from the edge of your horizon.</td><td>(0) default, (1) Distance shadow cull</td><td>yes</td><td>FCVAR_HIDDEN</td><td>exploit</td><td>yes</td><td>Server-Blocked Status</td></tr>
+            <tr><td>mat_hide_sun_in_last_cascade</td><td>Enforcing this command tells the engine to completely stop rendering shadow details in the furthest distance cascade, removing distant shadow structures from the edge of your horizon.</td><td>(0) default, (1) Distance shadow cull</td><td>yes</td><td>HIDDEN</td><td>exploit</td><td>yes</td><td>Server-Blocked Status</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_colcorrection_disableentitie</td><td>This graphics engine command overrides the map’s active color correction lookup filters (LUTs)</td><td>(0) default, (1) Disables map-specific color correction entities</td><td>yes</td><td>FCVAR_CHEAT</td><td>exploit</td><td>yes</td><td>Blocked Status</td></tr>	
+            <tr><td>mat_colcorrection_disableentitie</td><td>This graphics engine command overrides the map’s active color correction lookup filters (LUTs)</td><td>(0) default, (1) Disables map-specific color correction entities</td><td>yes</td><td>CHEAT</td><td>exploit</td><td>yes</td><td>Blocked Status</td></tr>	
             <!-- one list per command -->
             <tr><td>r_drawtracers_firstperson</td><td>This is a non-useable command from the source engine, which has been published often but does not work at all.</td><td>None</td><td>yes</td><td>Unknown command</td><td>Ignored</td><td>Unavailable</td><td>This command has only been a source engine command, never possible to use in Apex Legends</td></tr>
             <!-- one list per command -->
-            <tr><td>map_settings_override</td><td>Disabled the map settings beyond the scope of the developers</td><td>(0) Default, (1) Enabled</td><td>yes</td><td>FCVAR_DEVELOPMENTONLY</td><td>exploit</td><td>Unavailable</td><td>No longer accessable to the players</td></tr>
+            <tr><td>map_settings_override</td><td>Disabled the map settings beyond the scope of the developers</td><td>(0) Default, (1) Enabled</td><td>yes</td><td>DEVELOPMENTONLY</td><td>exploit</td><td>Unavailable</td><td>No longer accessable to the players</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_light_edit</td><td>Determines the modifying of the map lighting</td><td>(0) Default, (1) Enabled</td><td>yes</td><td>FCVAR_CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
+            <tr><td>mat_light_edit</td><td>Determines the modifying of the map lighting</td><td>(0) Default, (1) Enabled</td><td>yes</td><td>CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_autoexposure_</td><td>Controls the tonemapping when exiting from inside into bright lights </td><td>(0) Default, (1) Enabled</td><td>yes</td><td>FCVAR_CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
+            <tr><td>mat_autoexposure_</td><td>Controls the tonemapping when exiting from inside into bright lights </td><td>(0) Default, (1) Enabled</td><td>yes</td><td>CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_autoexposure_speed</td><td>Increases the light-transitioning in case of high brightness</td><td>(2) Faster decrease</td><td>yes</td><td>FCVAR_CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
+            <tr><td>mat_autoexposure_speed</td><td>Increases the light-transitioning in case of high brightness</td><td>(2) Faster decrease</td><td>yes</td><td>CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_autoexposure_override_min_max</td><td>Override default HDR map-light parameters (brightness) value</td><td>(0) Default, (1) Enabled</td><td>yes</td><td>FCVAR_CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
+            <tr><td>mat_autoexposure_override_min_max</td><td>Override default HDR map-light parameters (brightness) value</td><td>(0) Default, (1) Enabled</td><td>yes</td><td>CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_autoexposure_min</td><td>Sets minimum light intensity.</td><td>(0) Default, (1) Enabled</td><td>yes</td><td>FCVAR_CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
+            <tr><td>mat_autoexposure_min</td><td>Sets minimum light intensity.</td><td>(0) Default, (1) Enabled</td><td>yes</td><td>CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_autoexposure_max</td><td>Sets maximum light intensity, prevent Flashblinding.</td><td>(0) Default, (1) Enabled</td><td>yes</td><td>FCVAR_CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
+            <tr><td>mat_autoexposure_max</td><td>Sets maximum light intensity, prevent Flashblinding.</td><td>(0) Default, (1) Enabled</td><td>yes</td><td>CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_autoexposure_min_multiplier</td><td>Increases clarity of dark shadows and corners for maximum visibility</td><td>(1.7) boosted</td><td>yes</td><td>FCVAR_CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
+            <tr><td>mat_autoexposure_min_multiplier</td><td>Increases clarity of dark shadows and corners for maximum visibility</td><td>(1.7) boosted</td><td>yes</td><td>CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_postprocess_enable</td><td>Disables heavy after-effectfilters for maximum framerates</td><td>(0) on, (1) off</td><td>yes</td><td>FCVAR_CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
+            <tr><td>mat_postprocess_enable</td><td>Disables heavy after-effectfilters for maximum framerates</td><td>(0) on, (1) off</td><td>yes</td><td>CHEAT</td><td>exploit</td><td>Blocked</td><td>Completely blocked</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_disable_bloom</td><td>Disables the glow from light sources</td><td>(0) on, (1) off</td><td>yes</td><td>FCVAR_CHEAT</td><td>exploit</td><td>Patched</td><td>Commands are no longer in use, engines ignores the setting.</td></tr>
+            <tr><td>mat_disable_bloom</td><td>Disables the glow from light sources</td><td>(0) on, (1) off</td><td>yes</td><td>CHEAT</td><td>exploit</td><td>Patched</td><td>Commands are no longer in use, engines ignores the setting.</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_bloom_scalefactor_scalar</td><td>Disables remaining lightglows during firefights</td><td>(0) on, (1) off</td><td>yes</td><td>FCVAR_CHEAT</td><td>Patched</td><td>Patched</td><td>Commands are no longer in use, engines ignores the setting.</td></tr>
+            <tr><td>mat_bloom_scalefactor_scalar</td><td>Disables remaining lightglows during firefights</td><td>(0) on, (1) off</td><td>yes</td><td>CHEAT</td><td>Patched</td><td>Patched</td><td>Commands are no longer in use, engines ignores the setting.</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_bloomscale</td><td>Master-lock to set scale of all bloom to 0</td><td>(0) on, (1) off</td><td>yes</td><td>FCVAR_CHEAT</td><td>exploit</td><td>Patched</td><td>Commands are no longer in use, engines ignores the setting.</td></tr>
+            <tr><td>mat_bloomscale</td><td>Master-lock to set scale of all bloom to 0</td><td>(0) on, (1) off</td><td>yes</td><td>CHEAT</td><td>exploit</td><td>Patched</td><td>Commands are no longer in use, engines ignores the setting.</td></tr>
             <!-- one list per command -->
-            <tr><td>snd_setmixer PlayerFootsteps</td><td>Reduce footsteps noise</td><td>(0.0 - 1.0)</td><td>yes</td><td>FCVAR_ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
+            <tr><td>snd_setmixer PlayerFootsteps</td><td>Reduce footsteps noise</td><td>(0.0 - 1.0)</td><td>yes</td><td>ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
             <!-- one list per command -->
-            <tr><td>snd_setmixer GlobalFootsteps</td><td>Increase the enemy footsteps</td><td>(0.0 - 1.0)</td><td>yes</td><td>FCVAR_ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
+            <tr><td>snd_setmixer GlobalFootsteps</td><td>Increase the enemy footsteps</td><td>(0.0 - 1.0)</td><td>yes</td><td>ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
             <!-- one list per command -->
-            <tr><td>cl_forcepreload</td><td>Forces the client to preload all the map-objects, textures and sounds</td><td>(0) off, (1) on</td><td>yes</td><td>FCVAR_ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
+            <tr><td>cl_forcepreload</td><td>Forces the client to preload all the map-objects, textures and sounds</td><td>(0) off, (1) on</td><td>yes</td><td>ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
             <!-- one list per command -->
-            <tr><td>r_shadows</td><td>Disable shadows completely</td><td>(0) on, (1) off</td><td>yes</td><td>FCVAR_ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
+            <tr><td>r_shadows</td><td>Disable shadows completely</td><td>(0) on, (1) off</td><td>yes</td><td>ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
             <!-- one list per command -->
-            <tr><td>mat_shadowstate</td><td>Disables dynamic shadow-states for less visual clutter</td><td>(0) on, (1) off</td><td>yes</td><td>FCVAR_ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
+            <tr><td>mat_shadowstate</td><td>Disables dynamic shadow-states for less visual clutter</td><td>(0) on, (1) off</td><td>yes</td><td>ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
             <!-- one list per command -->
-            <tr><td>r_shadowmaxrendered</td><td>Set Max shadows the game will render</td><td>(0) on, (1) off</td><td>yes</td><td>FCVAR_ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
+            <tr><td>r_shadowmaxrendered</td><td>Set Max shadows the game will render</td><td>(0) on, (1) off</td><td>yes</td><td>ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
             <!-- one list per command -->
-            <tr><td>r_shadowrendertotexture</td><td>Shadow render to textures</td><td>(0) on, (1) off</td><td>yes</td><td>FCVAR_ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
+            <tr><td>r_shadowrendertotexture</td><td>Shadow render to textures</td><td>(0) on, (1) off</td><td>yes</td><td>ARCHIVE</td><td>Out-of-use</td><td>Removed</td><td>Commands have been removed entirely and should not be used in configuration files</td></tr>
             <!-- one list per command -->
-            <tr><td>host_sleep</td><td>Prevents host to be forced to sleep a certain number of ms in between frames</td><td>(0) Competitive, (1) (2) (5) Delayed</td><td>yes</td><td>FCVAR_ARCHIVE</td><td>Legacy</td><td>Removed</td><td>Game enigine ignores this command, new architecture deals with this.</td></tr>
+            <tr><td>host_sleep</td><td>Prevents host to be forced to sleep a certain number of ms in between frames</td><td>(0) Competitive, (1) (2) (5) Delayed</td><td>yes</td><td>ARCHIVE</td><td>Legacy</td><td>Removed</td><td>Game enigine ignores this command, new architecture deals with this.</td></tr>
             <!-- one list per command -->
-            <tr><td>rope_smooth</td><td>Applies an aggressive antialiasing pass specifically to smooth out the jagged edges of ziplines, hanging cables, and wires across the map. Turning this off bypasses this unneeded rendering filter, saving GPU processing cycles while keeping the critical zipline locations perfectly visible.</td><td>(1) Enabled (default), (0) Disabled</td><td>yes</td><td>FCVAR_ARCHIVE</td><td>Legacy</td><td>Removed</td><td>Physical rendering now happens in the game engine and the command is no longer useable</td></tr>
+            <tr><td>rope_smooth</td><td>Applies an aggressive antialiasing pass specifically to smooth out the jagged edges of ziplines, hanging cables, and wires across the map. Turning this off bypasses this unneeded rendering filter, saving GPU processing cycles while keeping the critical zipline locations perfectly visible.</td><td>(1) Enabled (default), (0) Disabled</td><td>yes</td><td>ARCHIVE</td><td>Legacy</td><td>Removed</td><td>Physical rendering now happens in the game engine and the command is no longer useable</td></tr>
             <!-- one list per command -->
-            <tr><td>rope_collide</td><td>Computes physics interactions and collision mechanics for ziplines and wires whenever they are hit by bullets, throwables, or character abilities. Disabling this stops your CPU from executing complex movement simulations on ropes, preventing sudden frame drops when multiple teams use ziplines.</td><td>(1) Enabled (default), (0) Disabled</td><td>yes</td><td>FCVAR_ARCHIVE</td><td>Legacy</td><td>Removed</td><td>Physical rendering now happens in the game engine and the command is no longer useable</td></tr>
+            <tr><td>rope_collide</td><td>Computes physics interactions and collision mechanics for ziplines and wires whenever they are hit by bullets, throwables, or character abilities. Disabling this stops your CPU from executing complex movement simulations on ropes, preventing sudden frame drops when multiple teams use ziplines.</td><td>(1) Enabled (default), (0) Disabled</td><td>yes</td><td>ARCHIVE</td><td>Legacy</td><td>Removed</td><td>Physical rendering now happens in the game engine and the command is no longer useable</td></tr>
             <!-- one list per command -->
-            <tr><td>cl_phys_maxticks</td><td>Prevents physics simulation limits from bottlenecking frametime stability. Correlation to ragdoll simulation to avoid complex calculations.</td><td>(0) Competitive, (3) Default</td><td>yes</td><td>FCVAR_ARCHIVE</td><td>Legacy</td><td>Removed</td><td>Game engine ignores this command, new architecture deals with this.</td></tr>
+            <tr><td>cl_phys_maxticks</td><td>Prevents physics simulation limits from bottlenecking frametime stability. Correlation to ragdoll simulation to avoid complex calculations.</td><td>(0) Competitive, (3) Default</td><td>yes</td><td>ARCHIVE</td><td>Legacy</td><td>Removed</td><td>Game engine ignores this command, new architecture deals with this.</td></tr>
             
             <!-- one list per command 
             <tr><td> </td>	<td> </td>		<td> </td>		<td> </td>		<td> </td>		<td> </td>		<td> </td>		<td> </td></tr>
