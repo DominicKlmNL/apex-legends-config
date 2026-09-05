@@ -166,7 +166,7 @@
                 <!-- one list per command  --> 
                 <tr><td>miles_channels</td><td>This console variable controls the Miles Sound System—the core audio engine used by Apex Legends</td><td>(0) automatic (Default), (2) stereo, (6) 5.1 Surround Sound, (8) 5.1 Surround Sound</td><td>(2) stereo (Use launch options instead)</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Sound</td><td>IMPORTANT: Using this command in autoexec is unreliable, recommended to add to launch options</td></tr>
                 <!-- one list per command -->  
-                <tr><td>snd_mixahead</td><td>determines how far "ahead" the game engine pre-mixes and prepares sound events before they actually travel into your headset</td><td>(0.1) 100ms buffer, (0.05) 50ms buffer, (0.025) 25ms buffer</td><td>(0.05) 50ms buffer</td><td>FCVAR_ARCHIVE</td><td>autoexec</td><td>Sound</td><td>Do not use (0.025) 25ms buffer, it is known to cause frequent audio starvation</td></tr>                
+                <tr><td>snd_mixahead</td><td>Determines how far "ahead" the game engine pre-mixes and prepares sound events before they actually travel into your headset</td><td>(0.1) 100ms buffer, (0.05) 50ms buffer, (0.025) 25ms buffer</td><td>(0.05) 50ms buffer</td><td>FCVAR_ARCHIVE</td><td>autoexec</td><td>Sound</td><td>Do not use (0.025) 25ms buffer, it is known to cause frequent audio starvation</td></tr>                
                 <!-- one list per command  -->  
                 <tr><td>sound_volume_sfx</td><td>sound_volume_dialogue</td><td>(0.0-1.0) Represents 0 to 100% </td><td>(1) Max. capacity</td><td>FCVAR_ARCHIVE</td><td>autoexec</td><td>Sound</td><td>In-game settings provide this setting, which loads after autoexec so should be archived</td></tr>               
                 <!-- one list per command -->   
@@ -246,7 +246,14 @@
                 <tr><td>damage_indicator_style_pilot</td><td>The low-level engine architectural twin to the primary damage indicator setting. Ensuring this is forced to 1 keeps your spatial awareness systems locked down, guaranteeing that full directional feedback displays perfectly without relying on game cloud updates.</td><td>(1) Classic 2d, (2) Classic 3d, (3) Hybrid Display</td><td>(3) Hybrid Display</td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
                 <tr><td>weapon_setting_autocycle_on_empty</td><td>Forces the game to automatically trigger a weapon swap animation the instant your current gun completely runs out of ammo while you are holding down the trigger. Disabling this ensures you retain complete control over your reloading decisions or specific ability deployments without unexpected swaps.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
-               
+                <!-- one list per command -->
+                <tr><td>ordnanceSwapSelectCooldown</td><td>Reduce grenade swap time</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>Autoexec</td><td>Weapons & HUD settings</td><td>-</td></tr>
+                <!-- one list per command -->
+                <tr><td>sidearmSwapSelectDoubleTapTime</td><td>Reduce the time to change weapons by double clicking</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>Autoexec</td><td>Weapons & HUD settings</td><td>-</td></tr> 
+                <!-- one list per command -->
+                <tr><td>sidearmSwapSelectCooldown</td><td>Reduce weapon swap time</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>Autoexec</td><td>Weapons & HUD settings</td><td>-</td></tr> 
+
+                
             <!-- Category Field of View (FOV) -->
                 <!-- one list per command -->
                 <tr><td>mat_depthfeather_enable</td><td>Erases the feathering transition filter applied to depth blurring around the casing of your weapon scope, ensuring the environment near your sight lines remains sharp.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
@@ -284,14 +291,17 @@
                 <!-- Category VRAM & Textures -->
                 <!-- one list per command -->
                 <tr><td>stream_drop_unused</td><td>Automatically forces the texture streaming system to instantly flush out unneeded or distant texture data from your Video RAM (VRAM). Activating this prevents your graphics card's memory from filling up completely, which is one of the primary culprits behind sudden asset-loading stutters.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>VRAM & Texture</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>mat_bumpmap</td><td>Disables walls/floors smooth for maximum enemy visibility</td><td>(1) Enabled (Default), (0) Disabled</td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>Autoexec</td><td>VRAM & Textures</td><td>-</td></tr>
+                <!-- one list per command -->
+                <tr><td>mat_specular</td><td>Control reflections/shine for matte textures and better contrast</td><td>(1) Enabled (Default), (0) Disabled</td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>Autoexec</td><td>VRAM & Textures</td><td>-</td></tr>
                 
                 <!-- Category Microphone -->
                 <!-- one list per command -->
                 <tr><td>voice_forcemicrecord</td><td>Commands the game engine to continuously assert direct, exclusive recording rights over your designated Windows communication microphone device. Turning this off tells Apex to respect standard Windows audio sharing rules, fixing common bugs where the game would freeze Discord audio.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Microphone</td><td> - </td></tr>
-
                 
                 <!-- one list per command -->
-                <tr><td>r_drawtracers_firstperson</td><td>XXXX</td><td></td><td></td><td>DOES NOT EXIST</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                
                 
                 <!-- End of registry entries -->
             </tbody>
