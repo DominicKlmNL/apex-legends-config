@@ -270,7 +270,7 @@ span#clear-icon {
 .top-header-nav {
 	display: flex;
 	flex-direction: row;
-	align-items: center;
+	align-items: left;
 	justify-content: center;
 	width: 100%;
 	height: inherit;
