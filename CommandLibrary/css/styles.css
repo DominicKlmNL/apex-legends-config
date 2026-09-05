@@ -265,18 +265,22 @@ tr:hover {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	height: inherit;
+	width: 50%;
 }
 .header-nav-bar li {
 	display: inline-block;
 	font-size: 14px;
 	font-weight: 600;
 	padding: 10px;
+	height: inherit;
 }
 .header-nav-bar a {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: transparent;	
+	height: inherit;	
 }
 .header-nav-bar a:hover, a:active {
     background-color: #b36230;
