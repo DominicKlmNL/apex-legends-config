@@ -281,6 +281,8 @@ tr:hover {
 	text-align: center;
 	padding: 10px;
 	font-size: 14px;
+	height: 100%;
+	width: 100%;
 }
 .header-nav-bar li a:hover {
 	box-shadow: inset 0px 0px 19px 1px #000000;
