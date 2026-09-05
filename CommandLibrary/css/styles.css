@@ -114,6 +114,7 @@ th {
     padding-right: 8px;
     font-size: 14px;
     font-weight: bold;
+	word-wrap: normal;
 }
 tbody td {
 	padding: 12px;
