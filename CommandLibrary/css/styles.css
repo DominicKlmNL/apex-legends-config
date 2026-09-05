@@ -164,6 +164,9 @@ td {
 .thead-current th {
 		cursor: pointer;
 }
+.thead-removal th {
+		cursor: pointer;
+}
 .tbody-current td:nth-child(6) {
     text-align: center;
 }
