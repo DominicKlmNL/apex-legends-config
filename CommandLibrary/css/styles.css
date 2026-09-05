@@ -40,6 +40,10 @@ ul {
 .top-header {
 	display: flex;
 	flex-direction: row;
+	align-items: center;
+  	justify-content: center;
+	padding: 0px;
+	border: 0px;
 	width: 100%;
 	height: 60px;
 	background-color: #ab480a;	
@@ -264,10 +268,52 @@ span#clear-icon {
     align-items: center;	
 }
 .top-header-nav {
-    position:relative;
-    display: inline-block;
-    justify-content: center;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: inherit;
+	padding: 0px;
+	border: 0px;
+	box-shadow: inset 0px 0px 25px 1px #000000;
 }
+.top-header-nav ul {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: inherit;
+	padding: 0px;
+}
+.top-header-nav li {
+	display: flex;
+	position: relative;
+	min-width: 9.5%;
+	justify-content: center;
+	align-items: center;
+	height: inherit;
+	border: 0px;
+}
+.top-header-nav li a {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 600;
+}
+.menu li a:hover, a:active {
+	box-shadow: inset 0px 0px 30px 1px #000;
+	background-color: #b36230;
+	cursor: pointer;
+	height: 100%;
+	width: 100%;
+}
+
+
 .switch-page-btn {
 	width: 150px ;
    	background-color: #ab480a;
@@ -275,10 +321,11 @@ span#clear-icon {
 	cursor: pointer;
 	height: 100%;
 	font-size: 14px;
-	border: 1px solid transparent;
 }
 .switch-page-btn:hover {
+	box-shadow: inset 0px 0px 15px -1px #000000;
 	background-color: #b36230;
+	display: block;
 }
 
 
