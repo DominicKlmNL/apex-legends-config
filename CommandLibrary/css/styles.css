@@ -272,23 +272,18 @@ span#clear-icon {
 	width: 100%;
 	padding: 0px;
 	border: none;
+	background-color: transparent;
+}
+.header-nav-bar {
 	background-color:#ab480a;
-	margin: auto;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
-.top-header-btn {
-	position: relative;
-	width: 20%
-	height:inherit;
-	
-}
-.btn-link {
-	position: absolute;
-	top: 0; 
-	left: 0; 
-	right: 0; 
-	bottom: 0;
-	color: #fff;
-	background-color: #fff;
+.header-nav-bar li {
+	display: inline-block;
+	font-size: 18px;
+	padding: 22px;
 }
 
 .switch-page-btn {
