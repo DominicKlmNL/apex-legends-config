@@ -80,9 +80,9 @@
                 <!-- one list per command -->
                 <tr><td>r_maxdlights</td><td>Determines the maximum number of dynamic lights visible during firefights</td><td>(0) Competitive, (32) Default, (1-32) Reduced</td><td>(0) Competitive</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>FX  Optimizations</td><td>-</td></tr>
                 <!-- one list per command -->
-                <tr><td>r_dynamic</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>FX Optimizations</td><td> - </td></tr> 
+                <tr><td>r_dynamic</td><td>Functions as the master toggle for the entire dynamic lighting infrastructure of the engine. Turning this off delivers a massive performance boost, as your GPU no longer has to compute moving light rays, bouncing light beams, or active reflections on walls, ceilings, and floors.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>FX Optimizations</td><td> - </td></tr> 
                 <!-- one list per command -->
-                <tr><td>particle_cpu_level</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_ARCHIVE</td><td>autoexec</td><td>FX Optimizations</td><td> - </td></tr>
+                <tr><td>particle_cpu_level</td><td>Drops particle simulation details to the absolute minimum, heavily relieving your CPU when multiple abilities (like Gibraltar's Ult or Bang's smoke) trigger at once</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_ARCHIVE</td><td>autoexec</td><td>FX Optimizations</td><td> - </td></tr>
                 
                 
             <!-- Category Mouse & Input -->
@@ -124,114 +124,117 @@
                 
             <!-- Category Visibility & Exposure -->
                 <!-- one list per command --> 
-                <tr><td>noise_filter_scale</td><td>This graphics command controls the intensity of the screen post-processing film grain filter</td><td>(0) Completely Disables Film Grain, (0.006) default </td><td>(0) Completely Disables Film Grain</td>				<td>FCVAR_ARCHIVE</td><td>autoexec</td><td>Visibility & Exposure</td><td>The source engine flags this parameter to register natively. Changes made are automatically saved directly into your profile configuration files</td></tr>	
+                <tr><td>noise_filter_scale</td><td>This graphics command controls the intensity of the screen post-processing film grain filter</td><td>(0) Completely Disables Film Grain, (0.006) default </td><td>(0) Completely Disables Film Grain</td><td>FCVAR_ARCHIVE</td><td>autoexec</td><td>Visibility & Exposure</td><td>The source engine flags this parameter to register natively. Changes made are automatically saved directly into your profile configuration files</td></tr>	
 
             <!-- Category Shadows -->
                 <!-- one list per command --> 
-                <tr><td>shadow_always_update</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Shadows</td><td> - </td></tr>
+                <tr><td>shadow_always_update</td><td>Commands the rendering engine to recalculate and refresh shadow positions for every single rendered frame. Disabling this tells the engine to stop aggressively updating distant or environmental shadows, preventing major frame drops and micro-stutters when you turn your camera rapidly.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Shadows</td><td> - </td></tr>
                 <!-- one list per command --> 
-                <tr><td>sssss_enable</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Shadows</td><td> - </td></tr>
+                <tr><td>sssss_enable</td><td>Controls Screen Space Subsurface Scattering, an advanced graphical technique simulating how light subtly penetrates semi-translucent materials like human skin. Disabling this removes a highly demanding GPU task, giving you an FPS boost whenever enemy character models are close to your screen.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Shadows</td><td> - </td></tr>
 
             <!-- Category Ragdolls -->
                 <!-- one list per command -->
-                <tr><td>cl_ragdoll_maxcount</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Ragdolls</td><td> - </td></tr>
+                <tr><td>cl_ragdoll_maxcount</td><td>Sets the maximum ceiling for how many dead player bodies (ragdolls) are permitted to remain laying around on the map simultaneously. Setting this to 0 commands eliminated players to vanish instantly, providing maximum visual clarity and erasing the CPU/GPU weight of tracking physical corpses.</td><td>(16) Maximum, (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Ragdolls</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>g_ragdoll_fadespeed</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_CLIENTDLL</td><td>autoexec</td><td>Ragdolls</td><td> - </td></tr>
+                <tr><td>g_ragdoll_fadespeed</td><td>Dictates the exact animation speed at which a dead body transitions to being transparent before fully despawning. Forcing this value to 10,000 replaces a slow, resource-heavy fading process with an instantaneous, hyper-fast disappear animation the exact microsecond a squad is wiped.</td><td>(600) Default, (10.000) Maximum </td><td>(10.000) Maximum</td><td>FCVAR_CLIENTDLL</td><td>autoexec</td><td>Ragdolls</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>g_ragdoll_lvfadespeed</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_CLIENTDLL</td><td>autoexec</td><td>Ragdolls</td><td> - </td></tr>
+                <tr><td>g_ragdoll_lvfadespeed</td><td>Controls the body despawn velocity specifically tailored for the game's hidden Low Violence architecture (used in specific regional game versions). Keeping this synchronized at 10,000 serves as a total back-up insurance policy, ensuring every single ragdoll disappears instantly regardless of regional backend tags.</td><td>(100) Default</td><td>(10.000) Maximum</td><td>FCVAR_CLIENTDLL</td><td>autoexec</td><td>Ragdolls</td><td> - </td></tr>
 
             <!-- Category Decals -->
                 <!-- one list per command -->
-                <tr><td>r_drawmodeldecals</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Decals</td><td> - </td></tr>
+                <tr><td>r_drawmodeldecals</td><td>Determines whether temporary visual overlays—such as bullet impacts, burn marks, or blood spatters—are allowed to be drawn onto 3D character models. Disabling this keeps enemy player models visually 'clean', meaning their natural contours stand out perfectly without being obscured by dark bullet holes.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Decals</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>r_deferred_decals</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Decals</td><td> - </td></tr>
+                <tr><td>r_deferred_decals</td><td>Governs deferred visual textures and overlays projected onto the static map geometry (such as large wall murals, floor bloodstains, and grenade scorch marks). Turning this off heavily reduces visual clutter on the environment, allowing you to instantly spot enemies hiding in dark or detailed corners.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Decals</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>r_decalstaticprops</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Decals</td><td> - </td></tr>
+                <tr><td>r_decalstaticprops</td><td>Controls whether temporary decals can be rendered onto static structural objects populated across the map (like supply crates, fences, vehicles, and indoor furniture). Disabling this provides smooth, uninterrupted object silhouettes, making it way easier to track enemies weaving around cover.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Decals</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>r_createmodeldecals</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Decals</td><td> - </td></tr>
+                <tr><td>r_createmodeldecals</td><td>Instructs the engine to completely skip the generation math required to create bullet holes on moving enemy armor, eliminating sudden micro-stutters during precise 1v1 duels</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Decals</td><td> - </td></tr>
 
             <!-- Category Water -->
                 <!-- one list per command -->
-                <tr><td>r_forcecheapwater</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Water</td><td> - </td></tr>
+                <tr><td>r_forcecheapwater</td><td>Forces the rendering pipeline to instantly swap out complex, dynamic water shaders for highly simplified, static water textures. This yields a massive performance upgrade in swampy or river-dense areas of maps like Storm Point or Kings Canyon, ensuring your frames don't drop near water bodies.</td><td>(1) Enabled (default), (0) Disabled </td><td>(1) Enabled (default)</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Water</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>r_waterforcereflectentities</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Water</td><td> - </td></tr>
+                <tr><td>r_waterforcereflectentities</td><td>Dictates if moving game entities (like characters, flying bullets, throwables, and active abilities) must be reflected in real-time on water surfaces. Disabling this stops your GPU from rendering a hidden, duplicated view of the fight underneath the water surface, saving crucial processing power.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Water</td><td> - </td></tr>
 
             <!-- Category Weapon & HUD -->
                 <!-- one list per command -->
-                <tr><td>cl_ejectbrass</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>cl_ejectbrass</td><td>Spawns individual, physical empty bullet casings that actively fly out of your weapon's ejection port whenever you fire. Disabling this eliminates the CPU cost of tracking dozens of spinning objects during a full weapon spray and completely unclutters your immediate first-person screen space.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                
                 <!-- one list per command -->
-                <tr><td>r_drawtracers_firstperson</td>			<td> </td>				<td> </td>		<td> </td><td>DOES NOT EXIST</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>hud_setting_showButtonHints</td><td>Toggles the small on-screen button layout prompts displayed right next to your tactical ability, ultimate ability, and grenade icons. Turning this off removes unnecessary text and icons from the bottom center of your screen, granting you a cleaner, less distracting user interface</td><td>(1) Enabled (default), (0) Disabled </td><td>(1) Enabled (default)</td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>hud_setting_showButtonHints</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>hud_setting_damageIndicatorStyle</td><td>Manages the visual orientation style of the red directional arcs that flash on your screen whenever your character takes damage. Setting this to 3 enables a hybrid display showing both a classic 2D arc and a 3D tracker that moves with your camera, delivering perfect positional info.</td><td>(1) Enabled (default), (0) Disabled </td><td>(1) Enabled (default)</td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>hud_setting_damageIndicatorStyle</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>hud_setting_damageTextStyle</td><td>Selects the operational style for floating damage numbers when you hit an enemy. Setting this to 1 (Stacking) tells the game to automatically add up all your consecutive hits into one single, growing number, allowing you to instantly communicate to your team exactly how much armor or health an enemy has left.</td><td>(1) Enabled (default), (0) Disabled </td><td>(1) Enabled (default)</td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>hud_setting_damageTextStyle</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>hud_setting_minimapRotate</td><td>Determines if the mini-map in the top-left corner stays static with North always at the top, or dynamically rotates based on your character's active viewing direction. Setting this to 1 (Rotate) provides instant spatial awareness and much faster callouts during hectic team fights.</td><td>(1) Enabled , (0) Disabled (default) </td><td>(1) Enabled (default)</td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>hud_setting_minimapRotate</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>hud_setting_pingDoubleTapEnemy</td><td>Enables a quality-of-life shortcut where tapping your dedicated ping hotkey twice automatically drops an aggressive, red "Enemy Here" marker. Keeping this active bypasses the need to open up the communication wheel, saving precious milliseconds during fast engagement callouts.</td><td>(1) Enabled , (0) Disabled (default) </td><td>(1) Enabled (default)</td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>hud_setting_pingDoubleTapEnemy</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>hud_setting_adsDof</td><td>Controls the cinematic Aim Down Sights Depth of Field blur effect, which artificially blurs out the outer edges of your screen whenever you scope in. Disabling this forces your entire screen to remain perfectly crisp and sharp while aiming, allowing you to instantly catch moving enemies in your peripheral vision.</td><td>(1) Enabled , (0) Disabled (default) </td><td>(0) Disabled </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>hud_setting_adsDof</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>hud_setting_enableModWheel</td><td>Controls the use of the Mod/Wheel/Emote/Holospray when hotkey is pressed</td><td>(1) Activates, (0) Disabled</td><td>(0) Disabled</td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>hud_setting_enableModWheel</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>hud_setting_pingAlpha</td><td>Sets the transparency level of teammate pings and map markers whenever you aim your crosshair directly toward or near them. Dropping this to 0.4 makes active pings beautifully semi-transparent when you enter a gunfight, ensuring a large ping icon never blocks your direct line of sight to a target.</td><td>(0.0-1.0) Default is 1.0</td><td>Lower to (0.4)</td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>hud_setting_pingAlpha</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>hud_setting_showHopUpPopUp</td><td>Controls whether a descriptive instructional pop-up banner flashes in the center of your screen explaining what a weapon attachment (Hop-up) does right when you loot it. Disabling this removes annoying visual clutter when you are quickly looting in the middle of a hot drop or chaotic scenario.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>hud_setting_showHopUpPopUp</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>player_setting_autosprint</td><td>Automatically commands your character to sprint the absolute millisecond you press your forward movement key. Activating this eliminates the mechanical delay of pressing an extra sprint key, keeps your movement speed maximized, and saves your pinky finger from fatigue.</td><td>(1) Enabled (default), (0) Disabled </td><td>(1) Enabled</td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>player_setting_autosprint</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>player_setting_damage_closes_deathbox_menu</td><td>Controls whether the active inventory menu screen of a Death Box or a Crafting station instantly slaps shut the microsecond you take even a single point of damage. Turning this off is a mandatory competitive setting, as it allows you to complete life-saving shield swaps while under fire.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>player_setting_damage_closes_deathbox_menu</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>player_setting_enable_heartbeat_sounds</td><td>Toggles the audibly loud, pulsing heartbeat sound effects played whenever you use Seer's passive tracking sensor. Turning this off removes distracting audio clutter during high-intensity moments, allowing you to hear critical enemy footsteps clearly while relying purely on the visual sensor on your HUD.</td><td>(1) Enabled , (0) Disabled (default) </td><td>(0) Disabled </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>player_setting_enable_heartbeat_sounds</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>damage_indicator_style_pilot</td><td>The low-level engine architectural twin to the primary damage indicator setting. Ensuring this is forced to 1 keeps your spatial awareness systems locked down, guaranteeing that full directional feedback displays perfectly without relying on game cloud updates.</td><td>(1) Classic 2d, (2) Classic 3d, (3) Hybrid Display</td><td>(3) Hybrid Display</td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>damage_indicator_style_pilot</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
-                <!-- one list per command -->
-                <tr><td>weapon_setting_autocycle_on_empty</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <tr><td>weapon_setting_autocycle_on_empty</td><td>Forces the game to automatically trigger a weapon swap animation the instant your current gun completely runs out of ammo while you are holding down the trigger. Disabling this ensures you retain complete control over your reloading decisions or specific ability deployments without unexpected swaps.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
                
             <!-- Category Field of View (FOV) -->
                 <!-- one list per command -->
-                <tr><td>mat_depthfeather_enable</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
+                <tr><td>mat_depthfeather_enable</td><td>Erases the feathering transition filter applied to depth blurring around the casing of your weapon scope, ensuring the environment near your sight lines remains sharp.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>cl_fovScale</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
+                <tr><td>cl_fovScale</td><td>Operates as the underlying engine multiplier for your Field of View. While the in-game menu menu sliders stop at 110 FOV (multiplier 1.55), forcing this value to 1.70 overrides the standard settings and expands your peripheral view up to a hyper-wide 120 FOV, providing unparalleled situational awareness.</td><td>(1.0) Default, (1.55) is 110 FOV, (1.7) is 120 FOV </td><td>(1.7) 120 POV</td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>fov_disableAbilityScaling</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
+                <tr><td>fov_disableAbilityScaling</td><td>Deactivates the automatic, dynamic FOV zooming effect triggered when your character uses speed-boosting skills (like Octane's Stim or Bloodhound's Beast of the Hunt). Keeping this at 1 locks your field of view into a perfectly static state, preventing your muscle memory and aim tracking from feeling altered.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>sprint_view_shake_style</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
+                <tr><td>sprint_view_shake_style</td><td>Selects the operational camera animation profile used to simulate head bobbing and screen shaking while your character is sprinting. Setting this to 1 heavily suppresses the aggressive camera bouncing, creating an incredibly smooth visual environment that makes it way easier to look around.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
                 
              <!-- Category Network -->
                 <!-- one list per command -->
-                <tr><td>telemetry_client_enable</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <tr><td>telemetry_client_enable</td><td>Controls whether the game client records and actively transmits underlying system performance data and software diagnostics to EA's data banks mid-match. Disabling this stops your computer from dedicating processing power and network threads to data collection tasks while you play.</td><td>(1) Enabled (default), (0) Disabled </td><td>(1) Enabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>telemetry_client_sendInterval</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <tr><td>telemetry_client_sendInterval</td><td>Sets the timer interval frequency (in seconds) at which the diagnostic telemetry data packets are actively bundled and shipped out. Zeroing this out puts the background transmission timer on a permanent standby mode, stopping recurrent background network traffic spikes.</td><td>(10) Enabled (default), (0) Disabled </td><td>(1) Enabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>projectile_prediction</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <tr><td>projectile_prediction</td><td>Enables client-side interpolation and physics path prediction for all travel-time based projectile weapons (like Sniper Rifles, Marksman guns, and Grenades). Never turn this off; keeping it at 1 ensures your shots immediately exit your weapon smoothly on your screen without waiting for server verification.</td><td>(1) Enabled (default), (0) Disabled </td><td>(1) Enabled</td><td>FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Network</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>projectile_predictionErrorCorrectTime</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_CLIENTDLL</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <tr><td>projectile_predictionErrorCorrectTime</td><td>Sets the time window (in seconds) allowed for the client engine to smoothly snap the visual path of a projectile back to its true server position if a tracking error occurs. Tightening this from 0.3 down to 0.1 forces the game to resolve network alignment errors fast, heavily reducing 'ghost bullets'</td><td>(0.3) Default, (0.1) Lower</td><td>(0.1) Lower</td><td>FCVAR_CLIENTDLL</td><td>autoexec</td><td>Network</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>net_netGraph2</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <tr><td>net_netGraph2</td><td>Spawns a compact, real-time diagnostic performance data overlay in the top-right corner of your monitor. Activating this grants you continuous visibility over your exact Frame Rate, Latency (Ping), and packet drop rates (Loss/Choke), giving you instant answers if a match starts lagging.</td><td>(1) Enabled (default), (0) Disabled </td><td>(1) Enabled</td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>pin_opt_in</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <tr><td>pin_opt_in</td><td>Manages your user opt-in status regarding EA's proprietary Player Information Network automated tracking system. Revoking your consent via a setting of 0 effectively blocks recurrent background analytical profiling tasks, preserving precious CPU power and network</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>pin_plat_id</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <tr><td>pin_plat_id</td><td>Commands the engine whether to link your specific hardware platform identifiers to background PIN analytics data bundles. Forcing this to 0 ensures complete privacy from these data collation systems, eliminating unneeded background background processes during gameplay.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>cl_matchmaking_timeout</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_INTERNAL_ENGINE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <tr><td>cl_matchmaking_timeout</td><td>Establishes the connection retry time buffer (in seconds) the client game engine is allowed to spend trying to re-transmit network packets to matchmaking servers during loading screens. Boosting this to 100 provides a massive buffer against unexpected server hiccups, preventing sudden main menu drops.</td><td>(1) Default</td><td>100ms</td><td>FCVAR_INTERNAL_ENGINE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
                 
                 <!-- Category Physics & Objecst -->
                 <!-- one list per command -->
-                <tr><td>rope_smooth</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Physics & Objects</td><td> - </td></tr>
+                <tr><td>rope_smooth</td><td>Applies an aggressive antialiasing pass specifically to smooth out the jagged edges of ziplines, hanging cables, and wires across the map. Turning this off bypasses this unneeded rendering filter, saving GPU processing cycles while keeping the critical zipline locations perfectly visible.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Physics & Objects</td><td> - </td></tr>
                 <!-- one list per command -->
-                <tr><td>rope_collide</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Physics & Objects</td><td> - </td></tr>              
+                <tr><td>rope_collide</td><td>Computes physics interactions and collision mechanics for ziplines and wires whenever they are hit by bullets, throwables, or character abilities. Disabling this stops your CPU from executing complex movement simulations on ropes, preventing sudden frame drops when multiple teams use ziplines.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Physics & Objects</td><td> - </td></tr>              
                 
                 <!-- Category VRAM & Textures -->
                 <!-- one list per command -->
-                <tr><td>stream_drop_unused</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>VRAM & Texture</td><td> - </td></tr>
+                <tr><td>stream_drop_unused</td><td>Automatically forces the texture streaming system to instantly flush out unneeded or distant texture data from your Video RAM (VRAM). Activating this prevents your graphics card's memory from filling up completely, which is one of the primary culprits behind sudden asset-loading stutters.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>VRAM & Texture</td><td> - </td></tr>
                 
                 <!-- Category Microphone -->
                 <!-- one list per command -->
-                <tr><td>voice_forcemicrecord</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Microphone</td><td> - </td></tr>
-           
+                <tr><td>voice_forcemicrecord</td><td>Commands the game engine to continuously assert direct, exclusive recording rights over your designated Windows communication microphone device. Turning this off tells Apex to respect standard Windows audio sharing rules, fixing common bugs where the game would freeze Discord audio.</td><td>(1) Enabled (default), (0) Disabled </td><td>(0) Disabled</td><td>FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Microphone</td><td> - </td></tr>
+
+                
+                <!-- one list per command -->
+                <tr><td>r_drawtracers_firstperson</td><td>XXXX</td><td></td><td></td><td>DOES NOT EXIST</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                
                 <!-- End of registry entries -->
             </tbody>
         </table>
