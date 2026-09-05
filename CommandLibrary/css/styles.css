@@ -42,9 +42,7 @@ ul {
 	flex-direction: row;
 	align-items: center;
   	justify-content: center;
-	background-color: #fff;
-	padding: 0px;
-	border: 0px;
+	background-color: #ab480a;
 	width: 100%;
 	height: 50px;	
 }
@@ -269,50 +267,29 @@ span#clear-icon {
 }
 .top-header-nav {
 	display: flex;
-	flex-direction: row;
-	left: 0px;
-	align-items: stretch;
-	width: 50%;
-	height:50px;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
 	padding: 0px;
-	border: 0px;
+	border: none;
 	background-color:#ab480a;
+	margin: auto;
 }
-.top-header-nav ul {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	height: inherit;
-	padding: 0px;
-}
-.top-header-nav li {
-	display: flex;
+.top-header-btn {
 	position: relative;
-	min-width: 20%;
-	justify-content: center;
-	align-items: center;
-	height: inherit;
-	border: 0px;
+	width: 20%
+	height:inherit;
+	
 }
-.top-header-nav li a {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	height: 100%;
-	width: 100%;
-	font-size: 14px;
-	font-weight: 600;
+.btn-link {
+	position: absolute;
+	top: 0; 
+	left: 0; 
+	right: 0; 
+	bottom: 0;
+	color: #fff;
+	background-color: #fff;
 }
-.menu li a:hover, a:active {
-	box-shadow: inset 0px 0px 30px 1px #000;
-	background-color: #b36230;
-	cursor: pointer;
-	height: 100%;
-	width: 100%;
-}
-
 
 .switch-page-btn {
 	width: 150px ;
