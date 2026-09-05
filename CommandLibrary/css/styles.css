@@ -39,8 +39,9 @@ ul {
 }
 .top-header {
 	display: flex;
+	flex-direction: row;
 	width: 100%;
-	height: 8px;
+	height: 60px;
 	background-color: #ab480a;	
 }
 .library-header {
@@ -262,7 +263,26 @@ span#clear-icon {
     justify-content: center;
     align-items: center;	
 }
-	
+.top-header-nav {
+    position:relative;
+    display: inline-block;
+    justify-content: center;
+}
+.switch-page-btn {
+	width: 60px ;
+   	background-color: #ab480a;
+  	color: #ffffff;	
+	cursor: pointer;
+	height: 100%;
+	padding: 20px;
+	font-size: 20px;
+	border: 1px solid transparent;
+}
+.switch-page-btn:hover {
+	background-color: #b36230;
+}
+
+
 
 
 
