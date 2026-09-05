@@ -159,7 +159,9 @@ td {
 .thead-current th:nth-child(5), .thead-current th:nth-child(6), .thead-current th:nth-child(7) {
     text-align: center;
 } 
-   
+.thead-current th {
+		cursor: pointer;
+}
 .tbody-current td:nth-child(6) {
     text-align: center;
 }
