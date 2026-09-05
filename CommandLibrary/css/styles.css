@@ -269,13 +269,12 @@ span#clear-icon {
     justify-content: center;
 }
 .switch-page-btn {
-	width: 60px ;
+	width: 150px ;
    	background-color: #ab480a;
   	color: #ffffff;	
 	cursor: pointer;
 	height: 100%;
-	padding: 20px;
-	font-size: 20px;
+	font-size: 14px;
 	border: 1px solid transparent;
 }
 .switch-page-btn:hover {
