@@ -249,28 +249,14 @@ tr:hover {
 .command-table th.sort-desc::after {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAzMjAgNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xODIuNiA0MS40Yy0xMi41LTEyLjUtMzIuOC0xMi41LTQ1LjMgMGwtMTI4IDEyOGMtOS4yIDkuMi0xMS45IDIyLjktNi45IDM0LjlzMTYuNiAxOS44IDI5LjYgMTkuOEgyODhjMTIuOSAwIDI0LjYtNy44IDI5LjYtMTkuOHMyLjItMjUuNy02LjktMzQuOWwtMTI4LTEyOHoiLz48L3N2Zz4=);
 }
-span#clear-icon {
-    display: none;
-    position: absolute;
-    right: 1px;
-    top: 1px;
-    bottom: 1px;
-    padding: 0px 5px;
-    font-style: normal;
-    font-size: 25px;
-    user-select: none;
-    cursor: pointer;
-    color: #ab480a;
-    z-index: 12;
-    justify-content: center;
-    align-items: center;	
-}
+/*	Top Header Nav Bar */
 .top-header-nav {
 	display: flex;
-	align-items: center;
-	justify-content: center;
-	width: 100%;
-	padding: 0px;
+	margin: auto;
+	position: absolute;
+	left: 0;
+	width: 50%;
+	padding: 20px;
 	border: none;
 	background-color: transparent;
 }
