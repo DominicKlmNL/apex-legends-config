@@ -262,14 +262,6 @@ span#clear-icon {
     justify-content: center;
     align-items: center;	
 }
-input#commandInput {
-	padding: 7px 15px;
-	padding-right: 24px;
-	width: 46%
-	border-radius: 7px;
-	box-sizing: border-box;
-	max-width: 46%
-}
 	
 
 
