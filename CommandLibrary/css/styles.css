@@ -188,7 +188,7 @@ tr:hover {
 .thead-removal th:nth-child(4), .thead-removal th:nth-child(5), .thead-removal th:nth-child(6), .thead-removal th:nth-child(7) {
     text-align: center;
 }
-.tbody-removal td:nth-child(4), .tbody-removal td:nth-child(5), .tbody-removal td:nth-child(6), .tbody-removal td:nth-child(7) {
+.tbody-removal td:nth-child(4), .tbody-removal td:nth-child(6), .tbody-removal td:nth-child(7) {
     text-align: center;
 }
 /* Command Library Test CSS */
@@ -266,6 +266,7 @@ tr:hover {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	height: 50px;
 }
 .header-nav-bar li {
 	float:left;
