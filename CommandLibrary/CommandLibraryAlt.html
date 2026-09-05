@@ -99,6 +99,10 @@
         header.addEventListener("click", () => handleHeaderClick(index));
     });
 };
+// Initialize table sorting once the document is fully loaded
+document.addEventListener('DOMContentLoaded', () => {
+    tableSort("commandTable");
+});
 </script>
 <!-- Command Column Sorting -->
 </head>
