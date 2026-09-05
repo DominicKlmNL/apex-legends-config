@@ -265,22 +265,10 @@ tr:hover {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	height: inherit;
-	width: 50%;
+	overflow: hidden;
 }
 .header-nav-bar li {
-	display: inline-block;
-	font-size: 14px;
-	font-weight: 600;
-	padding: 10px;
-	height: inherit;
-}
-.header-nav-bar a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: transparent;	
-	height: inherit;	
+	float:left;
 }
 .header-nav-bar a:hover, a:active {
     background-color: #b36230;
@@ -288,29 +276,15 @@ tr:hover {
     border: 1px solid #f8b83d;	
 }
 .header-nav-bar li a {
-    display: flex;
-    width: 100%;
-    height: 100%;	
+    display: block;
+	color: #FFF;
+	text-align: center;
+	padding: 10px;
+	font-size: 14px;
 }
 .header-nav-bar li a:hover {
 	box-shadow: inset 0px 0px 19px 1px #000000;
 }
-
-.switch-page-btn {
-	width: 150px ;
-   	background-color: #ab480a;
-  	color: #ffffff;	
-	cursor: pointer;
-	height: 100%;
-	font-size: 14px;
-}
-.switch-page-btn:hover {
-	box-shadow: inset 0px 0px 15px -1px #000000;
-	background-color: #b36230;
-	display: block;
-}
-
-
 
 
 
