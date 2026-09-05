@@ -66,40 +66,43 @@
             <tbody class="tbody-current">
             <!-- Category FPS & Engine -->
                 <!-- one list per command -->
-                <tr><td>fps_max</td><td>Determines the maximum of frame rates rendered</td><td>0-999</td><td>Custom</td><td>No</td><td>autoexec</td><td>FPS & Engine</td><td>-</td></tr>
+                <tr><td>fps_max</td><td>Determines the maximum of frame rates rendered</td><td>0-999</td><td>Custom</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>FPS & Engine</td><td>-</td></tr>
                 <!-- one list per command -->
-                <tr><td>lobby_max_fps</td><td>Determines the maximum of frame rates when in lobby</td><td>0-999</td><td>Custom</td><td>No</td><td>autoexec</td><td>FPS & Engine</td><td>-</td></tr>
+                <tr><td>lobby_max_fps</td><td>Determines the maximum of frame rates when in lobby</td><td>0-999</td><td>Custom</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>FPS & Engine</td><td>-</td></tr>
             <!-- Category Stability -->
                 <!-- one list per command -->
-                <tr><td>mat_queue_mode</td><td>Sets how the game engine handles multithreaded rendering across your CPU cores</td><td>(-1) default/automatic, (0) Synchronous Single-Threaded, (1) Asychronous Single-Threaded, Forced Multi-threaded</td><td>(2) Forced Multi-threaded</td><td>No</td><td>autoexec</td><td>Stability</td><td>-</td></tr>
+                <tr><td>mat_queue_mode</td><td>Sets how the game engine handles multithreaded rendering across your CPU cores</td><td>(-1) default/automatic, (0) Synchronous Single-Threaded, (1) Asychronous Single-Threaded, Forced Multi-threaded</td><td>(2) Forced Multi-threaded</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Stability</td><td>-</td></tr>
                 <!-- one list per command -->
-                <tr><td>cl_phys_maxticks</td><td>Prevents physics simulation limits from bottlenecking frametime stability. Correlation to ragdoll simulation to avoid complex calculations.</td><td>(0) Competitive, (3) Default</td><td>(0) Competitive</td><td>No</td><td>autoexec</td><td>Stability</td><td>-</td></tr>
+                <tr><td>cl_phys_maxticks</td><td>Prevents physics simulation limits from bottlenecking frametime stability. Correlation to ragdoll simulation to avoid complex calculations.</td><td>(0) Competitive, (3) Default</td><td>(0) Competitive</td><td>FCVAR_CLIENTDLL</td><td>autoexec</td><td>Stability</td><td>-</td></tr>
                 <!-- one list per command -->                 
-                <tr><td>host_sleep</td><td>Prevents host to be forced to sleep a certain number of ms in between frames</td><td>(0) Competitive, (1) (2) (5) Delayed</td><td>(0) Competitive</td><td>No</td><td>autoexec</td><td>Stability</td><td>Values (1) (2) (5) drastically lowers CPU & GPU, at the cost of FPS</td></tr>
+                <tr><td>host_sleep</td><td>Prevents host to be forced to sleep a certain number of ms in between frames</td><td>(0) Competitive, (1) (2) (5) Delayed</td><td>(0) Competitive</td><td>Unknown</td><td>autoexec</td><td>Stability</td><td>Values (1) (2) (5) drastically lowers CPU & GPU, at the cost of FPS</td></tr>
             <!-- Category FX  Optimizations -->
                 <!-- one list per command -->
-                <tr><td>r_maxdlights</td><td>Determines the maximum number of dynamic lights visible during firefights</td><td>(0) Competitive, (32) Default, (1-32) Reduced</td><td>(0) Competitive</td><td>No</td><td>autoexec</td><td>FX  Optimizations</td><td>-</td></tr>
+                <tr><td>r_maxdlights</td><td>Determines the maximum number of dynamic lights visible during firefights</td><td>(0) Competitive, (32) Default, (1-32) Reduced</td><td>(0) Competitive</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>FX  Optimizations</td><td>-</td></tr>
                 <!-- one list per command -->
+                <tr><td>r_dynamic</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>FX Optimizations</td><td> - </td></tr> 
+                <!-- one list per command -->
+                <tr><td>particle_cpu_level</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_ARCHIVE</td><td>autoexec</td><td>FX Optimizations</td><td> - </td></tr>
                 
                 
-                <!-- Category Mouse & Input -->
+            <!-- Category Mouse & Input -->
                 <!-- one list per command -->                 
-                <tr><td>m_filter</td><td>Mouse filtering</td><td>(0) off, (1) on</td><td>(0) off</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>(0) Off (Highly Recommended for Competitive), (1) on (AVOID)  </td></tr>                
+                <tr><td>m_filter</td><td>Mouse filtering</td><td>(0) off, (1) on</td><td>(0) off</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Mouse & Input</td><td>(0) Off (Highly Recommended for Competitive), (1) on (AVOID)  </td></tr>                
                 <!-- one list per command --> 
-                <tr><td>m_rawinput</td><td>When active, it forces the game engine to communicate directly with your mouse's USB driver, reading the raw X/Y data straight from the mouse hardware sensor.</td><td>(1) on, (0) off </td><td>(1) on</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>(1) On (Absolutley Recommended for Competitive), (0) off (AVOID)</td></tr>                 
+                <tr><td>m_rawinput</td><td>When active, it forces the game engine to communicate directly with your mouse's USB driver, reading the raw X/Y data straight from the mouse hardware sensor.</td><td>(1) on, (0) off </td><td>(1) on</td><td>None, FCVAR_ARCHIVE likely</td><td>autoexec</td><td>Mouse & Input</td><td>(1) On (Absolutley Recommended for Competitive), (0) off (AVOID)</td></tr>                 
                 <!-- one list per command -->  
-                <tr><td>m_acceleration</td><td>Controls engine-level mouse acceleration in the Source engine.</td><td>(0) off, (1) on</td><td>(0) off</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>(0) Off (Absolutley Recommended for Competitive), (1) default (AVOID): combines with m_customaccel_*</td></tr>               
+                <tr><td>m_acceleration</td><td>Controls engine-level mouse acceleration in the Source engine.</td><td>(0) off, (1) on</td><td>(0) off</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Mouse & Input</td><td>(0) Off (Absolutley Recommended for Competitive), (1) default (AVOID): combines with m_customaccel_*</td></tr>               
                 <!-- one list per command --> 
-                <tr><td>m_customaccel</td><td>Manages an advanced custom mathematical calculation for acceleration based on variable scaling, exponents, and caps.</td><td>(0) off, (1) Mouse Look, (2) Mouse Look + Inverted X, (3) Mouse Look + Scaling</td><td>(0) off</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>(0) Off (Absolutley Recommended for Competitive): combines with m_customaccel_*</td></tr>  
+                <tr><td>m_customaccel</td><td>Manages an advanced custom mathematical calculation for acceleration based on variable scaling, exponents, and caps.</td><td>(0) off, (1) Mouse Look, (2) Mouse Look + Inverted X, (3) Mouse Look + Scaling</td><td>(0) off</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Mouse & Input</td><td>(0) Off (Absolutley Recommended for Competitive): combines with m_customaccel_*</td></tr>  
                 <!-- one list per command --> 
-                <tr><td>m_customaccel_scale</td><td>Dictates the multiplier or scale factor applied to the custom mouse acceleration curve</td><td>(0) Scaling factor off, (0.04) default</td><td>(0) Scaling factor off</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>(0) Scaling factor off: combines with m_customaccel_*</td></tr> 
+                <tr><td>m_customaccel_scale</td><td>Dictates the multiplier or scale factor applied to the custom mouse acceleration curve</td><td>(0) Scaling factor off, (0.04) default</td><td>(0) Scaling factor off</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Mouse & Input</td><td>(0) Scaling factor off: combines with m_customaccel_*</td></tr> 
                 <!-- one list per command --> 
-                <tr><td>m_customaccel_max</td><td>Sets the maximum speed limit cap for your custom acceleration</td><td>(0) Disabled, (5) (10) higher integers</td><td>(0) Disabled</td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>(0) Disabled: combines with m_customaccel_*</td></tr>
+                <tr><td>m_customaccel_max</td><td>Sets the maximum speed limit cap for your custom acceleration</td><td>(0) Disabled, (5) (10) higher integers</td><td>(0) Disabled</td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Mouse & Input</td><td>(0) Disabled: combines with m_customaccel_*</td></tr>
                 <!-- one list per command --> 
-                <tr><td>m_customaccel_exponent</td><td>Determines the exponential curve of your custom acceleration</td><td>(0) or (1) both force a neutral state, (1.05) default</td><td>(1) Linear 1:1 response curve </td><td>No</td><td>autoexec</td><td>Mouse & Input</td><td>Combines with m_customaccel_*</td></tr> 
+                <tr><td>m_customaccel_exponent</td><td>Determines the exponential curve of your custom acceleration</td><td>(0) or (1) both force a neutral state, (1.05) default</td><td>(1) Linear 1:1 response curve </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Mouse & Input</td><td>Combines with m_customaccel_*</td></tr> 
                 <!-- one list per command --> 
                 
-                <!-- Category Competitive Audio -->
+            <!-- Category Competitive Audio -->
                 <!-- one list per command -->
                 <tr><td>sound_num_speakers</td><td>This command explicitly defines the number of audio channels processed by the game's audio engine</td><td>(2) stereo (default), (6) 5.1 Surround Sound, (8) 5.1 Surround Sound</td><td>(2) stereo (default)</td><td>FCVAR_ARCHIVE</td><td>autoexec</td><td>Sound</td><td>This setting is no longer useable in autoexec. It has been moved to ingame, settings.cfg & even possible through launch options</td></tr>
                 <!-- one list per command  --> 
@@ -119,34 +122,116 @@
                 <!-- one list per command --> 
                 <tr><td>snd_headphone_pan_exponent</td><td>This console variable controls the crossfade volume curve between your left and right ear cups when wearing headphones.</td><td>(1.0) Linear Scaling (Default), (2.0) Exponential Curve Scaling, (0.5) Sews audio loud and far</td><td>(2.0) Exponential Curve Scaling</td><td>FCVAR_ARCHIVE</td><td>autoexec</td><td>Sound</td><td>Stay far away from (0.5) setting</td></tr>                 
                 
-                <!-- Category Visibility & Exposure -->
+            <!-- Category Visibility & Exposure -->
                 <!-- one list per command --> 
                 <tr><td>noise_filter_scale</td><td>This graphics command controls the intensity of the screen post-processing film grain filter</td><td>(0) Completely Disables Film Grain, (0.006) default </td><td>(0) Completely Disables Film Grain</td>				<td>FCVAR_ARCHIVE</td><td>autoexec</td><td>Visibility & Exposure</td><td>The source engine flags this parameter to register natively. Changes made are automatically saved directly into your profile configuration files</td></tr>	
+
+            <!-- Category Shadows -->
+                <!-- one list per command --> 
+                <tr><td>shadow_always_update</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Shadows</td><td> - </td></tr>
+                <!-- one list per command --> 
+                <tr><td>sssss_enable</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Shadows</td><td> - </td></tr>
+
+            <!-- Category Ragdolls -->
+                <!-- one list per command -->
+                <tr><td>cl_ragdoll_maxcount</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Ragdolls</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>g_ragdoll_fadespeed</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_CLIENTDLL</td><td>autoexec</td><td>Ragdolls</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>g_ragdoll_lvfadespeed</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_CLIENTDLL</td><td>autoexec</td><td>Ragdolls</td><td> - </td></tr>
+
+            <!-- Category Decals -->
+                <!-- one list per command -->
+                <tr><td>r_drawmodeldecals</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Decals</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>r_deferred_decals</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Decals</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>r_decalstaticprops</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Decals</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>r_createmodeldecals</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Decals</td><td> - </td></tr>
+
+            <!-- Category Water -->
+                <!-- one list per command -->
+                <tr><td>r_forcecheapwater</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Water</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>r_waterforcereflectentities</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Water</td><td> - </td></tr>
+
+            <!-- Category Weapon & HUD -->
+                <!-- one list per command -->
+                <tr><td>cl_ejectbrass</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>r_drawtracers_firstperson</td>			<td> </td>				<td> </td>		<td> </td><td>DOES NOT EXIST</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>hud_setting_showButtonHints</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>hud_setting_damageIndicatorStyle</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>hud_setting_damageTextStyle</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>hud_setting_minimapRotate</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>hud_setting_pingDoubleTapEnemy</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>hud_setting_adsDof</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>hud_setting_enableModWheel</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>hud_setting_pingAlpha</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>hud_setting_showHopUpPopUp</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>player_setting_autosprint</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>player_setting_damage_closes_deathbox_menu</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>player_setting_enable_heartbeat_sounds</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>damage_indicator_style_pilot</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>weapon_setting_autocycle_on_empty</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Weapon & HUD</td><td> - </td></tr>
+               
+            <!-- Category Field of View (FOV) -->
+                <!-- one list per command -->
+                <tr><td>mat_depthfeather_enable</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>cl_fovScale</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>fov_disableAbilityScaling</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>sprint_view_shake_style</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Field of View(FOV)</td><td> - </td></tr>
                 
-                <!-- Category Light, Shadows & FX Optimizations-->
+             <!-- Category Network -->
                 <!-- one list per command -->
+                <tr><td>telemetry_client_enable</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>telemetry_client_sendInterval</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>projectile_prediction</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>projectile_predictionErrorCorrectTime</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_CLIENTDLL</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>net_netGraph2</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE/FCVAR ARCHIVE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>pin_opt_in</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>pin_plat_id</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
+                <!-- one list per command -->
+                <tr><td>cl_matchmaking_timeout</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_INTERNAL_ENGINE</td><td>autoexec</td><td>Network</td><td> - </td></tr>
                 
+                <!-- Category Physics & Objecst -->
                 <!-- one list per command -->
+                <tr><td>rope_smooth</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Physics & Objects</td><td> - </td></tr>
                 <!-- one list per command -->
+                <tr><td>rope_collide</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>Physics & Objects</td><td> - </td></tr>              
                 
+                <!-- Category VRAM & Textures -->
                 <!-- one list per command -->
-                <!-- one list per command -->
+                <tr><td>stream_drop_unused</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR_RELEASE</td><td>autoexec</td><td>VRAM & Texture</td><td> - </td></tr>
                 
+                <!-- Category Microphone -->
                 <!-- one list per command -->
-                <!-- one list per command -->
-                
-                <!-- one list per command -->
-                <!-- one list per command -->
-                
-                <!-- one list per command -->
-                <!-- one list per command -->
-                
-                <!-- one list per command -->
- 
-                
-             
-              
-    
+                <tr><td>voice_forcemicrecord</td>			<td> </td>				<td> </td>		<td> </td><td>FCVAR ARCHIVE/FCVAR_CLIENTDLL</td><td>autoexec</td><td>Microphone</td><td> - </td></tr>
+           
                 <!-- End of registry entries -->
             </tbody>
         </table>
