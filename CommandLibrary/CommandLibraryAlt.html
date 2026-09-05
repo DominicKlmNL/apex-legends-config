@@ -11,18 +11,16 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="icon" type="image/x-icon" href="/Assets/WindowIcon.ico">
-
-   
 </head>
 <body>
 
 <div class="container">
     <div class="top-header">
         <div class="top-header-nav">
+            <a href="" class="btn-gh-logo"><img src="./images/GhCatWhite.png" alt="GitHub" width="36px" height="36px"></a>
             <ul class="header-nav-bar">
-                <li><a href="/CommandLibrary.html" class="btn-link">Available Commands</a></li>
-                <li><a href="/CommandRemovalLibrary.html" class="btn-link">Banned Commands</a></li>
-                <li> <a href="/CommandAltLibrary.html" class="btn-link">Github</a></li>
+                <li><a href="./CommandLibraryAlt.html" class="btn-link">Commands</a></li>
+                <li><a href="./CommandRemovalLibrary.html" class="btn-link">Banned Commands</a></li>
             </ul>
         </div>
     </div>
@@ -36,22 +34,22 @@
     <div class="container-seperator"></div>
     <div class="commandinputbar">
     <!-- Command Search Bar onkeyup="commandLibrary()" -->
-        <input type="text" id="commandInput"  placeholder="Search for Apex Legends removed commands.." title="Type in a command">
+        <input type="text" id="commandInput"  placeholder="Search the Apex Legends removed commands.." title="Type in a command">
         <span id="clear-icon" title="clear search"></span>
-        <!-- ×  ->>
+        <!-- clear-icon original data: ×  -->
     <!-- Command Search Bar End  -->
     </div>
     <div class= "library-table">
     <table class="command-table" id="commandTable">
         <thead class="thead-removal">
-            <th width="9%">command</th>
-            <th width="29%">description</th>
-            <th width="20%">values</th>
-            <th width="6%">removed</th>
+            <th width="10%">command</th>
+            <th width="35%">description</th>
+            <th width="10%">values</th>
+            <th width="10%">reason</th>
             <th width="8%">FCVAR flagged</th>
-            <th width="8%">reason</th>  
-            <th width="6%">patched</th>
-            <th width="13%">comments</th>
+            <th width="8%">patched</th>  
+            <th width="5%">removed</th>
+            <th width="14%">comments</th>
         </thead>
         <tbody class="tbody-removal">
             <!-- one list per command -->
@@ -110,159 +108,22 @@
             <tr><td>rope_collide</td><td>Computes physics interactions and collision mechanics for ziplines and wires whenever they are hit by bullets, throwables, or character abilities. Disabling this stops your CPU from executing complex movement simulations on ropes, preventing sudden frame drops when multiple teams use ziplines.</td><td>(1) Enabled (default), (0) Disabled</td><td>yes</td><td>ARCHIVE</td><td>Legacy</td><td>Removed</td><td>Physical rendering now happens in the game engine and the command is no longer useable</td></tr>
             <!-- one list per command -->
             <tr><td>cl_phys_maxticks</td><td>Prevents physics simulation limits from bottlenecking frametime stability. Correlation to ragdoll simulation to avoid complex calculations.</td><td>(0) Competitive, (3) Default</td><td>yes</td><td>ARCHIVE</td><td>Legacy</td><td>Removed</td><td>Game engine ignores this command, new architecture deals with this.</td></tr>
-            
-            <!-- one list per command 
-            <tr><td> </td>	<td> </td>		<td> </td>		<td> </td>		<td> </td>		<td> </td>		<td> </td>		<td> </td></tr>
-            Computes physics interactions and collision mechanics for ziplines and wires whenever they are hit by bullets, throwables, or character abilities. Disabling this stops your CPU from executing complex movement simulations on ropes, preventing sudden frame drops when multiple teams use ziplines.
-            
-            <tr><td> </td>	<td> </td>		<td> </td>		<td> </td>		<td> </td>		<td> </td>		<td> </td>		<td> </td></tr>
-
-            -->
-
             <!-- one list per command  2026-09-05 totaal 28       -->
-      
             <!-- End of registry entries -->
         </tbody>
     </table>
 </div>
 
             
-   
-  
+ 
     
 </div>
+
 <!-- Command Search Bar -->
-    <script>
-    (() => {
-        // Cache DOM elements to avoid re-querying
-        const input = document.getElementById("commandInput");
-        const table = document.getElementById("commandTable");
-        const rows = table.querySelectorAll("tr");
-        const search_clear = document.getElementById("clear-icon");
+    <script src="./js/src.js" defer></script>
     
-        const searchTable = () => {
-            // Convert input to lowercase
-            const filter = input.value.toLowerCase().trim();
-            // show hide input clear icon
-            search_clear.style.display = filter.length > 0 ? "flex" : "none";
-            rows.forEach((row, index) => {
-                // Skip header row
-                if (index === 0) return;
-                // Flag to determine if the row should be displayed
-                let row_found = false;
-                // Get all cells in the current row
-                const cells = row.querySelectorAll("td");
-                // Loop through each cell in the current row
-                for (let cell of cells) {
-                    // Check if the cell's text content matches the filter
-                    if (cell.textContent.toLowerCase().includes(filter)) {
-                        row_found = true;
-                        // Stop searching through cells once a match is found
-                        break;
-                    }
-                }
-                row.style.display = row_found ? '' : 'none';
-            });
-        };
-    
-        // usage
-    
-        // for large table search you can use Debounce function
-        // Debounce the search function to improve performance
-        const debounce = (fn, delay) => {
-            let timeoutId;
-            return (...args) => {
-                clearTimeout(timeoutId);
-                timeoutId = setTimeout(() => fn(...args), delay);
-            };
-        };
-    
-        const debouncedSearch = debounce(searchTable, 200);
-    
-        // Add event listener to the input element
-        input.addEventListener("input", debouncedSearch);
-    
-        // hide clear icon event
-        search_clear.addEventListener("click", () => {
-            input.value = "";
-            search_clear.style.display = "none";
-            searchTable();
-        });
-    })();
-    </script>
-<!-- Command Search Bar --> 
 <!-- Command Column Sorting -->
-       <script>
-        const tableSort = (tableId) => {
-        const table = document.getElementById(tableId);
-        if (!table) {
-            console.error(`Table with ID "${tableId}" not found`);
-            return;
-        }
-    
-        const thead = table.querySelector("thead");
-        const tbody = table.querySelector("tbody");
-        if (!thead || !tbody) {
-            console.error("Table must have <thead> and <tbody>");
-            return;
-        }
-    
-        const headers = thead.querySelectorAll("th");
-        if (headers.length === 0) {
-            console.error("No table headers found");
-            return;
-        }
-    
-        // Initialize sorting direction for each column
-        const sortDirections = Array(headers.length).fill("asc");
-    
-        const getCellValue = (row, column) => {
-            const cell = row.children[column];
-            // Handle cases where cell is not found
-            if (!cell) return '';
-            const cellValue = cell.textContent.trim();
-            return isNaN(cellValue) ? cellValue : parseFloat(cellValue);
-        };
-    
-        const sortTableByColumn = (column, direction) => {
-            const rows = Array.from(tbody.querySelectorAll("tr"));
-            rows.sort((a, b) => {
-                const cellA = getCellValue(a, column);
-                const cellB = getCellValue(b, column);
-                const order = direction === "asc" ? 1 : -1;
-                if (typeof cellA === 'number' && typeof cellB === 'number') {
-                    return order * (cellA - cellB);
-                } else {
-                    return order * cellA.toString().localeCompare(cellB);
-                }
-            });
-            rows.forEach(row => tbody.appendChild(row));
-        };
-    
-        const handleHeaderClick = (index) => {
-            sortTableByColumn(index, sortDirections[index]);
-            sortDirections[index] = sortDirections[index] === "asc" ? "desc" : "asc";
-            updateHeaderClasses();
-        };
-    
-        const updateHeaderClasses = () => {
-            headers.forEach((header, index) => {
-                header.classList.remove("sort-asc", "sort-desc");
-                header.classList.add(sortDirections[index] === "asc" ? "sort-asc" : "sort-desc");
-            });
-        };
-    
-        // Attach click event listeners to each header cell
-        headers.forEach((header, index) => {
-            header.addEventListener("click", () => handleHeaderClick(index));
-        });
-    };
-    // Initialize table sorting once the document is fully loaded
-    document.addEventListener('DOMContentLoaded', () => {
-        tableSort("commandTable");
-    });
-    </script>
-<!-- Command Column Sorting -->
-    
+    <script src="./js/srt.js" defer></script> 
+
 </body>
 </html>

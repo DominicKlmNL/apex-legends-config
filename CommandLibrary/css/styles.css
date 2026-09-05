@@ -45,12 +45,14 @@ ul {
 	background-color: #ab480a;
 	width: 100%;
 	height: 50px;	
+	box-shadow: inset 0px 100px 21px -99px #f38a28;
+	overflow: hidden;
 }
 .library-header {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 120px;
+    height: 250px;
     align-self: center;
     padding: 5px;
     background-color: #3d4047;
@@ -66,9 +68,10 @@ ul {
     display: flex;
     flex-direction: column;
     width: 100%;
-    height: 46px;
+    height: 52px;
     align-self: center;	
 	padding: 5px;
+	padding-top: 8px;
 } 
 .library-table {
     display: flex;
@@ -107,7 +110,8 @@ thead th {
 	text-align: left;
   	padding: 12px;
    	background-color: #ab480a;
-  	color: #ffffff;	
+  	color: #ffffff;
+	box-shadow: inset 0px 100px 21px -99px #f38a28;	
 }
 th {
     text-align: left;
@@ -165,10 +169,10 @@ td {
     text-align: center;
 } 
 .thead-current th {
-		cursor: pointer;
+	cursor: pointer;
 }
 .thead-removal th {
-		cursor: pointer;
+	cursor: pointer;
 }
 .tbody-current td:nth-child(6) {
     text-align: center;
@@ -210,7 +214,7 @@ tr:hover {
     padding-bottom: 12px;
     padding-left: 8px;
     padding-right: 8px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
 	word-wrap: normal;
 	word-break: break-word;
@@ -252,6 +256,7 @@ tr:hover {
 /*	Top Header Nav Bar */
 .top-header-nav {
 	display: flex;
+	flex-direction: row;
 	margin: auto;
 	position: absolute;
 	left: 0;
@@ -259,6 +264,7 @@ tr:hover {
 	border: none;
 	background-color: transparent;
 	height: 50px;
+	
 }
 .header-nav-bar {
 	background-color:#ab480a;
@@ -270,7 +276,7 @@ tr:hover {
 .header-nav-bar li {
 	float:left;
 }
-.header-nav-bar a:hover, a:active {
+.header-nav-bar a:hover  {
     background-color: #b36230;
     border: none;	
 }
@@ -279,15 +285,35 @@ tr:hover {
 	color: #FFF;
 	text-align: center;
 	padding: 17px;
-	font-size: 14px;
+	font-size: 16px;
 	height: 100%;
-	width: 100%;
 	font-weight: bold;
+	width: 100%;
+	box-shadow: inset 0px 100px 21px -99px #f38a28;
 }
 .header-nav-bar li a:hover {
-	background-color: #b36230;
-	/* box-shadow: inset 0px 0px 19px 1px #212121; */
+	background-color: #d68c5e;
 }
+
+.top-header-nav a {
+	display: block;
+	align-items: center;
+	padding: 7px;
+	
+}
+.btn-gh-logo {
+	background-color: #353333;
+	width: 80px;
+	text-align: center;
+	border-inline: 4px solid #fff; 
+}
+.btn-gh-logo:hover {
+	background-color: #edc40f;
+}
+
+
+
+/*  */
 span#clear-icon {
     display: none;
     position: absolute;
@@ -304,8 +330,3 @@ span#clear-icon {
     justify-content: center;
     align-items: center;
 }
-
-
-
-
-

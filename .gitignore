@@ -1,3 +1,9 @@
 # This .gitignore is apex-legends-config repository 
 # The Command Library project should be ignored 
-CommandLibrary/
+# Project will be taken into dev branch
+# CommandLibrary/
+
+# Ignore vscode 
+.vscode/
+
+
