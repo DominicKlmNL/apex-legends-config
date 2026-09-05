@@ -273,8 +273,8 @@ tr:hover {
 }
 .header-nav-bar a:hover, a:active {
     background-color: #b36230;
-    height: 100%;
-    border: 1px solid #f8b83d;	
+    height: 50px;
+    border: none;	
 }
 .header-nav-bar li a {
     display: block;
