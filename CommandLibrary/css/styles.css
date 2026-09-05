@@ -259,6 +259,7 @@ tr:hover {
 	padding: 5px;
 	border: none;
 	background-color: transparent;
+	height: 50px;
 }
 .header-nav-bar {
 	background-color:#ab480a;
@@ -266,7 +267,6 @@ tr:hover {
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	height: 50px;
 }
 .header-nav-bar li {
 	float:left;
