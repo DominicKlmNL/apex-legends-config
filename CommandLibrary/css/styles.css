@@ -285,7 +285,8 @@ tr:hover {
 	font-weight: bold;
 }
 .header-nav-bar li a:hover {
-	box-shadow: inset 0px 0px 19px 1px #212121;
+	background-color: #b36230;
+	/* box-shadow: inset 0px 0px 19px 1px #212121; */
 }
 span#clear-icon {
     display: none;
