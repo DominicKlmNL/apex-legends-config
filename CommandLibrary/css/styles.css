@@ -268,9 +268,28 @@ tr:hover {
 }
 .header-nav-bar li {
 	display: inline-block;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 600;
 	padding: 10px;
+}
+.header-nav-bar a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;	
+}
+.header-nav-bar a:hover, a:active {
+    background-color: #b36230;
+    height: 100%;
+    border: 1px solid #f8b83d;	
+}
+.header-nav-bar li a {
+    display: flex;
+    width: 100%;
+    height: 100%;	
+}
+.header-nav-bar li a:hover {
+	box-shadow: inset 0px 0px 19px 1px #000000;
 }
 
 .switch-page-btn {
