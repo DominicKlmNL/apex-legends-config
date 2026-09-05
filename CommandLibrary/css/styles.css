@@ -115,6 +115,7 @@ th {
     font-size: 12px;
     font-weight: bold;
 	word-wrap: normal;
+	word-break: break-word;
 }
 tbody td {
 	padding: 12px;
@@ -124,6 +125,7 @@ td {
     font-size: 12px;
     padding: 8px;
     word-wrap: normal;
+	word-break: break-word;
 }
 /* Command Input */
 #commandInput {
