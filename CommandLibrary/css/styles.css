@@ -5,7 +5,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: top;
-    margin: 0px;
+    margin: 0;
+	padding: 0;
 }
 * {
     font-family: Arial, Helvetica, sans-serif;
@@ -28,6 +29,71 @@ a:hover, a:active {
 ul {
     list-style-type: none;
 }
+/*  Icon baseline  */
+.icons {
+	display: inline-block;
+    align-items: center;
+	text-rendering: auto;
+	-webkit-font-smoothing: antialiased;
+}
+i {
+    justify-content: center;
+	align-self: center;
+    font-size: 32px;
+}
+i:hover {
+    color: #FFF;
+}
+/* 
+	Color scheme
+	///////////////
+
+	///////////////		Gray
+	Gray - GH button
+		background-color: #353333;
+	
+	Gray - Body background
+		background-color: #161616;
+	
+	Gray - Search bar
+		background-color: #303030;	
+	
+	Gray - Search bar : focus
+		background-color: #212121;
+
+	
+	///////////////		Yellow
+	Yellow full hover
+		background-color: #edc40f;
+
+	///////////////		Red
+	Red full
+		background-color: #ab0a0a; 
+	Red shadow
+		box-shadow:  0px 100px 21px -99px #cf0808;
+	Red shadow -	Top Header 
+		box-shadow: inset 0px 100px 21px -99px #f328283b;
+
+	Red shadow : hover
+		background-color: #ab0a0a2e;		
+
+	///////////////		Orange
+	Orange full
+		background-color: #ab480a;
+	Orange shadow
+		box-shadow: inset 0px 100px 21px -99px #e47003;
+
+	///////////////		Black
+	Black full - Table row even
+		background-color: #0000009f;
+	Black shadow
+		box-shadow: inset 0px 0px 20px -2px #0000004c;
+	Black shadow - Table Header
+		box-shadow: inset 0px 98px 21px -99px #100f0f;
+	
+
+
+*/
 /*  Main Container  */
 .container {
     display: flex;
@@ -35,18 +101,25 @@ ul {
     width: 100%;
     height: 100%;
     align-self: top;
-	margin: auto;
+    margin: 0;
+	padding: 0;
 }
-.top-header {
+.top-header-filler {
 	display: flex;
 	flex-direction: row;
+	background-color: transparent;	
+	box-shadow: inset 2px 2px 10px 0px #f901017d;
+	height: 50px;
+	width: 100%;
 	align-items: center;
   	justify-content: center;
-	background-color: #ab480a;
+}
+.library-seperator {
+	display: flex;
 	width: 100%;
-	height: 50px;	
-	box-shadow: inset 0px 100px 21px -99px #f38a28;
-	overflow: hidden;
+	height: 5px;
+	background-color: #fff;
+	z-index: 11;
 }
 .library-header {
     display: flex;
@@ -57,21 +130,22 @@ ul {
     padding: 5px;
     background-color: #3d4047;
     color: #FFFFFF;
+	margin:auto;
 }
 .container-seperator {
 	display: flex;
 	width: 100%;
 	height: 1px;
-	background-color: #ab480a;
+	background-color: #ab0a0a;
 }
 .commandinputbar {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     width: 100%;
     height: 52px;
     align-self: center;	
 	padding: 5px;
-	padding-top: 8px;
+	padding-top: 7px;
 } 
 .library-table {
     display: flex;
@@ -109,9 +183,10 @@ table {
 thead th {
 	text-align: left;
   	padding: 12px;
-   	background-color: #ab480a;
+   	background-color:  #ab0a0a;
   	color: #ffffff;
-	box-shadow: inset 0px 100px 21px -99px #f38a28;	
+	box-shadow: inset 0px 98px 21px -99px #100f0f;
+	
 }
 th {
     text-align: left;
@@ -143,7 +218,7 @@ td {
 	width: 25%;
 	font-size: 14px;
 	padding: 7px 15px 7px 35px;
-	height: 32px;
+	height: 34px;
 	color: #fff;
 	background-color: #303030;
 	border: none;
@@ -186,7 +261,7 @@ tr:nth-child(odd) {
 	color: #ffffff;
 }
 tr:hover {
-	background-color: #b36230;
+	background-color: #ab0a0a;
 }
 /* Table children styling Removal Library */
 .thead-removal th:nth-child(4), .thead-removal th:nth-child(5), .thead-removal th:nth-child(6), .thead-removal th:nth-child(7) {
@@ -212,7 +287,7 @@ tr:hover {
     text-align: left;
     padding-top: 12px;
     padding-bottom: 12px;
-    padding-left: 8px;
+    padding-left: 12px;
     padding-right: 8px;
     font-size: 14px;
     font-weight: bold;
@@ -221,6 +296,7 @@ tr:hover {
 	border: none;
 	cursor: pointer;
 	user-select: none;
+	border-inline-end: solid 1px #fdfcfc0c;	
 }
 .command-table td {
 	font-size: 12px;
@@ -230,12 +306,13 @@ tr:hover {
     padding-left: 8px;
     padding-right: 8px;
 	text-align: left;
+	border-inline-end: solid 1px #fdfcfc0c;
 }
 .command-table thead>tr {
-	background-color: #ab480a;
+	background-color: #ab0a0a2e;
 }
 .command-table>tbody>tr:hover {
-	background-color: #b36230;	
+	background-color:  #ab0a0a2e;	
 }
 .command-table th::after {
 	content: "";
@@ -246,6 +323,7 @@ tr:hover {
 	display: inline-block;
 	margin-left: 5px;
 }
+/* Table sort icons */
 .command-table th.sort-asc::after {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAzMjAgNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xODIuNiA0NzAuNmMtMTIuNSAxMi41LTMyLjggMTIuNS00NS4zIDBsLTEyOC0xMjhjLTkuMi05LjItMTEuOS0yMi45LTYuOS0zNC45czE2LjYtMTkuOCAyOS42LTE5LjhIMjg4YzEyLjkgMCAyNC42IDcuOCAyOS42IDE5LjhzMi4yIDI1LjctNi45IDM0LjlsLTEyOCAxMjh6Ii8+PC9zdmc+);
 }
@@ -253,80 +331,137 @@ tr:hover {
 .command-table th.sort-desc::after {
     background-image: url(data:image/svg+xml;base64,PHN2ZyBmaWxsPSJjdXJyZW50Q29sb3IiIHZpZXdCb3g9IjAgMCAzMjAgNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xODIuNiA0MS40Yy0xMi41LTEyLjUtMzIuOC0xMi41LTQ1LjMgMGwtMTI4IDEyOGMtOS4yIDkuMi0xMS45IDIyLjktNi45IDM0LjlzMTYuNiAxOS44IDI5LjYgMTkuOEgyODhjMTIuOSAwIDI0LjYtNy44IDI5LjYtMTkuOHMyLjItMjUuNy02LjktMzQuOWwtMTI4LTEyOHoiLz48L3N2Zz4=);
 }
-/*	Top Header Nav Bar */
+/*	Top Header Container */
+.top-header {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+  	justify-content: center;
+	width: 50%;
+	height: 50px;	
+	background-color: #ab0a0a;
+	box-shadow: inset 2px 2px 10px 0px #f901017d;
+}
 .top-header-nav {
 	display: flex;
 	flex-direction: row;
 	margin: auto;
 	position: absolute;
-	left: 0;
-	width: 50%;
+	left: 3%;
+	width: 47%;
 	border: none;
 	background-color: transparent;
 	height: 50px;
-	
 }
+/*	Github menu button  */
+.btn-gh-logo {
+	display: flex;
+	position: absolute;
+	left: 0;
+	align-items: center;
+	padding: 7px;
+	background-color: #ab0a0a;
+	box-shadow: inset 1px 1px 12px 0px #f9010196;
+	width: 3%;
+	text-align: center;
+	padding-left: 10px;
+	z-index: 12;
+	border-right:  2px solid #68686810;
+}
+.btn-gh-logo:hover {
+	background-color: #edc40f;
+	border: none;
+}
+/*	Nav-bar unordered list class  */
 .header-nav-bar {
-	background-color:#ab480a;
-	list-style-type: none;
+	background-color: transparent;		
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+	width: 100%;
 }
+/*	Nav-bar list menu buttons  */
 .header-nav-bar li {
 	float:left;
-}
-.header-nav-bar a:hover  {
-    background-color: #b36230;
-    border: none;	
+	min-width: 20%;
 }
 .header-nav-bar li a {
     display: block;
-	color: #FFF;
+	color: #fFf;
 	text-align: center;
 	padding: 17px;
 	font-size: 16px;
 	height: 100%;
 	font-weight: bold;
 	width: 100%;
-	box-shadow: inset 0px 100px 21px -99px #f38a28;
+	background-color: #ab0a0a;
+	box-shadow: inset 2px 2px 12px 0px #f901017d;
+	border-right:  2px solid #68686810;
 }
 .header-nav-bar li a:hover {
-	background-color: #d68c5e;
+	background-color: #212121;
+	border: none;
+}
+.btn-link2 {
+	height: 50px;
+	padding: 17px;
+	font-size: 16px;
+	height: 100%;
+	font-weight: bold;
+	width: 100%;
 }
 
-.top-header-nav a {
-	display: block;
+/* Top Bottom Header
+box-shadow: inset 0px 100px 21px -99px #f328287c;
+*/
+.top-bottom {
+	display: flex;
+	position: absolute;
+	right: 0;
+	width: 50%;
+	background-color:#ab0a0a;
+	height: 50px;
+	box-shadow: inset 2px 2px 10px 0px #f901017d;
+}
+.top-bottom p {
+	display:flex;
+	font-size: 10px;
 	align-items: center;
-	padding: 7px;
-	
-}
-.btn-gh-logo {
-	background-color: #353333;
-	width: 80px;
+	justify-content: center;
+	position: absolute;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	height: 100%;
 	text-align: center;
-	border-inline: 4px solid #fff; 
+	width: 7%;
+	color: #ffffff;
+	font-weight: bold;
+	background-color: #212121;
+	border-left:  2px solid #000000cb;	
+	overflow: visible;
+	box-shadow:  -1px -1px 10px 0px #02020268;
 }
-.btn-gh-logo:hover {
-	background-color: #edc40f;
-}
 
 
 
-/*  */
+/* Clear icon for search bar */
 span#clear-icon {
     display: none;
-    position: absolute;
     right: 1px;
     top: 1px;
     bottom: 1px;
     padding: 0px 5px;
     font-style: normal;
-    font-size: 12px;
+    font-size: 16px;
     user-select: none;
     cursor: pointer;
-    color: #212121;
+    color: #FFF;
     z-index: 12;
     justify-content: center;
     align-items: center;
+	padding-right: 60px;
+	height: 34px;
+	margin-left: -30px;
+	margin-top: 2px;
 }
