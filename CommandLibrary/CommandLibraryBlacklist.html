@@ -25,10 +25,9 @@
             <div class="top-header-nav">  
                 <ul class="header-nav-bar">
                     <li><a href="./CommandLibrary.html" class="btn-link"><i class="fa-solid fa-list" aria-hidden="true"></i><p class="p-icon-text"> COMMANDS</p> </a></li>
-                    <li><a href="./CommandLibraryAlt.html" class="btn-link"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i><p class="p-icon-text"> BLACKLISTED</p>  </a></li>
+                    <li><a href="./CommandLibraryBlacklist.html" class="btn-link"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i><p class="p-icon-text"> BLACKLISTED</p>  </a></li>
                     <li><a href="./CommandLibraryReview.html" class="btn-link"><i class="fa-solid fa-code-compare fa-fw" aria-hidden="true"></i><p class="p-icon-text"> UNDER REVIEW</p> </a></li>
                     <li><a href="https://github.com/DominicKlmNL/apex-legends-config" class="btn-link"><i class="fa-solid fa-file-text" aria-hidden="true"></i><p class="p-icon-text"> CONFIG FILES</p> </a></li>
-                    
                 </ul>
             </div>  
         </div>
@@ -44,7 +43,7 @@
             <p>If the command is not in this library, it should also be verified in the "Removal" library. Both will be kept to keep the configuration files clean and future proof</p>
         </div> 
         <div class="library-image">
-
+            
         </div>   
     </div>
     <div class="container-seperator"></div>
@@ -57,14 +56,14 @@
     <!-- Table export Bar Start  -->    
         <div class="btn-export-bar">
             <div class="btn-export-inner">
-                <button id="btnExpClick2" class="btn-exp-click">
-                    <div class="inner-exp-btn-txt">
-                        <p class="p-icon-export">EXPORT</p>
-                        <p class="p-icon-autoexec">AUTOEXEC.CFG</p>
-                    </div>
-                    <div class="inner-exp-btn-ico">
-                        <i class="fa fa-download fa-lg" aria-hidden="true"></i>
-                    </div>
+                <button id="btnExpClick" class="btn-exp-click">
+                            <div class="inner-exp-btn-txt">
+                                <p class="p-icon-export">EXPORT</p>
+                                <p class="p-icon-autoexec">AUTOEXEC.CFG</p>
+                            </div>
+                            <div class="inner-exp-btn-ico">
+                                <i class="fa fa-download fa-lg" aria-hidden="true"></i>
+                            </div>
                 </button>
             </div>
         </div>
@@ -73,14 +72,14 @@
     <div class= "library-table">
         <table class="command-table" id="commandTable">
             <thead class="thead-removal">
-                <th id="tHead(0)" width="10%">COMMAND</th>
-                <th id="tHead(1)" width="35%">DESCRIPTION</th>
-                <th id="tHead(2)" width="10%">VALUES</th>
-                <th id="tHead(3)" width="10%">REASON</th>
-                <th id="tHead(4)" width="8%">FCVAR FLAGGED</th>
-                <th id="tHead(5)" width="8%">PATCHED</th>  
-                <th id="tHead(6)" width="5%">REMOVED</th>
-                <th id="tHead(7)" width="14%">COMMENTS</th>
+                <th width="10%">COMMAND</th>
+                <th width="35%">DESCRIPTION</th>
+                <th width="10%">VALUES</th>
+                <th width="10%">REASON</th>
+                <th width="8%">FCVAR FLAGGED</th>
+                <th width="8%">PATCHED</th>  
+                <th width="5%">REMOVED</th>
+                <th width="14%">COMMENTS</th>
             </thead>
             <tbody class="tbody-removal">
                 <!-- one list per command -->
@@ -147,8 +146,6 @@
 </div>
 
 
-<!-- Command Search Bar
-    <script src="./js/exp.js" defer></script> -->
 
 <!-- Command Search Bar -->
     <script src="./js/src.js" defer></script>
