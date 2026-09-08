@@ -10,7 +10,10 @@
     <title>Command Removal Library</title>
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="icon" type="image/x-icon" href="/Assets/WindowIcon.ico">
+    <!-- Google Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Magra:wght@400;700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/2705c43738.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -18,19 +21,19 @@
 <div class="container">
     <div class="top-header-filler">
         <div class="top-header">
-            <a href="" class="btn-gh-logo"><img src="./images/GhCatWhite.png" alt="GitHub" width="36px" height="36px"></a>
+            <a href="https://github.com/DominicKlmNL/" class="btn-gh-logo"><img src="./images/icons/icon-cat-github-36-white.png" alt="GitHub" width="36px" height="36px"></a>
             <div class="top-header-nav">  
                 <ul class="header-nav-bar">
-                    <li><a href="./CommandLibraryAlt.html" class="btn-link"> commands</a></li>
-                    <li><a href="./CommandRemovalLibrary.html" class="btn-link-ban"><span class="fa-li"><i class="fa-solid fa-ban"></i></span>  blacklisted</a></li>
-                    <li><a href="./CommandRemovalLibrary.html" class="btn-link"> under review</a></li>
-                    <li><a href="./CommandRemovalLibrary.html" class="btn-link2"> config files</a></li>
-                    <li><a href="./CommandRemovalLibrary.html" class="btn-link2"> changelog</a></li>
+                    <li><a href="./CommandLibrary.html" class="btn-link"><i class="fa-solid fa-list" aria-hidden="true"></i><p class="p-icon-text"> COMMANDS</p> </a></li>
+                    <li><a href="./CommandLibraryAlt.html" class="btn-link"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i><p class="p-icon-text"> BLACKLISTED</p>  </a></li>
+                    <li><a href="./CommandLibraryReview.html" class="btn-link"><i class="fa-solid fa-code-compare fa-fw" aria-hidden="true"></i><p class="p-icon-text"> UNDER REVIEW</p> </a></li>
+                    <li><a href="https://github.com/DominicKlmNL/apex-legends-config" class="btn-link"><i class="fa-solid fa-file-text" aria-hidden="true"></i><p class="p-icon-text"> CONFIG FILES</p> </a></li>
+                    
                 </ul>
             </div>  
         </div>
         <div class="top-bottom">
-            <p>made by:<br>Downie2k</p>
+            <p>powered by:<br>Downie2k</p>
         </div>
     </div>
     <div class="library-seperator"></div>
@@ -39,7 +42,10 @@
             <p>Apex Legends Command Library</p>
             <p>All the commands that are applied in the configuration files will be stored in a single library, so upon updates to existing files, we can consult the library.</p>
             <p>If the command is not in this library, it should also be verified in the "Removal" library. Both will be kept to keep the configuration files clean and future proof</p>
-        </div>    
+        </div> 
+        <div class="library-image">
+
+        </div>   
     </div>
     <div class="container-seperator"></div>
     <div class="commandinputbar">
@@ -48,18 +54,33 @@
         <span id="clear-icon" title="clear search">×</span>
         <!-- clear-icon original data:   -->
     <!-- Command Search Bar End  -->
+    <!-- Table export Bar Start  -->    
+        <div class="btn-export-bar">
+            <div class="btn-export-inner">
+                <button id="btnExpClick2" class="btn-exp-click">
+                    <div class="inner-exp-btn-txt">
+                        <p class="p-icon-export">EXPORT</p>
+                        <p class="p-icon-autoexec">AUTOEXEC.CFG</p>
+                    </div>
+                    <div class="inner-exp-btn-ico">
+                        <i class="fa fa-download fa-lg" aria-hidden="true"></i>
+                    </div>
+                </button>
+            </div>
+        </div>
+    <!-- Table export Bar Start  -->     
     </div>
     <div class= "library-table">
         <table class="command-table" id="commandTable">
             <thead class="thead-removal">
-                <th width="10%">command</th>
-                <th width="35%">description</th>
-                <th width="10%">values</th>
-                <th width="10%">reason</th>
-                <th width="8%">FCVAR flagged</th>
-                <th width="8%">patched</th>  
-                <th width="5%">removed</th>
-                <th width="14%">comments</th>
+                <th id="tHead(0)" width="10%">COMMAND</th>
+                <th id="tHead(1)" width="35%">DESCRIPTION</th>
+                <th id="tHead(2)" width="10%">VALUES</th>
+                <th id="tHead(3)" width="10%">REASON</th>
+                <th id="tHead(4)" width="8%">FCVAR FLAGGED</th>
+                <th id="tHead(5)" width="8%">PATCHED</th>  
+                <th id="tHead(6)" width="5%">REMOVED</th>
+                <th id="tHead(7)" width="14%">COMMENTS</th>
             </thead>
             <tbody class="tbody-removal">
                 <!-- one list per command -->
@@ -125,11 +146,22 @@
     </div> 
 </div>
 
+
+<!-- Command Search Bar
+    <script src="./js/exp.js" defer></script> -->
+
 <!-- Command Search Bar -->
     <script src="./js/src.js" defer></script>
     
 <!-- Command Column Sorting -->
     <script src="./js/srt.js" defer></script> 
+
+<!-- Command Active page button -->
+    <script src="./js/act-url.js" defer></script> 
+
+<!-- Export autoexec page button -->
+    <script src="./js/autoexec.js" defer></script> 
+
 
 </body>
 </html>
