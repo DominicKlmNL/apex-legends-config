@@ -45,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			const cells = row.querySelectorAll("td");
 			// Check for categories first and if the name is unique write it as comment
 
-			if (cells.length > Math.max(catIdx)) {
+			if (cells.length > Math.max(catIdx, keyIdx)) {
 				const cat = cells[catIdx].innerText.trim();
 				if (cat !== "" && !lastCategory.has(cat)) {
 					// BUILDS: cfgContent & lastCategory
