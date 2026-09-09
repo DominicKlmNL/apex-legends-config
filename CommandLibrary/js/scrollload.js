@@ -1,6 +1,6 @@
 // Quickload
 
-window.addEventListener('load', () => {
+window.addEventListener('scroll', () => {
     countScroll();
 });
 
