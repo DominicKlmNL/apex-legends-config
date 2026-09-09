@@ -79,7 +79,7 @@
 | Adaptive Resolution FPS Target | Dynamically lowers rendering resolution to maintain the specified target framerate | 0 |
 | Adaptive Supersampling | Adaptive Resolution FPS Target, this setting forces the game to render at a higher resolution than your monitor's native display. It then downsamples the image to fit your screen.  It is a massive resource hog that introduces heavy GPU load and can severely tank your frame rate. | Disabled |
 | Anti-Aliasing | Smoothes out the jagged edges ("jaggies") on objects and geometry, None: Maximizes your frame rate and clarity. | None |
-| Texture Streaming Budget | Determines how much of your graphics card's dedicated memory (VRAM) the game is allowed to allocate for loading high-resolution textures. | Medium (3GB) |
+| Texture Streaming Budget | Determines how much of your graphics card's dedicated memory (VRAM) the game is allowed to allocate for loading high-resolution textures. | None or Very Low (NOTE: if you have high polling rate, 2000hz or more, this settings needs to be lowest |
 | Texture Filtering | Controls how sharp and detailed textures look when viewed at an angle or from a distance. | Bilinear |
 | Ambient Occlusion Quality | Controls the realism of shadows in corners, crevices, and areas where two surfaces meet. It adds depth to the environment, but it is one of the most resource-heavy settings in the game. | Disabled |
 | Sun Shadow Coverage | Controls how much of the map is covered by shadows cast by the sun. Specifically, it dictates whether distant objects, trees, and terrain cast shadows or if they only appear when you get close. | Low |
