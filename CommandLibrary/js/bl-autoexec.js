@@ -8,9 +8,9 @@ document.addEventListener("DOMContentLoaded", () => {
 			
 		// Select columns
 		const keyIdx = 0;
-		const descIdx = 1;
+		const descIdx = 2;
 		const valueIdx = 3;
-		const catIdx = 5;
+		const catIdx = 6;
 
 		// Verify table
 		const table = document.getElementById("commandTable");
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 		// Select rows and start file
 		const rows = table.querySelectorAll("tbody tr");
-		let cfgContent = "\n ==== Powered by the Command Library ====	\n # This autoexec.cfg has been created by Downie2k\n\n # Please make sure to check for updates, because it changes regularly. \n\n";
+		let cfgContent = "# This autoexec.cfg has been created by Downie2k\n\n";
 		// Set category to empty string to avoid duplicate category comments in the autoexec.cfg
 		const lastCategory = new Set();
 
@@ -70,7 +70,7 @@ document.addEventListener("DOMContentLoaded", () => {
 		});
 
 		// Adding a final line to the autoexec as signature of my service
-		cfgContent += `\n\n # ==== End of configuration ==== \n # The autoexec has been completed\n # Thank you for using Downie2k's configuration files\n  ==== Powered by the Command Library 2026 ==== \n`;
+		cfgContent += `# The autoexec has been completed\n # Thank you for using Downie2k's configuration files\n`;
 
 		// Generating autoexec.cfg
 		const blob = new Blob([cfgContent], { type: "text/plain;charset=utf-8" });

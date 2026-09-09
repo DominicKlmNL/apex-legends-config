@@ -3,5 +3,8 @@
         {
             "path": "../.."
         }
-    ]
+    ],
+    "settings": {
+        "sarif-viewer.connectToGithubCodeScanning": "off"
+    }
 }
