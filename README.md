@@ -2,6 +2,9 @@
   
 # Apex Legends Configuration Files
 
+[![CodeFactor](https://www.codefactor.io/repository/github/dominicklmnl/apex-legends-config/badge)](https://www.codefactor.io/repository/github/dominicklmnl/apex-legends-config)
+
+
 </div>
 <br>
 
